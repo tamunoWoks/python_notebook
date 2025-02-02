@@ -10,7 +10,7 @@ string[start:end:step]
 #### Parameters:
 - start: The starting index of the slice (inclusive). If omitted, it defaults to 0 (the beginning of the string).
 - end: The ending index of the slice (exclusive). If omitted, it defaults to the length of the string (the end of the string).
-- step: The step size (optional). It determines the stride between indices. If omitted, it defaults to 1.
+- step: It determines the stride between indices. If omitted, it defaults to 1. The step size is optional for slicing but necessary for striding.
 
 #### Key Points:
 - Python uses zero-based indexing, meaning the first character of the string has an index of 0.
