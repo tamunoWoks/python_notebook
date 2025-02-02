@@ -38,3 +38,5 @@ string[start:end:step]
 - Reversing strings.
 - Skipping characters at regular intervals.
 - Creating patterns.
+
+  Source code: [Slicing & Striding](https://github.com/tamunoWoks/python_tutorial/blob/main/slicing_and_striding.ipynb)
