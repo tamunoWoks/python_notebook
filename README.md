@@ -25,7 +25,7 @@ enumerate(iterable, start=0)
 - It makes code cleaner and more readable when you need both the index and the value.
 - It works with any iterable, including lists, tuples, strings, and more.
 
-Source code: [enumerate](https://github.com/tamunoWoks/python_tutorial/blob/main/enumerate.ipynb)
+Example source code: [enumerate](https://github.com/tamunoWoks/python_tutorial/blob/main/enumerate.ipynb)
 
 
 ## String slicing and striding
@@ -56,4 +56,4 @@ string[start:end:step]
 - Skipping characters at regular intervals.
 - Creating patterns.
 
-Source code: [Slicing & Striding](https://github.com/tamunoWoks/python_tutorial/blob/main/slicing_and_striding.ipynb)
+Example Source code: [Slicing & Striding](https://github.com/tamunoWoks/python_tutorial/blob/main/slicing_and_striding.ipynb)
