@@ -6,7 +6,7 @@ Here are the concepts documented:
 - [String Slicing and Striding](#string_slicing_and_striding)
 ---
 ## enumerate()
-
+The enumerate() function in Python is a built-in function that adds a counter to an iterable (like a list, tuple, or string) and returns it as an enumerate object. This object can then be used in loops to access both the index and the value of each item in the iterable.
 
 ## String slicing and striding
 - String slicing in Python is a powerful feature that allows you to extract a portion of a string (substring) by specifying a start index, an end index, and an optional step size.  
