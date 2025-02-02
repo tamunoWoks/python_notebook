@@ -2,6 +2,7 @@
 This repository is strictly for learning key python syntax.
 
 Here are the concepts documented:  
+- [enumerate()](#enumerate_(_))
 - [String Slicing and Striding](#string_slicing_and_striding)
 ---
 ## String slicing and striding
