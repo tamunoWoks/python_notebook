@@ -25,6 +25,8 @@ enumerate(iterable, start=0)
 - It makes code cleaner and more readable when you need both the index and the value.
 - It works with any iterable, including lists, tuples, strings, and more.
 
+Source code: [enumerate]()
+---
 
 ## String slicing and striding
 - String slicing in Python is a powerful feature that allows you to extract a portion of a string (substring) by specifying a start index, an end index, and an optional step size.  
@@ -55,3 +57,4 @@ string[start:end:step]
 - Creating patterns.
 
 Source code: [Slicing & Striding](https://github.com/tamunoWoks/python_tutorial/blob/main/slicing_and_striding.ipynb)
+---
