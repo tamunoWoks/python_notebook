@@ -20,6 +20,16 @@ string[start:end:step]
 - Negative indices can be used to count from the end of the string. For example, -1 refers to the last character, -2 to the second last, and so on.
 - If the step is negative, the slice is taken in reverse order.
 
+### Key Points to Remember
+- Python uses zero-based indexing, meaning the first character of the string has an index of 0.
+- The slice includes the character at the start index but excludes the character at the end index.
+- The step value determines the direction and interval of traversal.
+- A positive step moves from left to right.
+- A negative step moves from right to left.
+- If the step is 1, the string is traversed normally (no skipping).
+- If the step is greater than 1, characters are skipped.
+- If the step is -1, the string is reversed
+
 #### Common Use Cases:
 - Extracting substrings.
 - Extracting alternate characters
