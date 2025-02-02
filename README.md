@@ -2,6 +2,8 @@
 This repository is strictly for learning key python syntax.
 
 Here are the concepts documented:
+[String Slicing and Striding](#string_slicing_and_striding)
+
 ## String slicing and striding
 - String slicing in Python is a powerful feature that allows you to extract a portion of a string (substring) by specifying a start index, an end index, and an optional step size.  
 - String striding in Python refers to the process of accessing characters in a string at regular intervals by specifying a step value in the slicing syntax. It allows you to skip characters or traverse the string in a specific pattern.  
