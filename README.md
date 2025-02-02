@@ -7,6 +7,7 @@ Here are the concepts documented:
 ---
 ## enumerate()
 The enumerate() function in Python is a built-in function that adds a counter to an iterable (like a list, tuple, or string) and returns it as an enumerate object. This object can then be used in loops to access both the index and the value of each item in the iterable.  
+
 The syntax for enumerate() is:  
 ```python
 enumerate(iterable, start=0)
@@ -15,6 +16,7 @@ enumerate(iterable, start=0)
 ## String slicing and striding
 - String slicing in Python is a powerful feature that allows you to extract a portion of a string (substring) by specifying a start index, an end index, and an optional step size.  
 - String striding in Python refers to the process of accessing characters in a string at regular intervals by specifying a step value in the slicing syntax. It allows you to skip characters or traverse the string in a specific pattern.  
+
 The syntax for string slicing & striding is:  
 ```python
 string[start:end:step]
