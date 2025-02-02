@@ -26,7 +26,7 @@ enumerate(iterable, start=0)
 - It works with any iterable, including lists, tuples, strings, and more.
 
 Source code: [enumerate](https://github.com/tamunoWoks/python_tutorial/blob/main/enumerate.ipynb)
----
+-
 
 ## String slicing and striding
 - String slicing in Python is a powerful feature that allows you to extract a portion of a string (substring) by specifying a start index, an end index, and an optional step size.  
