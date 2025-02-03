@@ -24,3 +24,8 @@ Pandas is a powerful and widely-used open-source data manipulation and analysis 
 - Time Series:
   - Handle time series data with date and time functionality.
   - Resample, shift, and perform rolling window operations.
+
+### Installation:
+You can install Pandas using pip:
+```python
+pip install pandas
