@@ -35,3 +35,6 @@ pip install pandas
 - Efficiency: Optimized for performance with large datasets.
 - Flexibility: Works well with other libraries like NumPy, Matplotlib, and Scikit-learn.
 - Community Support: Extensive documentation and a large user community.
+
+### Resources:
+[Pandas Documentation](https://pandas.pydata.org/docs/)
