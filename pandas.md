@@ -30,6 +30,11 @@ You can install Pandas using pip:
 ```python
 pip install pandas
 ```
+Pandas can also be installed with sets of optional dependencies to enable certain functionality. For example, to install pandas with the optional dependencies to read Excel files.
+```python
+pip install "pandas[excel]"
+```
+
 
 ### Why Use Pandas?
 - Efficiency: Optimized for performance with large datasets.
