@@ -24,8 +24,7 @@ enumerate(iterable, start=0)
 #### Why Use enumerate()?
 - It eliminates the need to manually manage a counter variable in loops.
 - It makes code cleaner and more readable when you need both the index and the value.
-- It works with any iterable, including lists, tuples, strings, and more.
-
+- It works with any iterable, including lists, tuples, strings, and more.  
 Example source code: [enumerate](https://github.com/tamunoWoks/python_tutorial/blob/main/enumerate.ipynb)
 
 
@@ -46,10 +45,8 @@ lambda arguments: expression
 #### When Not to Use Lambda Functions:
 - For complex logic (use a regular def function instead).
 - When the function needs to be reused multiple times (lambda functions are anonymous and harder to reuse).
-- When readability is a priority (lambda functions can make code harder to understand if overused).
-
-
-
+- When readability is a priority (lambda functions can make code harder to understand if overused).  
+Example source code: [Lambda functions](https://github.com/tamunoWoks/python_tutorial/blob/main/lambda_functions.ipynb)
 
 
 ## String slicing and striding
@@ -78,6 +75,5 @@ string[start:end:step]
 - Extracting alternate characters
 - Reversing strings.
 - Skipping characters at regular intervals.
-- Creating patterns.
-
+- Creating patterns.  
 Example Source code: [Slicing & Striding](https://github.com/tamunoWoks/python_tutorial/blob/main/slicing_and_striding.ipynb)
