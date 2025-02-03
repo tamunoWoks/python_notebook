@@ -74,7 +74,13 @@ Object-Oriented Programming (OOP) is a programming paradigm that organizes code 
   - Achieved through abstract classes and interfaces.
 #### Magic/Dunder Methods:
 Python classes can define special methods (e.g., __init__, __str__, __add__) to enable operator overloading and other behaviors.
+#### Why Use OOP in Python?
+- Modularity: Code is organized into reusable components.
+- Reusability: Inheritance allows code reuse.
+- Maintainability: Easier to debug and maintain.
+- Scalability: Suitable for large and complex applications.
 
+Sample code: [Slicing & Striding](https://github.com/tamunoWoks/python_tutorial/blob/main/oop.ipynb)
 
 
 ## String slicing and striding
