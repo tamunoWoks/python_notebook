@@ -53,7 +53,6 @@ Sample code: [Lambda functions](https://github.com/tamunoWoks/python_tutorial/bl
 
 ## Object-Oriented Programming
 Object-Oriented Programming (OOP) is a programming paradigm that organizes code into objects, which are instances of classes. Python is an object-oriented language, and it supports all the core concepts of OOP, such as encapsulation, inheritance, polymorphism, and abstraction.
-
 #### Key Concepts of OOP in Python:
 - Class:
   - A blueprint for creating objects.
@@ -73,7 +72,8 @@ Object-Oriented Programming (OOP) is a programming paradigm that organizes code 
 - Abstraction:
   - Hiding complex implementation details and exposing only the necessary features.
   - Achieved through abstract classes and interfaces.
-
+#### Magic/Dunder Methods:
+Python classes can define special methods (e.g., __init__, __str__, __add__) to enable operator overloading and other behaviors.
 
 
 
