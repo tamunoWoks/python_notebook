@@ -40,7 +40,10 @@ lambda arguments: expression
 - Single Expression: They can only contain one expression, which is evaluated and returned.
 - Inline Use: Often used inline, such as in map(), filter(), or sorted().
 
-
+#### When to Use Lambda Functions:
+- For simple, one-off operations.
+- When passing a function as an argument to higher-order functions like map(), filter(), or sorted().
+- When you want to avoid defining a full function for a small task.
 
 
 
