@@ -4,7 +4,7 @@ This repository is strictly for learning key python syntax.
 Here are the concepts documented:  
 - [enumerate()](#enumerate_(_))
 - [Lambda Functions](#lambda_functions)
-- [Object-Oriented Programming](object_oriented_programming)
+- [Object-Oriented Programming](#object-oriented_programming)
 - [String Slicing and Striding](#string_slicing_and_striding)
 ---
 
@@ -52,7 +52,7 @@ lambda arguments: expression
 Sample code: [Lambda functions](https://github.com/tamunoWoks/python_tutorial/blob/main/lambda.ipynb)
 
 
-## Object Oriented Programming
+## Object-Oriented Programming
 Object-Oriented Programming (OOP) is a programming paradigm that organizes code into objects, which are instances of classes. Python is an object-oriented language, and it supports all the core concepts of OOP, such as encapsulation, inheritance, polymorphism, and abstraction.
 #### Key Concepts of OOP in Python:
 - Class:
