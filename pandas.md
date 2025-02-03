@@ -1,6 +1,6 @@
 # Pandas Library
 
-Pandas is a powerful and widely-used open-source data manipulation and analysis library for Python. It provides data structures and functions that make working with structured data fast, easy, and expressive. Pandas is particularly well-suited for working with tabular data, such as spreadsheets or SQL tables, and is a fundamental tool in the data science ecosystem.
+Pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with “relational” or “labeled” data both easy and intuitive. It is a widely-used open-source library for Python. It aims to be the fundamental high-level building block for doing practical, real-world data analysis in Python. Pandas is particularly well-suited for working with tabular data, such as spreadsheets or SQL tables, and is a fundamental tool in the data science ecosystem.  Additionally, it has the broader goal of becoming the most powerful and flexible open source data analysis/manipulation tool available in any language.
 
 ### Key Features of Pandas:
 - Data Structures:
