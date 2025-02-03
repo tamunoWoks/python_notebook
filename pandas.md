@@ -34,7 +34,7 @@ Pandas can also be installed with sets of optional dependencies to enable certai
 ```python
 pip install "pandas[excel]"
 ```
-
+The full list of extras that can be installed can be found in the pandas documentation dependency [section](https://pandas.pydata.org/docs/getting_started/install.html#install-optional-dependencies).
 
 ### Why Use Pandas?
 - Efficiency: Optimized for performance with large datasets.
