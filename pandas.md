@@ -2,6 +2,12 @@
 
 Pandas is a Python package providing fast, flexible, and expressive data structures designed to make working with “relational” or “labeled” data both easy and intuitive. It is a widely-used open-source library for Python. It aims to be the fundamental high-level building block for doing practical, real-world data analysis in Python. Pandas is particularly well-suited for working with tabular data, such as spreadsheets or SQL tables, and is a fundamental tool in the data science ecosystem.  Additionally, it has the broader goal of becoming the most powerful and flexible open source data analysis/manipulation tool available in any language.
 
+Pandas is well suited for many different kinds of data:
+- Tabular data with heterogeneously-typed columns, as in an SQL table or Excel spreadsheet
+- Ordered and unordered (not necessarily fixed-frequency) time series data.
+- Arbitrary matrix data (homogeneously typed or heterogeneous) with row and column labels
+- Any other form of observational / statistical data sets. The data need not be labeled at all to be placed into a pandas data structure
+
 ### Key Features of Pandas:
 - Data Structures:
   - Series: A one-dimensional labeled array capable of holding any data type (e.g., integers, strings, floats).
