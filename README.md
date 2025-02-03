@@ -31,7 +31,10 @@ Example source code: [enumerate](https://github.com/tamunoWoks/python_tutorial/b
 
 ## Lambda Functions
 Lambda functions in Python are small, anonymous functions defined using the lambda keyword. They are often used for short, simple operations where a full function definition is unnecessary. Lambda functions can take any number of arguments but can only have one expression.
-
+The syntax for enumerate() is:  
+```python
+lambda arguments: expression
+```
 
 ## String slicing and striding
 - String slicing in Python is a powerful feature that allows you to extract a portion of a string (substring) by specifying a start index, an end index, and an optional step size.  
