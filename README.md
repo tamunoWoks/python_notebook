@@ -3,6 +3,7 @@ This repository is strictly for learning key python syntax.
 
 Here are the concepts documented:  
 - [enumerate()](#enumerate_(_))
+- [Lambda Functions](#lambda_functions)
 - [String Slicing and Striding](#string_slicing_and_striding)
 ---
 
