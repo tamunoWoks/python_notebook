@@ -48,7 +48,7 @@ lambda arguments: expression
 - When the function needs to be reused multiple times (lambda functions are anonymous and harder to reuse).
 - When readability is a priority (lambda functions can make code harder to understand if overused).
   
-Sample code: [Lambda functions](https://github.com/tamunoWoks/python_tutorial/blob/main/lambda_functions.ipynb)
+Sample code: [Lambda functions](https://github.com/tamunoWoks/python_tutorial/blob/main/lambda.ipynb)
 
 
 ## String slicing and striding
