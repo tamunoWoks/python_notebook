@@ -26,7 +26,7 @@ enumerate(iterable, start=0)
 - It makes code cleaner and more readable when you need both the index and the value.
 - It works with any iterable, including lists, tuples, strings, and more.
   
-Example sample code: [enumerate](https://github.com/tamunoWoks/python_tutorial/blob/main/enumerate.ipynb)
+Sample code: [enumerate](https://github.com/tamunoWoks/python_tutorial/blob/main/enumerate.ipynb)
 
 
 ## Lambda Functions
@@ -48,7 +48,7 @@ lambda arguments: expression
 - When the function needs to be reused multiple times (lambda functions are anonymous and harder to reuse).
 - When readability is a priority (lambda functions can make code harder to understand if overused).
   
-Example sample code: [Lambda functions](https://github.com/tamunoWoks/python_tutorial/blob/main/lambda_functions.ipynb)
+Sample code: [Lambda functions](https://github.com/tamunoWoks/python_tutorial/blob/main/lambda_functions.ipynb)
 
 
 ## String slicing and striding
@@ -79,4 +79,4 @@ string[start:end:step]
 - Skipping characters at regular intervals.
 - Creating patterns.
   
-Example sample code: [Slicing & Striding](https://github.com/tamunoWoks/python_tutorial/blob/main/slicing_and_striding.ipynb)
+Sample code: [Slicing & Striding](https://github.com/tamunoWoks/python_tutorial/blob/main/slicing_and_striding.ipynb)
