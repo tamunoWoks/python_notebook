@@ -12,27 +12,15 @@ Pandas is a powerful and widely-used open-source data manipulation and analysis 
 - Merge, join, and concatenate datasets.
 - Perform group-by operations for aggregations.
 3. Data Cleaning:
-
-Handle missing values (dropna, fillna).
-
-Remove duplicates (drop_duplicates).
-
-Replace values (replace).
-
-Data Analysis:
-
-Perform descriptive statistics (e.g., mean, median, standard deviation).
-
-Apply functions to data (apply, map).
-
-Filter and sort data.
-
-Input/Output:
-
-Read and write data from/to various file formats, including CSV, Excel, SQL databases, JSON, and more.
-
-Time Series:
-
-Handle time series data with date and time functionality.
-
-Resample, shift, and perform rolling window operations.
+- Handle missing values (dropna, fillna).
+- Remove duplicates (drop_duplicates).
+- Replace values (replace).
+4. Data Analysis:
+- Perform descriptive statistics (e.g., mean, median, standard deviation).
+- Apply functions to data (apply, map).
+- Filter and sort data.
+5. Input/Output:
+- Read and write data from/to various file formats, including CSV, Excel, SQL databases, JSON, and more.
+6. Time Series:
+- Handle time series data with date and time functionality.
+- Resample, shift, and perform rolling window operations.
