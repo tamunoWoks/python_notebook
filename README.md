@@ -39,12 +39,14 @@ lambda arguments: expression
 - Anonymous: Lambda functions don't have a name (they are not bound to an identifier).
 - Single Expression: They can only contain one expression, which is evaluated and returned.
 - Inline Use: Often used inline, such as in map(), filter(), or sorted().
-
 #### When to Use Lambda Functions:
 - For simple, one-off operations.
 - When passing a function as an argument to higher-order functions like map(), filter(), or sorted().
 - When you want to avoid defining a full function for a small task.
-
+### When Not to Use Lambda Functions:
+- For complex logic (use a regular def function instead).
+- When the function needs to be reused multiple times (lambda functions are anonymous and harder to reuse).
+- When readability is a priority (lambda functions can make code harder to understand if overused).
 
 
 
