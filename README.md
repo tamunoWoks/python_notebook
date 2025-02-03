@@ -35,6 +35,17 @@ The syntax for enumerate() is:
 ```python
 lambda arguments: expression
 ```
+#### Key Characteristics:
+- Anonymous: Lambda functions don't have a name (they are not bound to an identifier).
+- Single Expression: They can only contain one expression, which is evaluated and returned.
+- Inline Use: Often used inline, such as in map(), filter(), or sorted().
+
+
+
+
+
+
+
 
 ## String slicing and striding
 - String slicing in Python is a powerful feature that allows you to extract a portion of a string (substring) by specifying a start index, an end index, and an optional step size.  
