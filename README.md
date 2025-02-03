@@ -4,7 +4,7 @@ This repository is strictly for learning key python syntax.
 Here are the concepts documented:  
 - [enumerate()](#enumerate_(_))
 - [Lambda Functions](#lambda_functions)
-- [Object-Oriented Programming](object-oriented_programming)
+- [Object-Oriented Programming](object_-_oriented_programming)
 - [String Slicing and Striding](#string_slicing_and_striding)
 ---
 
