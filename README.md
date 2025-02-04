@@ -74,7 +74,7 @@ Object-Oriented Programming (OOP) is a programming paradigm that organizes code 
   - Hiding complex implementation details and exposing only the necessary features.
   - Achieved through abstract classes and interfaces.
 
-**Key Points:**
+  **Key Points:**
   1. Abstract Class:
       - Cannot be instantiated directly.
       - Serves as a blueprint for other classes.
