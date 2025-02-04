@@ -79,14 +79,14 @@ Object-Oriented Programming (OOP) is a programming paradigm that organizes code 
       - Serves as a blueprint for other classes.
       - Ensures that subclasses implement specific methods.
   2. Abstract Methods:
-    - Declared in the abstract class but have no implementation.
-    - Must be implemented by any subclass.
+      - Declared in the abstract class but have no implementation.
+      - Must be implemented by any subclass.
   3. Concrete Class:
-    - Inherits from the abstract class.
-    - Provides implementations for all abstract methods.
+      - Inherits from the abstract class.
+      - Provides implementations for all abstract methods.
   4. Abstraction:
-    - Hides complex implementation details.
-    - Exposes only the necessary features (e.g., area and perimeter methods).
+      - Hides complex implementation details.
+      - Exposes only the necessary features (e.g., area and perimeter methods).
 #### Magic/Dunder Methods:
 Python classes can define special methods (e.g., __init__, __str__, __add__) to enable operator overloading and other behaviors.
 #### Why Use OOP in Python?
