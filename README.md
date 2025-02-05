@@ -31,7 +31,7 @@ Sample code: [enumerate](https://github.com/tamunoWoks/python_tutorial/blob/main
 
 
 ## File Handling
-
+File handling in Python allows you to work with files on your computer. You can read from and write to files, which is useful for storing and retrieving data. Python provides built-in functions and methods to handle files efficiently.
 
 ## Lambda Functions
 Lambda functions in Python are small, anonymous functions defined using the lambda keyword. They are often used for short, simple operations where a full function definition is unnecessary. Lambda functions can take any number of arguments but can only have one expression.
