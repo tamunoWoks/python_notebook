@@ -68,26 +68,22 @@ Object-Oriented Programming (OOP) is a programming paradigm that organizes code 
   - A mechanism where a new class (child class) derives properties and behaviors from an existing class (parent class).
   - Promotes code reuse and hierarchical classification.  
   **How It Works:**
-  - Use the syntax class ChildClass(ParentClass) to inherit from a parent class.
-  - Child classes can override or extend parent class methods.  
+    - Use the syntax class ChildClass(ParentClass) to inherit from a parent class.
+    - Child classes can override or extend parent class methods.  
   **Benefits:**
-  - Reduces code duplication.
-  - Makes code more organized and easier to maintain.
-  - Supports the "is-a" relationship (e.g., a Dog is an Animal).
+    - Reduces code duplication.
+    - Makes code more organized and easier to maintain.
+    - Supports the "is-a" relationship (e.g., a Dog is an Animal).
 - **Polymorphism:**
   - The ability of different classes to be treated as instances of the same class through a common interface.
-  - Allows methods to behave differently based on the object that calls them.
- 
+  - Allows methods to behave differently based on the object that calls them.  
   **How It Works:**
-  - Achieved through method overriding (child classes provide their own implementation of a method).
-  - A single function or method can work with objects of different classes.  
-
+    - Achieved through method overriding (child classes provide their own implementation of a method).
+    - A single function or method can work with objects of different classes.  
   **Benefits:**
-  - Simplifies code by allowing a single interface to represent different types.
-  - Makes code more flexible and scalable.
-  - Supports the "one interface, multiple implementations" principle.
- 
-
+    - Simplifies code by allowing a single interface to represent different types.
+    - Makes code more flexible and scalable.
+    - Supports the "one interface, multiple implementations" principle.  
 - **Abstraction:**
   - Hiding complex implementation details and exposing only the necessary features.
   - Achieved through abstract classes and interfaces.  
