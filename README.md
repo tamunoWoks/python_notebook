@@ -46,6 +46,17 @@ file = open("filename.txt", "mode")
   - "b": Binary mode (e.g., "rb" or "wb" for reading/writing binary files).
   - "t": Text mode (default).
   - "+": Read and write (e.g., "r+" or "w+").
+#### File Methods
+Here are some commonly used file methods:
+- read(size): Reads a specified number of bytes (or the entire file if no size is given).
+- readline(): Reads one line from the file.
+- readlines(): Reads all lines into a list.
+- write(string): Writes a string to the file.
+- writelines(list): Writes a list of strings to the file.
+- seek(offset): Moves the file pointer to a specific location.
+- tell(): Returns the current position of the file pointer.
+- close(): Closes the file.
+
 
 ## Lambda Functions
 Lambda functions in Python are small, anonymous functions defined using the lambda keyword. They are often used for short, simple operations where a full function definition is unnecessary. Lambda functions can take any number of arguments but can only have one expression.
