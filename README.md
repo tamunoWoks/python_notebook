@@ -1,4 +1,4 @@
-# Python tutorial
+# Python Notebook
 This repository is strictly for learning key python syntax.
 
 Here are the concepts documented:  
