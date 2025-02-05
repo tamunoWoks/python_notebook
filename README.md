@@ -64,13 +64,20 @@ Object-Oriented Programming (OOP) is a programming paradigm that organizes code 
 - **Encapsulation:**
   - Bundling data (attributes) and methods (functions) that operate on the data into a single unit (class).
   - Restricting direct access to some of an object's components (using private/protected members).
+  **How It Works:**
+    - Use private attributes (e.g., self.__balance) to hide data.
+    - Provide public methods to interact with the data (e.g., deposit, withdraw).  
+  **Benefits:**
+    - Improves security by preventing unauthorized access.
+    - Makes code easier to maintain and modify.
+    - Reduces complexity by hiding implementation details.
 - **Inheritance:**
   - A mechanism where a new class (child class) derives properties and behaviors from an existing class (parent class).
   - Promotes code reuse and hierarchical classification.  
   **How It Works:**
     - Use the syntax class ChildClass(ParentClass) to inherit from a parent class.
     - Child classes can override or extend parent class methods.  
-**Benefits:**
+  **Benefits:**
     - Reduces code duplication.
     - Makes code more organized and easier to maintain.
     - Supports the "is-a" relationship (e.g., a Dog is an Animal).
@@ -80,7 +87,7 @@ Object-Oriented Programming (OOP) is a programming paradigm that organizes code 
   **How It Works:**
     - Achieved through method overriding (child classes provide their own implementation of a method).
     - A single function or method can work with objects of different classes.  
-**Benefits:**
+  **Benefits:**
     - Simplifies code by allowing a single interface to represent different types.
     - Makes code more flexible and scalable.
     - Supports the "one interface, multiple implementations" principle.  
@@ -101,7 +108,7 @@ Object-Oriented Programming (OOP) is a programming paradigm that organizes code 
     4. Abstraction:
         - Hides complex implementation details.
         - Exposes only the necessary features (e.g., area and perimeter methods).    
-**Why Use Abstraction?**
+  **Why Use Abstraction?**
     - Enforces Structure: Ensures that subclasses adhere to a specific interface.
     - Improves Maintainability: Makes code easier to understand and modify.
     - Promotes Reusability: Common functionality is defined in the abstract class, and subclasses can reuse it.
