@@ -37,6 +37,15 @@ To work with a file, you first need to open it using the open() function.
 ```python
 file = open("filename.txt", "mode")
 ```
+- filename.txt: The name of the file (include the path if necessary)
+- mode: Specifies the purpose of opening the file:
+  - "r": Read (default mode). Opens the file for reading.
+  - "w": Write. Opens the file for writing (creates a new file or overwrites an existing file).
+  - "a": Append. Opens the file for appending data (does not overwrite existing data).
+  - "x": Exclusive creation. Creates a new file but raises an error if the file already exists.
+  - "b": Binary mode (e.g., "rb" or "wb" for reading/writing binary files).
+  - "t": Text mode (default).
+  - "+": Read and write (e.g., "r+" or "w+").
 
 ## Lambda Functions
 Lambda functions in Python are small, anonymous functions defined using the lambda keyword. They are often used for short, simple operations where a full function definition is unnecessary. Lambda functions can take any number of arguments but can only have one expression.
