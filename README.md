@@ -66,7 +66,14 @@ Object-Oriented Programming (OOP) is a programming paradigm that organizes code 
   - Restricting direct access to some of an object's components (using private/protected members).
 - **Inheritance:**
   - A mechanism where a new class (child class) derives properties and behaviors from an existing class (parent class).
-  - Promotes code reuse and hierarchical classification.
+  - Promotes code reuse and hierarchical classification.  
+  **How It Works:**
+  - Use the syntax class ChildClass(ParentClass) to inherit from a parent class.
+  - Child classes can override or extend parent class methods.  
+  **Benefits:**
+  - Reduces code duplication.
+  - Makes code more organized and easier to maintain.
+  - Supports the "is-a" relationship (e.g., a Dog is an Animal).
 - **Polymorphism:**
   - The ability of different classes to be treated as instances of the same class through a common interface.
   - Allows methods to behave differently based on the object that calls them.
