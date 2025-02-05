@@ -70,6 +70,17 @@ Object-Oriented Programming (OOP) is a programming paradigm that organizes code 
 - **Polymorphism:**
   - The ability of different classes to be treated as instances of the same class through a common interface.
   - Allows methods to behave differently based on the object that calls them.
+ 
+  **How It Works:**
+  - Achieved through method overriding (child classes provide their own implementation of a method).
+  - A single function or method can work with objects of different classes.  
+
+  **Benefits:**
+  - Simplifies code by allowing a single interface to represent different types.
+  - Makes code more flexible and scalable.
+  - Supports the "one interface, multiple implementations" principle.
+ 
+
 - **Abstraction:**
   - Hiding complex implementation details and exposing only the necessary features.
   - Achieved through abstract classes and interfaces.  
