@@ -72,7 +72,7 @@ Object-Oriented Programming (OOP) is a programming paradigm that organizes code 
   - Allows methods to behave differently based on the object that calls them.
 - Abstraction:
   - Hiding complex implementation details and exposing only the necessary features.
-  - Achieved through abstract classes and interfaces.
+  - Achieved through abstract classes and interfaces.  
 
   **Key Points:**
   1. Abstract Class:
@@ -88,6 +88,10 @@ Object-Oriented Programming (OOP) is a programming paradigm that organizes code 
   4. Abstraction:
       - Hides complex implementation details.
       - Exposes only the necessary features (e.g., area and perimeter methods).
+  **Why Use Abstraction?**
+  - Enforces Structure: Ensures that subclasses adhere to a specific interface.
+  - Improves Maintainability: Makes code easier to understand and modify.
+  - Promotes Reusability: Common functionality is defined in the abstract class, and subclasses can reuse it.
 #### Magic/Dunder Methods:
 Python classes can define special methods (e.g., __init__, __str__, __add__) to enable operator overloading and other behaviors.
 #### Why Use OOP in Python?
