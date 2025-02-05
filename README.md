@@ -70,7 +70,7 @@ Object-Oriented Programming (OOP) is a programming paradigm that organizes code 
   **How It Works:**
     - Use the syntax class ChildClass(ParentClass) to inherit from a parent class.
     - Child classes can override or extend parent class methods.  
-  **Benefits:**
+**Benefits:**
     - Reduces code duplication.
     - Makes code more organized and easier to maintain.
     - Supports the "is-a" relationship (e.g., a Dog is an Animal).
@@ -80,7 +80,7 @@ Object-Oriented Programming (OOP) is a programming paradigm that organizes code 
   **How It Works:**
     - Achieved through method overriding (child classes provide their own implementation of a method).
     - A single function or method can work with objects of different classes.  
-  **Benefits:**
+**Benefits:**
     - Simplifies code by allowing a single interface to represent different types.
     - Makes code more flexible and scalable.
     - Supports the "one interface, multiple implementations" principle.  
