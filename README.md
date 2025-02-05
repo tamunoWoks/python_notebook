@@ -100,8 +100,8 @@ Object-Oriented Programming (OOP) is a programming paradigm that organizes code 
         - Provides implementations for all abstract methods.
     4. Abstraction:
         - Hides complex implementation details.
-        - Exposes only the necessary features (e.g., area and perimeter methods).  
-  **Why Use Abstraction?**
+        - Exposes only the necessary features (e.g., area and perimeter methods).    
+**Why Use Abstraction?**
     - Enforces Structure: Ensures that subclasses adhere to a specific interface.
     - Improves Maintainability: Makes code easier to understand and modify.
     - Promotes Reusability: Common functionality is defined in the abstract class, and subclasses can reuse it.
