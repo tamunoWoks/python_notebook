@@ -120,7 +120,7 @@ Python classes can define special methods (e.g., __init__, __str__, __add__) to 
 - Maintainability: Easier to debug and maintain.
 - Scalability: Suitable for large and complex applications.
 
-Sample code: [Slicing & Striding](https://github.com/tamunoWoks/python_tutorial/blob/main/oop.ipynb)
+Sample code: [Object-Oriented Programming](https://github.com/tamunoWoks/python_tutorial/blob/main/oop.ipynb)
 
 
 ## String slicing and striding
