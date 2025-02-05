@@ -30,6 +30,9 @@ enumerate(iterable, start=0)
 Sample code: [enumerate](https://github.com/tamunoWoks/python_tutorial/blob/main/enumerate.ipynb)
 
 
+## File Handling
+
+
 ## Lambda Functions
 Lambda functions in Python are small, anonymous functions defined using the lambda keyword. They are often used for short, simple operations where a full function definition is unnecessary. Lambda functions can take any number of arguments but can only have one expression.
 The syntax for enumerate() is:  
