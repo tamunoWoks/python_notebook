@@ -55,8 +55,9 @@ Here are some commonly used file methods:
 - writelines(list): Writes a list of strings to the file.
 - seek(offset): Moves the file pointer to a specific location.
 - tell(): Returns the current position of the file pointer.
-- close(): Closes the file.
+- close(): Closes the file.  
 
+Sample code: [File Handling](https://github.com/tamunoWoks/python_notebook/blob/main/file_handling.ipynb)
 
 ## Lambda Functions
 Lambda functions in Python are small, anonymous functions defined using the lambda keyword. They are often used for short, simple operations where a full function definition is unnecessary. Lambda functions can take any number of arguments but can only have one expression.
