@@ -121,6 +121,14 @@ print(sys.path)
 1. Use meaningful names for custom modules.
 2. Avoid naming your scripts the same as standard library modules (e.g., math.py).
 3. Use if __name__ == "__main__": to define executable code in a module.
+``` python 
+# mymodule.py
+def greet(name):
+    return f"Hello, {name}!"
+
+if __name__ == "__main__":
+    print(greet("World"))  # Runs only when the script is executed directly
+```
 
 ## Object-Oriented Programming
 Object-Oriented Programming (OOP) is a programming paradigm that organizes code into objects, which are instances of classes. Python is an object-oriented language, and it supports all the core concepts of OOP, such as encapsulation, inheritance, polymorphism, and abstraction.
