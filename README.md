@@ -88,8 +88,11 @@ Python modules are files containing Python code (functions, classes, variables, 
 1. Built-in Modules: Pre-installed with Python (e.g., math, os, sys, random).
 2. Third-party Modules: Created by the community and installed via tools like pip (e.g., numpy, pandas, requests).
 3. Custom Modules: Created by you for your own projects.
-
-
+#### Using Modules
+To use a module, you need to import it into your program using the import statement.
+```
+import math
+```
 
 ## Object-Oriented Programming
 Object-Oriented Programming (OOP) is a programming paradigm that organizes code into objects, which are instances of classes. Python is an object-oriented language, and it supports all the core concepts of OOP, such as encapsulation, inheritance, polymorphism, and abstraction.
