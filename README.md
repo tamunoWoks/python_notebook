@@ -129,6 +129,7 @@ def greet(name):
 if __name__ == "__main__":
     print(greet("World"))  # Runs only when the script is executed directly
 ```
+Sample code: [Modules](https://github.com/tamunoWoks/python_tutorial/blob/main/modules.ipynb)
 
 ## Object-Oriented Programming
 Object-Oriented Programming (OOP) is a programming paradigm that organizes code into objects, which are instances of classes. Python is an object-oriented language, and it supports all the core concepts of OOP, such as encapsulation, inheritance, polymorphism, and abstraction.
