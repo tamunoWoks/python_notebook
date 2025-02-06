@@ -93,6 +93,20 @@ To use a module, you need to import it into your program using the import statem
 ```
 import math
 ```
+#### Common Built-in Modules
+Here are some commonly used built-in modules:
+
+| Module	| Description |
+|---------|-------------|
+| math	| Provides mathematical functions (e.g., sqrt, sin, cos). |
+| os	| Interacts with the operating system (e.g., file/directory operations).|
+| sys	| Provides access to system-specific parameters and functions. |
+| random	| Generates random numbers and performs random operations. |
+| datetime	| Handles dates and times. |
+| json	| Encodes and decodes JSON data. |
+| re	| Provides regular expression operations for pattern matching. |
+| collections	| Provides specialized container data types (e.g., Counter, deque). |
+| itertools	| Provides functions for creating iterators for efficient looping. |
 
 ## Object-Oriented Programming
 Object-Oriented Programming (OOP) is a programming paradigm that organizes code into objects, which are instances of classes. Python is an object-oriented language, and it supports all the core concepts of OOP, such as encapsulation, inheritance, polymorphism, and abstraction.
