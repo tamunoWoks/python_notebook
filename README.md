@@ -82,6 +82,12 @@ lambda arguments: expression
 Sample code: [Lambda functions](https://github.com/tamunoWoks/python_tutorial/blob/main/lambda.ipynb)
 
 
+## Python Modules
+Python modules are files containing Python code (functions, classes, variables, etc.) that can be reused in other programs. They help organize code, promote reusability, and make programs more modular and maintainable. Python comes with a rich standard library of modules, and you can also create your own custom modules.  
+
+
+
+
 ## Object-Oriented Programming
 Object-Oriented Programming (OOP) is a programming paradigm that organizes code into objects, which are instances of classes. Python is an object-oriented language, and it supports all the core concepts of OOP, such as encapsulation, inheritance, polymorphism, and abstraction.
 #### Key Concepts of OOP in Python:
