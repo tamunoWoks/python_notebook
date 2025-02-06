@@ -106,7 +106,17 @@ Here are some commonly used built-in modules:
 | json	| Encodes and decodes JSON data. |
 | re	| Provides regular expression operations for pattern matching. |
 | collections	| Provides specialized container data types (e.g., Counter, deque). |
-| itertools	| Provides functions for creating iterators for efficient looping. |
+| itertools	| Provides functions for creating iterators for efficient looping. |  
+#### Module Search Path
+When you import a module, Python searches for it in the following locations:
+1. The current directory.
+2. Directories listed in the PYTHONPATH environment variable.
+3. Installation-dependent default paths (e.g., Python's standard library).  
+You can view the search path using:
+```python
+import sys
+print(sys.path)
+```
 
 ## Object-Oriented Programming
 Object-Oriented Programming (OOP) is a programming paradigm that organizes code into objects, which are instances of classes. Python is an object-oriented language, and it supports all the core concepts of OOP, such as encapsulation, inheritance, polymorphism, and abstraction.
