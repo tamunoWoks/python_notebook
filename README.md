@@ -2,7 +2,7 @@
 This repository is strictly for learning key python syntax.
 
 Here are the concepts documented:  
-- [enumerate()](#enumerate_(_))
+- [enumerate()](https://github.com/tamunoWoks/python_notebook/blob/main/enumerate.md)
 - [File Handling](#file_handling)
 - [Lambda Functions](#lambda_functions)
 - [Modules](#modules)
