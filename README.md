@@ -6,7 +6,7 @@ Here are the concepts documented:
 - [File Handling](https://github.com/tamunoWoks/python_notebook/blob/main/file_handling.md)
 - [Lambda Functions](https://github.com/tamunoWoks/python_notebook/blob/main/lambda.md)
 - [Modules](https://github.com/tamunoWoks/python_notebook/blob/main/modules.md)
-- [Object-Oriented Programming](#object-oriented_programming)
+- [Object-Oriented Programming](https://github.com/tamunoWoks/python_notebook/blob/main/oop.md)
 - [String Slicing and Striding](#string_slicing_and_striding)
 ---
 
