@@ -8,6 +8,3 @@ Here are the concepts documented:
 - [Modules](https://github.com/tamunoWoks/python_notebook/blob/main/modules.md)
 - [Object-Oriented Programming](https://github.com/tamunoWoks/python_notebook/blob/main/oop.md)
 - [String Slicing and Striding](https://github.com/tamunoWoks/python_notebook/blob/main/slicing_and_striding.md)
----
-
-
