@@ -10,6 +10,7 @@ you’ll learn in this book.
 - **BOOLEAN VALUES**  
   The ***Boolean*** data type has only two values: **True** and **False**. (Boolean is capitalized because the data type is named after mathematician George Boole.)  
   Note that these Boolean values don’t have quotes, because they are different from the string values 'True' and 'False'.
+- Boolean operators `and`, `or` and `not` have an order of operations just like the math operators do. After any math and comparison operators evaluate, Python evaluates the `not` operators first, then the `and` operators, and then the `or` operators.
 - **THE DIFFERENCE BETWEEN THE == AND = OPERATORS**  
   The `==` operator (equal to) has two equal signs, while the `=` operator (assignment) has just one equal sign.
     - The `==` operator asks whether two values are the same as each other.
