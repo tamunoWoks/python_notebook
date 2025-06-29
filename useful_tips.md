@@ -7,3 +7,5 @@
     - It can’t begin with a number.
     - It can’t be a Python keyword, such as if, for, return, or other keywords
 you’ll learn in this book.
+- **Boolean values**
+  The *Boolean* data type has only two values: **True** and **False**. (Boolean is capitalized because the data type is named after mathematician George Boole.)
