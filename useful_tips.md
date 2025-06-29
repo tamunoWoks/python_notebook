@@ -8,5 +8,5 @@
     - It can’t be a Python keyword, such as if, for, return, or other keywords
 you’ll learn in this book.
 - **Boolean values**  
-  The *Boolean* data type has only two values: **True** and **False**. (Boolean is capitalized because the data type is named after mathematician George Boole.)
+  The *Boolean* data type has only two values: **True** and **False**. (Boolean is capitalized because the data type is named after mathematician George Boole.)  
   Note that these Boolean values don’t have quotes, because they are different from the string values 'True' and 'False'.
