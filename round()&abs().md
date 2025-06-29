@@ -5,4 +5,5 @@ The round() function accepts a float value and returns the nearest integer.
 round(3.14) # = 3
 round(7.7) # = 8
 round(-2.2) # = -2
-```
+```  
+The round() function also accepts an optional second argument specifying how many decimal places it should round.
