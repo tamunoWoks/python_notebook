@@ -15,3 +15,9 @@ The behavior for rounding half numbers is a bit odd. The function call round(3.5
 
 ### abs()
 The abs() function returns the absolute value of the number argument. In mathematics, this is defined as the distance from 0, but it is typically the positive form of any number.
+```python
+abs(25) # = 25
+abs(-25) # = 25
+abs(-3.14) # = 3.14
+abs(0) # = 0
+```
