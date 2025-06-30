@@ -26,3 +26,11 @@ This lets you change the integer passed to `range()` to follow any sequence of i
 for i in range(12, 16):
     print(i)
 ```
+- The first argument will be where the `for` loop’s variable starts, and the second argument will be up to, but not including, the number to stop at.
+
+The `range()` function can also be called with three arguments. The first two arguments will be the start and stop values, and the third will be the step argument.  
+The step is the amount by which the variable is increased after each iteration:
+```python
+for i in range(0, 10, 2):
+    print(i)
+```
