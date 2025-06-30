@@ -17,3 +17,4 @@ for i in range(5):
     print('On this iteration, i is set to ' + str(i))
 print('Goodbye!')
 ```
+You can use `break` and `continue` statements inside `for` loops as well. The `continue` statement will continue to the next value of the `for` loop’s counter, as if the program execution had reached the end of the loop and returned to the start.
