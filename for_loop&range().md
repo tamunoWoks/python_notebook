@@ -17,7 +17,7 @@ for i in range(5):
     print('On this iteration, i is set to ' + str(i))
 print('Goodbye!')
 ```
-You can use `break` and `continue` statements inside `for` loops as well. The `continue` statement will continue to the next value of the `for` loop’s counter, as if the program execution had reached the end of the loop and returned to the start.
+- You can use `break` and `continue` statements inside `for` loops as well. The `continue` statement will continue to the next value of the `for` loop’s counter, as if the program execution had reached the end of the loop and returned to the start.
 
 ### Arguments to range():
 Some functions can be called with multiple arguments separated by a comma, and `range()` is one of them.  
@@ -26,11 +26,11 @@ This lets you change the integer passed to `range()` to follow any sequence of i
 for i in range(12, 16):
     print(i)
 ```
-- The first argument will be where the `for` loop’s variable starts, and the second argument will be up to, but not including, the number to stop at.
+The first argument will be where the `for` loop’s variable starts, and the second argument will be up to, but not including, the number to stop at.
 
-The `range()` function can also be called with three arguments. The first two arguments will be the start and stop values, and the third will be the step argument.  
-The step is the amount by which the variable is increased after each iteration:
+- The `range()` function can also be called with three arguments. The first two arguments will be the start and stop values, and the third will be the step argument. The step is the amount by which the variable is increased after each iteration:
 ```python
 for i in range(0, 10, 2):
     print(i)
 ```
+So, calling range(0, 10, 2) will count from zero to eight by intervals of two.
