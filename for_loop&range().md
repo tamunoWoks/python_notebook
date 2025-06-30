@@ -41,3 +41,4 @@ a negative number for the step argument to make the `for` loop count down instea
 for i in range(5, -1, -1):
     print(i)
 ```
+Running a `for` loop to print i with range(5, -1, -1) should print the numbers from five down to zero.
