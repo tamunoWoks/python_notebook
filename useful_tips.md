@@ -33,3 +33,5 @@ bool(42) # =True
 bool('Hello') # = True
 bool('') # =False
 ```
+
+- You can use `continue` and `break` statements only inside `while` and `for` loops. If you try to use these statements elsewhere, Python will give you an error.
