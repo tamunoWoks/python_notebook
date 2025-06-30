@@ -10,3 +10,4 @@ while True:
         break
 print('Thank you!') 
 ```
+The first line creates an infinite loop; it is a `while` loop whose condition is always True. (The expression True, after all, always evaluates to the value True.) After the program execution enters this loop, it will exit the loop only when a `break` statement is executed.
