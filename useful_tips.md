@@ -23,3 +23,10 @@ you’ll learn in this book.
 
 - **INFINITE LOOP:**
 If you ever run a program that has a bug causing it to get stuck in an infinite loop, press CTRL-C. This will send a KeyboardInterrupt error to your program and cause it to stop immediately.
+
+- **“TRUTHY” AND “FALSEY” VALUES AND THE BOOL( ) FUNCTION:**
+Conditions will consider some values in other data types equivalent to `True` or `False`. When used in conditions, 0, 0.0, and '' (the empty string) are considered `False`, while all other values are considered `True`.
+If you want to know if a value is truthy or falsey, pass it to the bool() function:
+```python
+bool(0) # = False
+```
