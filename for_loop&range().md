@@ -34,3 +34,10 @@ for i in range(0, 10, 2):
     print(i)
 ```
 So, calling range(0, 10, 2) will count from zero to eight by intervals of two.
+
+- The `range()` function is flexible in the sequence of numbers it produces for `for` loops. For example you can even use
+a negative number for the step argument to make the `for` loop count down instead of up:
+```python
+for i in range(5, -1, -1):
+    print(i)
+```
