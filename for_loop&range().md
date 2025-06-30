@@ -20,7 +20,9 @@ print('Goodbye!')
 You can use `break` and `continue` statements inside `for` loops as well. The `continue` statement will continue to the next value of the `for` loop’s counter, as if the program execution had reached the end of the loop and returned to the start.
 
 ### Arguments to range():
-Some functions can be called with multiple arguments separated by a comma, and `range()` is one of them. This lets you change the integer passed to `range()` to follow any sequence of integers, including starting at a number other than zero:
+Some functions can be called with multiple arguments separated by a comma, and `range()` is one of them.  
+This lets you change the integer passed to `range()` to follow any sequence of integers, including starting at a number other than zero:
 ```python
-
+for i in range(12, 16):
+    print(i)
 ```
