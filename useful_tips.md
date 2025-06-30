@@ -35,3 +35,7 @@ bool('') # =False
 ```
 
 - You can use `continue` and `break` statements only inside `while` and `for` loops. If you try to use these statements elsewhere, Python will give you an error.
+
+- **range():**  
+The `range()` function in `for` loops has you specify the number that the loop goes up to, minus one.  
+In programming, ranges are often specified in a “closed, open” format that includes the starting number but excludes the ending number.
