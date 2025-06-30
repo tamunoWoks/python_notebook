@@ -11,3 +11,6 @@ while True:
 print('Thank you!') 
 ```
 The first line creates an infinite loop; it is a `while` loop whose condition is always True. (The expression True, after all, always evaluates to the value True.) After the program execution enters this loop, it will exit the loop only when a `break` statement is executed.
+
+## continue Statements
+Like `break` statements, we use `continue` statements inside loops. When the program execution reaches a `continue` statement, the program execution immediately jumps back to the start of the loop and reevaluates the loop’s condition. (This is also what happens when the execution reaches the end of the loop.)
