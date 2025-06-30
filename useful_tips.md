@@ -29,4 +29,7 @@ Conditions will consider some values in other data types equivalent to `True` or
 If you want to know if a value is truthy or falsey, pass it to the bool() function:
 ```python
 bool(0) # = False
+bool(42) # =True
+bool('Hello') # = True
+bool('') # =False
 ```
