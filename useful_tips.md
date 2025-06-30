@@ -21,7 +21,7 @@ you’ll learn in this book.
     - The `==` operator asks whether two values are the same as each other.
     - The `=` operator puts the value on the right into the variable on the left.
 
-- **INFINITE LOOP:**
+- **INFINITE LOOP:**  
 If you ever run a program that has a bug causing it to get stuck in an infinite loop, press CTRL-C. This will send a KeyboardInterrupt error to your program and cause it to stop immediately.
 
 - **“TRUTHY” AND “FALSEY” VALUES AND THE BOOL( ) FUNCTION:**
