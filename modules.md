@@ -62,3 +62,14 @@ Sample code: [Modules](https://github.com/tamunoWoks/python_tutorial/blob/main/m
 ### `from`
 An alternative form of the import statement is composed of the `from` keyword, followed by the module name, the import keyword, and a star (*); for example, from random import *. 
 With this form of import statement, calls to functions in random won’t need the `random.` prefix. However, using the full name makes for more readable code, so it is better to use the import random form of the statement.
+**Example:**
+```python
+# Import the 'sqrt' function from the 'math' module
+from math import sqrt
+
+# Use the imported function
+number = 16
+result = sqrt(number)
+
+print(f"The square root of {number} is {result}")
+```
