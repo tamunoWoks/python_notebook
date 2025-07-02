@@ -14,6 +14,8 @@ Before you can use the functions in a module, you must import the module with an
 ```
 import math
 ```
+Once you import a module, you can use all the cool functions of that module.
+
 #### Common Built-in Modules
 Here are some commonly used built-in modules:
 
