@@ -14,7 +14,12 @@ Before you can use the functions in a module, you must import the module with an
 ```
 import math
 ```
-Once you import a module, you can use all the cool functions of that module.
+Once you import a module, you can use all the cool functions of that module.  
+Here’s an example of an import statement that imports four different modules:  
+```python
+import random, sys, os, math
+```
+Now we can use any of the functions in these four modules.
 
 #### Common Built-in Modules
 Here are some commonly used built-in modules:
