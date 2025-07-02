@@ -1,4 +1,6 @@
 ## Python Modules
+All Python programs can call a basic set of functions called built-in functions, including the print(), input(), and len() functions you’ve seen before. ython also comes with a set of modules called the standard library. Each module is a Python program that contains a related group of functions that can be embedded in your programs.
+
 Python modules are files containing Python code (functions, classes, variables, etc.) that can be reused in other programs. They help organize code, promote reusability, and make programs more modular and maintainable. Python comes with a rich standard library of modules, and you can also create your own custom modules.  
 #### Types of Modules
 1. Built-in Modules: Pre-installed with Python (e.g., math, os, sys, random).
