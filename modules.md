@@ -1,13 +1,16 @@
 ## Python Modules
-All Python programs can call a basic set of functions called built-in functions, including the print(), input(), and len() functions you’ve seen before. ython also comes with a set of modules called the standard library. Each module is a Python program that contains a related group of functions that can be embedded in your programs.
+All Python programs can call a basic set of functions called built-in functions, including the print(), input(), and len() functions you’ve seen before. Python also comes with a set of modules called the standard library.  
 
-Python modules are files containing Python code (functions, classes, variables, etc.) that can be reused in other programs. They help organize code, promote reusability, and make programs more modular and maintainable. Python comes with a rich standard library of modules, and you can also create your own custom modules.  
+Each module is a Python program that contains a related group of functions, classes, variables, etc, that can be embedded in your programs. They help organize code, promote reusability, and make programs more modular and maintainable. Python comes with a rich standard library of modules, and you can also create your own custom modules.  
 #### Types of Modules
 1. Built-in Modules: Pre-installed with Python (e.g., math, os, sys, random).
 2. Third-party Modules: Created by the community and installed via tools like pip (e.g., numpy, pandas, requests).
 3. Custom Modules: Created by you for your own projects.
 #### Using Modules
-To use a module, you need to import it into your program using the import statement.
+Before you can use the functions in a module, you must import the module with an `import` statement. In code, an import statement consists of the following:
+- The import keyword
+- The name of the module
+- Optionally, more module names, as long as they are separated by commas
 ```
 import math
 ```
