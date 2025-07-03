@@ -53,3 +53,14 @@ print('Access granted.')
 
 #### When to Use:
 - To skip specific iterations but keep the loop running (e.g., filtering values, avoiding edge cases).
+
+### Tips:
+- `continue` can be used for filtering, eg.:
+```python
+for num in range(10):
+    if num % 2 == 0:
+        continue  # Skip even numbers
+    print(num)    # Prints odds: 1, 3, 5, 7, 9
+```
+- **Place it early:** Put continue at the start of the loop to avoid unnecessary computations.
+- Forgetting to update variables before continue accidentally creates infinite loops.
