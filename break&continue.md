@@ -50,3 +50,6 @@ print('Access granted.')
 - When the program reevaluates the condition, the execution will always enter the loop, because the condition is simply the value True.
 - Once the user makes it past that `if` statement, they are asked for a password. If the password entered is swordfish, the `break` statement is run, and the execution jumps out of the `while` loop to print Access granted. 
 - Otherwise, the execution continues to the end of the `while` loop, where it then jumps back to the start of the loop.
+
+#### When to Use:
+- To skip specific iterations but keep the loop running (e.g., filtering values, avoiding edge cases).
