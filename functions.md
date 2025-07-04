@@ -18,7 +18,8 @@ A major purpose of functions is to group code that gets executed multiple times.
     In general, you always want to avoid duplicating code, because if you ever decide to update the code you’ll have to remember to change the code in every place you copied it.
 
 ## Arguments and Parameters
-When you call the `print()` or `len()` function, you pass it values, called **arguments**, by entering them between the parentheses. You can also define your own functions that accept arguments.
+When you call the `print()` or `len()` function, you pass it values, called **arguments**, by entering them between the parentheses. You can also define your own functions that accept arguments.  
+
 
 #### Tips:
 - *Parameters* are variables that contain arguments.
@@ -35,4 +36,16 @@ def say_hello_to(name):
     print('Good evening, ' + name)
 say_hello_to('Al')
 ```
-> - To define a function is to create it. 
+- To define a function is to create it, and the `def` statement defines the `say_hello_to()` function.
+- The `say_hello_to('Al')` line calls the now-created function, sending the execution to the top of the function’s code. This function call is also known as `passing` the string value `Al' to the function.
+- A value being passed to a function in a function call is an `argument`.
+- Variables that have `arguments` assigned to them are `parameters`.
+
+#### Key Differences:
+| Feature            | Parameter                                  | Argument                                    |
+|:-------------------|:-------------------------------------------|:--------------------------------------------|
+| **Definition**     | Variable in a function's definition.       | Actual value passed during a function call. |
+| **When it exists** | When the function is **defined**.          | When the function is **called**.            |
+| **Purpose**        | Acts as a placeholder for incoming data.   | Provides the concrete value to use.         |
+| **Scope**          | Local to the function.                     | Exists only during the function call.       |
+| **Example**        | `def greet(name):` (`name` is a parameter) | `greet("Alice")` (`"Alice"` is an argument) |
