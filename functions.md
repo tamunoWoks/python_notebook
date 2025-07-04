@@ -60,7 +60,8 @@ In Python, the `return` statement is used to exit a function and optionally send
 - The `return` keyword
 - The value or expression that the function should return.  
 
-> In the case of an expression, the return value is whatever this expression evaluates to.
+> In the case of an expression, the return value is whatever this expression evaluates to. Remember that expressions consist of values and operators; you can use a function call in an expression because the call evaluates to its return value.
+
 #### Example:
 1.
 ```python
@@ -84,6 +85,7 @@ print(user_name, user_age)  # Output: Alice 25
 - Python also allows returning multiple values (as a tuple, list, or dictionary).
 - You can use return to exit a function early if a condition is met.
 - If a function has no return statement, it returns None.
+- You can pass return values as arguments to other function calls.
 
 #### Return vs. Print:
 | Feature       | `return`                          | `print()`                        |
