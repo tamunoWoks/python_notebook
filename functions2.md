@@ -19,3 +19,5 @@ print('World')
 print('cats', 'dogs', 'mice', sep=',')
 ```
 - Usually, when you pass multiple string values to `print()`, the function automatically separates them with a single space. You could replace the default separating string by passing the `sep` named parameter a different string as shown above, to give the output **`cats,dogs,mice`**.
+#### NOTE
+- Some functions have optional named parameters you can specify when calling the function. They are mostly for list and dictionary data types.
