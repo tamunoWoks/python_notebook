@@ -55,7 +55,7 @@ say_hello_to('Al')
 - **Argument** → Actual coffee poured into the cup (real value).
 
 ## Return Values and `return` Statements:
-The value to which a function call evaluates is called the return value of the function.  
+In Python, the `return` statement is used to exit a function and optionally send a value (or multiple values) back to the caller. The value(s) sent back are called return values.   
 When creating a function using the `def` statement, you can specify the return value with a return statement, which consists of the following:
 - The `return` keyword
 - The value or expression that the function should return.  
