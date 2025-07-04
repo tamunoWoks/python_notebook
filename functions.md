@@ -25,3 +25,5 @@ When you call the `print()` or `len(`) function, you pass it values, called **ar
 - When a function is called with arguments, the arguments are stored in the parameters.
 - You should use parameters in your function if you need it to follow slightly different instructions depending on the values you pass to the function call.
 - One special thing to note about parameters is that the value stored in a parameter is forgotten when the function returns.
+
+**NOTE:** The terms *define*, *call*, *pass*, *argument*, and *parameter* can be confusing. To review their meanings, let us consider a code example:
