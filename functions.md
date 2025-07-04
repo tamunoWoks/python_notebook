@@ -85,6 +85,13 @@ print(user_name, user_age)  # Output: Alice 25
 - You can use return to exit a function early if a condition is met.
 - If a function has no return statement, it returns None.
 
+#### Return vs. Print:
+| Feature       | `return`                          | `print()`                        |
+|--------------|----------------------------------|----------------------------------|
+| **Purpose**  | Sends data back to the caller.   | Displays output to the console.  |
+| **Usage**    | Used inside functions.           | Used for debugging/output.       |
+| **Effect**   | Exits the function.              | Does not exit the function.      |
+
 #### Summary:
 | Concept          | Description |
 |:-----------------|:-----------|
