@@ -35,3 +35,4 @@ def say_hello_to(name):
     print('Good evening, ' + name)
 say_hello_to('Al')
 ```
+> - To define a function is to create it. 
