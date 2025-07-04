@@ -38,8 +38,8 @@ say_hello_to('Al')
 ```
 - To define a function is to create it, and the `def` statement defines the `say_hello_to()` function.
 - The `say_hello_to('Al')` line calls the now-created function, sending the execution to the top of the function’s code. This function call is also known as `passing` the string value `Al' to the function.
-- A value being passed to a function in a function call is an `argument`.
-- Variables that have `arguments` assigned to them are `parameters`.
+- A value being passed to a function in a function call is an `argument`. Hence 'Al' is the `argument` in the above program.
+- Variables that have `arguments` assigned to them are `parameters`. Hence the variable 'name' in the function definition is the `parameter`.
 
 #### Key Differences:
 | Feature            | Parameter                                  | Argument                                    |
