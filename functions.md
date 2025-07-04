@@ -53,3 +53,11 @@ say_hello_to('Al')
 #### Analogy:
 - **Parameter** → Empty coffee cup (placeholder).
 - **Argument** → Actual coffee poured into the cup (real value).
+
+## Return Values and `return` Statements:
+The value to which a function call evaluates is called the return value of the function.  
+When creating a function using the `def` statement, you can specify the return value with a return statement, which consists of the following:
+- The `return` keyword
+- The value or expression that the function should return.  
+
+In the case of an expression, the return value is whatever this expression evaluates to.
