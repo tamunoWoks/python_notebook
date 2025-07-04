@@ -19,3 +19,9 @@ A major purpose of functions is to group code that gets executed multiple times.
 
 ## Arguments and Parameters
 When you call the `print()` or `len(`) function, you pass it values, called **arguments**, by entering them between the parentheses. You can also define your own functions that accept arguments.
+
+#### Tips:
+- *Parameters* are variables that contain arguments.
+- When a function is called with arguments, the arguments are stored in the parameters.
+- You should use parameters in your function if you need it to follow slightly different instructions depending on the values you pass to the function call.
+- One special thing to note about parameters is that the value stored in a parameter is forgotten when the function returns.
