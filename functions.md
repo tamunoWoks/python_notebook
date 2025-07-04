@@ -4,3 +4,11 @@ Python provides several built-in functions, such as the print(), input(), and le
 
 #### Creating Functions in Python:
 In Python, functions are created using the `def` keyword followed by the function name, parentheses `()`, and a colon `:`. The function body is written with indentation underneath the definition line.
+
+##### Example:
+This is a simple function with no parameters:
+```python
+def greet():
+    print("Hello, world!")
+greet()
+```
