@@ -61,3 +61,11 @@ In Python, the `return` statement is used to exit a function and optionally send
 - The value or expression that the function should return.  
 
 > In the case of an expression, the return value is whatever this expression evaluates to.
+#### Example:
+```python
+def add(a, b):
+    return a + b  # Returns the sum
+
+result = add(3, 5)  # `result` gets the return value (8)
+print(result)  # Output: 8
+```
