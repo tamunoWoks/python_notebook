@@ -16,3 +16,6 @@ greet()
 ```
 A major purpose of functions is to group code that gets executed multiple times. Without a function defined, you would have to copy and paste this code each time you wanted to run it.   
     In general, you always want to avoid duplicating code, because if you ever decide to update the code you’ll have to remember to change the code in every place you copied it.
+
+## Arguments and Parameters
+When you call the `print()` or `len(`) function, you pass it values, called **arguments**, by entering them between the parentheses. You can also define your own functions that accept arguments.
