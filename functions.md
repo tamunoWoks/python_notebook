@@ -69,3 +69,13 @@ def add(a, b):
 result = add(3, 5)  # `result` gets the return value (8)
 print(result)  # Output: 8
 ```
+- Python also allows returning multiple values (as a tuple, list, or dictionary).
+```python
+def get_user():
+    name = "Alice"
+    age = 25
+    return name, age  # Returns a tuple: ("Alice", 25)
+
+user_name, user_age = get_user()  # Unpacks the tuple
+print(user_name, user_age)  # Output: Alice 25
+```
