@@ -62,6 +62,7 @@ In Python, the `return` statement is used to exit a function and optionally send
 
 > In the case of an expression, the return value is whatever this expression evaluates to.
 #### Example:
+1.
 ```python
 def add(a, b):
     return a + b  # Returns the sum
@@ -69,7 +70,7 @@ def add(a, b):
 result = add(3, 5)  # `result` gets the return value (8)
 print(result)  # Output: 8
 ```
-- Python also allows returning multiple values (as a tuple, list, or dictionary).
+2.
 ```python
 def get_user():
     name = "Alice"
@@ -79,3 +80,7 @@ def get_user():
 user_name, user_age = get_user()  # Unpacks the tuple
 print(user_name, user_age)  # Output: Alice 25
 ```
+#### Tips:
+- Python also allows returning multiple values (as a tuple, list, or dictionary).
+- You can use return to exit a function early if a condition is met.
+- If a function has no return statement, it returns None.
