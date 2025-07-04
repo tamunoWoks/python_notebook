@@ -84,3 +84,10 @@ print(user_name, user_age)  # Output: Alice 25
 - Python also allows returning multiple values (as a tuple, list, or dictionary).
 - You can use return to exit a function early if a condition is met.
 - If a function has no return statement, it returns None.
+
+#### Summary:
+| Concept          | Description |
+|:-----------------|:-----------|
+| **`return`** | Exits a function and sends back a value. |
+| **Return Value** | The data sent back (can be any type). |
+| **Multiple Returns** | Use tuples/lists/dicts to return multiple values. |
