@@ -20,4 +20,8 @@ print('cats', 'dogs', 'mice', sep=',')
 ```
 - Usually, when you pass multiple string values to `print()`, the function automatically separates them with a single space. You could replace the default separating string by passing the `sep` named parameter a different string as shown above, to give the output **`cats,dogs,mice`**.
 #### NOTE
-- Some functions have optional named parameters you can specify when calling the function. They are mostly for list and dictionary data types.
+Some functions have optional named parameters you can specify when calling the function. They are mostly for list and dictionary data types.
+
+## The Call Stack
+Like a meandering conversation, calling a function doesn’t send the execution on a one-way trip to the top of a function. Python will remember which line of code called the function so that the execution can return there when it encounters a `return` statement. If that original function called other functions, the execution would return to those function calls first, before returning from the original function call. The function call at the top of the stack is the execution’s current location.  
+&nbsp;&nbsp;&nbsp;&nbsp; The call stack is a technical detail that you don’t strictly need to know about to write programs. It’s enough to understand that function calls return to the line number they were called from. However, understanding call stacks makes it easier to understand local and global scopes.
