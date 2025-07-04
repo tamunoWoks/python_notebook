@@ -49,3 +49,7 @@ say_hello_to('Al')
 | **Purpose**        | Acts as a placeholder for incoming data.   | Provides the concrete value to use.         |
 | **Scope**          | Local to the function.                     | Exists only during the function call.       |
 | **Example**        | `def greet(name):` (`name` is a parameter) | `greet("Alice")` (`"Alice"` is an argument) |
+
+#### Analogy:
+- **Parameter** → Empty coffee cup (placeholder).
+- **Argument** → Actual coffee poured into the cup (real value).
