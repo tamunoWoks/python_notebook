@@ -67,4 +67,17 @@ Technically, it’s perfectly acceptable to use the same variable name for a glo
 
 ###  The global Statement
 The `global` statement in Python is used inside a function to indicate that a variable refers to the global (outside) scope, not a local one. This allows you to modify a global variable from within a function.
-&nbsp;&nbsp;&nbsp;&nbsp; you need to modify a global variable from within a function, use the global statement.  
+&nbsp;&nbsp;&nbsp;&nbsp; If you need to modify a global variable from within a function, use the global statement.  
+
+##### Example:
+```python
+count = 0  # Global variable
+
+def increment():
+    global count  # Tell Python we want to use the global 'count'
+    count += 1
+
+increment()
+print(count)  # Output: 1
+```
+Without the `global` keyword, Python would assume count is a local variable inside the function and raise an error when you try to modify it.
