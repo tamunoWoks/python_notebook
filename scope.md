@@ -94,3 +94,20 @@ Use these four rules to tell whether a variable belongs to a local scope or the 
 - A variable in a function with a global statement is always a global variable in that function.
 - Otherwise, if a function uses a variable in an assignment statement, it is a local variable.
 - However, if the function uses a variable but never in an assignment statement, it is a global variable.
+
+To get a better feel for these rules, here’s an example program:
+```python
+def spam():
+  global eggs
+  eggs = 'spam' # This is the global variable.
+
+def bacon():
+  eggs = 'bacon' # This is a local variable.
+
+def ham():
+  print(eggs) # This is the global variable.
+
+eggs = 'global' # This is the global variable.
+spam()
+print(eggs)
+```
