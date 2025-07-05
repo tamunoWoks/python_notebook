@@ -17,3 +17,19 @@ When working with local and global variables, keep the following rules in mind:
 - If your program contained nothing but global variables, and contained a bug caused by a variable set to a bad value, you might struggle to track down the location of this bad value. But if the bug occurred in a local variable, you can restrict your search to a single function.
 - While using global variables in small programs is fine, it’s a bad habit to rely on global variables as your programs get larger and larger.
 
+#### Examples:
+1. **Code That Is in the Global Scope Can’t Use Local Variables:**
+```python
+def spam():
+  eggs = 'sss'
+spam()
+print(eggs)
+```
+**Output:**  
+```txt
+Traceback (most recent call last):
+  File "C:/test1.py", line 4, in <module>
+    print(eggs)
+NameError: name 'eggs' is not defined
+```
+The error happens because the eggs variable exists only in the local scope created when `spam()` is called
