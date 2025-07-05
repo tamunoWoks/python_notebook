@@ -32,4 +32,22 @@ Traceback (most recent call last):
     print(eggs)
 NameError: name 'eggs' is not defined
 ```
-The error happens because the eggs variable exists only in the local scope created when `spam()` is called. This is because when the program execution is in the global scope, no local scopes exist, so there can’t be any local variables. This is why you can only reference global variables in the global scope.
+The error happens because the eggs variable exists only in the local scope created when `spam()` is called. This is because when the program execution is in the global scope, no local scopes exist, so there can’t be any local variables. This is why you can only reference global variables in the global scope.  
+
+2. **Code That Is in a Local Scope Can’t Use Variables in Other Local Scopes:**
+Python creates a new local scope whenever a program calls a function, even when the function is called from another function.
+```python
+def spam():
+  eggs = 'SPAMSPAM'
+  bacon()
+  print(eggs) # prints 'SPAMSPAM'
+
+def bacon():
+  ham = 'hamham'
+  eggs = 'BACONBACON'
+
+spam()
+```
+When the program starts, it calls the `spam()` function, creating a local scope. The `spam()` function sets the local variable eggs to 'SPAMSPAM', then calls the `bacon()` function, creating a second local scope. 
+&nbsp;&nbsp;&nbsp;&nbsp; Multiple local scopes can exist at the same time. In this new local scope, the local variable ham gets set to 'hamham', and a local variable eggs (which differs from the one in `spam()`’s local scope) gets created and set to 'BACONBACON'. At this point, the program has two local variables named eggs that exist simultaneously: one that is local to `spam()` and one that is local to `bacon()`.
+&nbsp;&nbsp;&nbsp;&nbsp; When `bacon()` returns, Python destroys the local scope for that call, including its eggs variable. The program execution continues in the `spam()` function, printing the value of eggs. Because the local scope for the call  to `spam(`) still exists, the only eggs variable is the `spam()` function’s eggs variable, which was set to 'SPAMSPAM'. This is what the program prints as output.
