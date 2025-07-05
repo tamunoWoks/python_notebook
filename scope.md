@@ -64,3 +64,7 @@ Because the `spam()` function has no parameter named eggs, nor any code that ass
 
 **NOTE:**  
 Technically, it’s perfectly acceptable to use the same variable name for a global variable and local variables in different scopes. But, to simplify your life, avoid doing this.
+
+###  The global Statement
+The `global` statement in Python is used inside a function to indicate that a variable refers to the global (outside) scope, not a local one. This allows you to modify a global variable from within a function.
+&nbsp;&nbsp;&nbsp;&nbsp; you need to modify a global variable from within a function, use the global statement.  
