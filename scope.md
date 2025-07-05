@@ -61,3 +61,6 @@ spam()
 print(eggs)
 ```
 Because the `spam()` function has no parameter named eggs, nor any code that assigns eggs a value, Python considers the function’s use of eggs a reference to the global variable eggs. This is why the program prints 'GLOBALGLOBAL' when it’s run.
+
+**NOTE:**  
+Technically, it’s perfectly acceptable to use the same variable name for a global variable and local variables in different scopes. But, to simplify your life, avoid doing this.
