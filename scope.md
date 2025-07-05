@@ -81,3 +81,8 @@ increment()
 print(count)  # Output: 1
 ```
 Without the `global` keyword, Python would assume count is a local variable inside the function and raise an error when you try to modify it.
+
+#### When to Use `global`:
+- Use sparingly — global variables can make code harder to debug and maintain.
+- Prefer function arguments and return values for passing data between functions.
+
