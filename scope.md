@@ -88,3 +88,9 @@ Without the `global` keyword, Python would assume count is a local variable insi
 
 ### Scope Identification
 In Python, scope refers to where a variable or name is accessible within your code. Understanding scope helps you know which variables are visible (and modifiable) in which parts of your program.  
+
+Use these four rules to tell whether a variable belongs to a local scope or the global scope:
+- A variable in the global scope (that is, outside all functions) is always a global variable.
+- A variable in a function with a global statement is always a global variable in that function.
+- Otherwise, if a function uses a variable in an assignment statement, it is a local variable.
+- However, if the function uses a variable but never in an assignment statement, it is a global variable.
