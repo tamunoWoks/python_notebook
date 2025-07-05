@@ -86,3 +86,5 @@ Without the `global` keyword, Python would assume count is a local variable insi
 - Use sparingly — global variables can make code harder to debug and maintain.
 - Prefer function arguments and return values for passing data between functions.
 
+### Scope Identification
+In Python, scope refers to where a variable or name is accessible within your code. Understanding scope helps you know which variables are visible (and modifiable) in which parts of your program.  
