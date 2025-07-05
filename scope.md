@@ -4,7 +4,16 @@ Only code within a called function can access the parameters and variables assig
 &nbsp;&nbsp;&nbsp;&nbsp; A variable that exists in a local scope is called a ***local variable***, while a variable that exists in a global scope is called a ***global variable***. A variable must be one or the other; it cannot be both local and global.  
 &nbsp;&nbsp;&nbsp;&nbsp; Think of a `scope` as a container for variables. There is only one global scope, created when your program begins. When your program terminates, it destroys the global scope, and all of its variables get forgotten.  
 &nbsp;&nbsp;&nbsp;&nbsp; A new local scope gets created whenever a program calls a function. Any variables assigned in the function exist within the function’s local scope. When the function returns, the local scope gets destroyed, along with these variables.
+
+### Scope Rules:
+When working with local and global variables, keep the following rules in mind:
+- Code that is in the global scope, outside all functions, can’t use local variables.
+- Code that is in one function’s local scope can’t use variables in any other local scope.
+- Code in a local scope can access global variables.
+- You can use the same name for different variables if they are in different scopes. That is, there can be a local variable named spam and a global variable also named spam.
+
 #### NOTE:
 - Python uses scoping because it enables a function to modify its variables, yet interact with the rest of the program through its parameters and its return value only.
 - If your program contained nothing but global variables, and contained a bug caused by a variable set to a bad value, you might struggle to track down the location of this bad value. But if the bug occurred in a local variable, you can restrict your search to a single function.
 - While using global variables in small programs is fine, it’s a bad habit to rely on global variables as your programs get larger and larger.
+
