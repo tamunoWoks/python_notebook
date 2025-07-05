@@ -32,4 +32,4 @@ Traceback (most recent call last):
     print(eggs)
 NameError: name 'eggs' is not defined
 ```
-The error happens because the eggs variable exists only in the local scope created when `spam()` is called
+The error happens because the eggs variable exists only in the local scope created when `spam()` is called. This is because when the program execution is in the global scope, no local scopes exist, so there can’t be any local variables. This is why you can only reference global variables in the global scope.
