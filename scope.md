@@ -51,3 +51,13 @@ spam()
 When the program starts, it calls the `spam()` function, creating a local scope. The `spam()` function sets the local variable eggs to 'SPAMSPAM', then calls the `bacon()` function, creating a second local scope.  
 &nbsp;&nbsp;&nbsp;&nbsp; Multiple local scopes can exist at the same time. In this new local scope, the local variable ham gets set to 'hamham', and a local variable eggs (which differs from the one in `spam()`’s local scope) gets created and set to 'BACONBACON'. At this point, the program has two local variables named eggs that exist simultaneously: one that is local to `spam()` and one that is local to `bacon()`.  
 &nbsp;&nbsp;&nbsp;&nbsp; When `bacon()` returns, Python destroys the local scope for that call, including its eggs variable. The program execution continues in the `spam()` function, printing the value of eggs. Because the local scope for the call  to `spam(`) still exists, the only eggs variable is the `spam()` function’s eggs variable, which was set to 'SPAMSPAM'. This is what the program prints as output.
+
+3. **Code That Is in a Local Scope Can Use Global Variables:**
+```python
+def spam():
+  print(eggs) # prints 'GLOBALGLOBAL'
+eggs = 'GLOBALGLOBAL'
+spam()
+print(eggs)
+```
+Because the `spam()` function has no parameter named eggs, nor any code that assigns eggs a value, Python considers the function’s use of eggs a reference to the global variable eggs. This is why the program prints 'GLOBALGLOBAL' when it’s run.
