@@ -23,3 +23,17 @@ except ZeroDivisionError:
 except ValueError:
     print("Error: Invalid input. Please enter a number.")
 ```
+### Optional Blocks:
+- `else`: runs if no exception occurred
+- `finally`: runs no matter what — good for cleanup
+```python
+try:
+    f = open("data.txt")
+    data = f.read()
+except FileNotFoundError:
+    print("File not found.")
+else:
+    print("File read successfully.")
+finally:
+    f.close()  # Always executed
+```
