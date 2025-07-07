@@ -37,3 +37,12 @@ else:
 finally:
     f.close()  # Always executed
 ```
+### Common Built-in Exceptions:
+| Exception           | Raised When...                         |
+| ------------------- | -------------------------------------- |
+| `ZeroDivisionError` | You divide by zero                     |
+| `ValueError`        | Invalid value passed (e.g. to `int()`) |
+| `TypeError`         | Invalid type used in operation         |
+| `FileNotFoundError` | File not found                         |
+| `IndexError`        | List index out of range                |
+| `KeyError`          | Dict key not found                     |
