@@ -46,3 +46,8 @@ finally:
 | `FileNotFoundError` | File not found                         |
 | `IndexError`        | List index out of range                |
 | `KeyError`          | Dict key not found                     |
+
+### Best Practices:
+- Catch specific exceptions, not just `except:`
+- Use `finally` for closing resources (files, DBs)
+- Avoid using `try` for control flow — use only when needed.
