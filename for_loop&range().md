@@ -21,7 +21,7 @@ print('Goodbye!')
 
 ### Arguments to range():
 Some functions can be called with multiple arguments separated by a comma, and `range()` is one of them.  
-This lets you change the integer passed to `range()` to follow any sequence of integers, including starting at a number other than zero:
+&nbsp;&nbsp;&nbsp;&nbsp;This lets you change the integer passed to `range()` to follow any sequence of integers, including starting at a number other than zero:
 ```python
 for i in range(12, 16):
     print(i)
