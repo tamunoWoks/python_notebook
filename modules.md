@@ -64,7 +64,7 @@ An alternative form of the import statement is composed of the `from` keyword, f
 ```python
 from random import *
 ```
-With this form of import statement, calls to functions in `random` won’t need the `random.` prefix. However, using the full name makes for more readable code, so it is better to use the `import random` form of the statement.
+With this form of import statement, calls to functions in `random` won’t need the `random.` prefix. However, using the full name makes for more readable code, so it is better to use the `import random` form of the statement.  
 **Example:**
 ```python
 # Import the 'sqrt' function from the 'math' module
