@@ -51,4 +51,5 @@ finally:
 - Use `finally` for closing resources (files, DBs)
 - Avoid using `try` for control flow — use only when needed.
 
-> Most of the time, exceptions indicate a bug in your code that you need to fix. But sometimes exceptions can be expected and recovered from. For example, while reading text from files, if you specify a filename for a file that doesn’t exist, Python raises a `FileNotFoundError` exception. You might want to handle this exception by asking the user to enter the filename again rather than having this unhandled exception immediately crash your program.
+> Most of the time, exceptions indicate a bug in your code that you need to fix. But sometimes exceptions can be expected and recovered from.
+&nbsp;&nbsp;&nbsp;&nbsp;For example, while reading text from files, if you specify a filename for a file that doesn’t exist, Python raises a `FileNotFoundError` exception. You might want to handle this exception by asking the user to enter the filename again rather than having this unhandled exception immediately crash your program.
