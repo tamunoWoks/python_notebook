@@ -1,5 +1,6 @@
 ## enumerate()
-The enumerate() function in Python is a built-in function that adds a counter to an iterable (like a list, tuple, or string) and returns it as an enumerate object. This object can then be used in loops to access both the index and the value of each item in the iterable.  
+The enumerate() function in Python is a built-in function that adds a counter to an iterable (like a list, tuple, or string) and returns it as an enumerate object.  
+&nbsp;&nbsp;&nbsp;&nbsp;This object can then be used in loops to access both the index and the value of each item in the iterable.  
 
 The syntax for enumerate() is:  
 ```python
