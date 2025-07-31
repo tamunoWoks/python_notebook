@@ -12,10 +12,11 @@
 you’ll learn in this book.
 
 - **BOOLEAN VALUES:**  
-  The ***Boolean*** data type has only two values: **True** and **False**. (Boolean is capitalized because the data type is named after mathematician George Boole.)  
-  Note that these Boolean values don’t have quotes, because they are different from the string values 'True' and 'False'.
+&nbsp;&nbsp;&nbsp;&nbsp;The ***Boolean*** data type has only two values: **True** and **False**. (Boolean is capitalized because the data type is named after mathematician George Boole.)  
+&nbsp;&nbsp;&nbsp;&nbsp;Note that these Boolean values don’t have quotes, because they are different from the string values 'True' and 'False'.
   
-- Boolean operators `and`, `or` and `not` have an order of operations just like the math operators do. After any math and comparison operators evaluate, Python evaluates the `not` operators first, then the `and` operators, and then the `or` operators.
+- Boolean operators `and`, `or` and `not` have an order of operations just like the math operators do.
+&nbsp;&nbsp;&nbsp;&nbsp;After any math and comparison operators evaluate, Python evaluates the `not` operators first, then the `and` operators, and then the `or` operators.
 
 - **THE DIFFERENCE BETWEEN THE == AND = OPERATORS:**  
   The `==` operator (equal to) has two equal signs, while the `=` operator (assignment) has just one equal sign.
@@ -26,8 +27,9 @@ you’ll learn in this book.
 If you ever run a program that has a bug causing it to get stuck in an infinite loop, press CTRL-C. This will send a KeyboardInterrupt error to your program and cause it to stop immediately.
 
 - **“TRUTHY” AND “FALSEY” VALUES AND THE BOOL( ) FUNCTION:**  
-Conditions will consider some values in other data types equivalent to `True` or `False`. When used in conditions, 0, 0.0, and '' (the empty string) are considered `False`, while all other values are considered `True`.  
-If you want to know if a value is truthy or falsey, pass it to the bool() function:
+Conditions will consider some values in other data types equivalent to `True` or `False`.
+&nbsp;&nbsp;&nbsp;&nbsp;When used in conditions, 0, 0.0, and '' (the empty string) are considered `False`, while all other values are considered `True`.  
+&nbsp;&nbsp;&nbsp;&nbsp;If you want to know if a value is truthy or falsey, pass it to the bool() function:
 ```python
 bool(0) # = False
 bool(42) # =True
@@ -39,7 +41,7 @@ bool('') # =False
 
 - **range():**  
 The `range()` function in `for` loops has you specify the number that the loop goes up to, minus one.  
-In programming, ranges are often specified in a “closed, open” format that includes the starting number but excludes the ending number.
+&nbsp;&nbsp;&nbsp;&nbsp;In programming, ranges are often specified in a “closed, open” format that includes the starting number but excludes the ending number.
 
 - **Module names:**  
 When you save your Python scripts, take care not to give them a name that is used by one of Python’s modules, such as random.py, sys.py, os.py, or math.py.  
