@@ -52,5 +52,5 @@ When you save your Python scripts, take care not to give them a name that is use
 Some common Python names are `all`, `any`, `date`, `email`, `file`, `format`, `hash`, `id`, `input`, `list`, `min`, `max`, `object`, `open`, `random`, `set`, `str`, `sum`, `test`, and `type`.
 
 - **Deduplication:**  
-In general, you always want to avoid duplicating code, because if you ever decide to update the code (for example, because you find a bug you need to fix), you’ll have to remember to change the code in every place you copied it.
-As you gain programming experience, you’ll often find yourself deduplicating, which means getting rid of copied-and-pasted code. Deduplication makes your programs shorter, easier to read, and easier to update.
+In general, you always want to avoid duplicating code, because if you ever decide to update the code (for example, because you find a bug you need to fix), you’ll have to remember to change the code in every place you copied it.  
+&nbsp;&nbsp;&nbsp;&nbsp;As you gain programming experience, you’ll often find yourself deduplicating, which means getting rid of copied-and-pasted code. Deduplication makes your programs shorter, easier to read, and easier to update.
