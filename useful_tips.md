@@ -50,3 +50,6 @@ When you save your Python scripts, take care not to give them a name that is use
 &nbsp;&nbsp;&nbsp;&nbsp;This can lead to errors such as AttributeError: module 'random' has no attribute 'randint', since your random.py file doesn’t have the functions that the real random module has.  
 &nbsp;&nbsp;&nbsp;&nbsp; Don’t use the names of any built-in Python functions for your file or variable names, either.
 Some common Python names are `all`, `any`, `date`, `email`, `file`, `format`, `hash`, `id`, `input`, `list`, `min`, `max`, `object`, `open`, `random`, `set`, `str`, `sum`, `test`, and `type`.
+
+- **Deduplication:**
+In general, you always want to avoid duplicating code, because if you ever decide to update the code (for example, because you find a bug you need to fix), you’ll have to remember to change the code in every place you copied it.
