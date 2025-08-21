@@ -20,8 +20,11 @@ A bug can be anything that makes your program behave unexpectedly such as syntax
     - Run tests to confirm the bug is gone.
     - Check edge cases to ensure stability.
 
+> Your computer will do only what you tell it to do; it won’t read your mind and do what you intended it to do. Even professional programmers create bugs all the time, so don’t feel discouraged if your program has a problem. Fortunately, a few tools and techniques can identify exactly what your code is doing and where it’s going wrong.
+
 ### Common debugging techniques:
 - **Print debugging** – inserting print/logging statements to track variable values.
 - **Interactive debugger** – stepping through code line by line with tools like `pdb` in Python, or IDE debuggers.
 - **Rubber duck debugging** – explaining your code out loud (often reveals mistakes).
 - **Unit testing** – writing tests to catch bugs early.
+
