@@ -28,3 +28,4 @@ A bug can be anything that makes your program behave unexpectedly such as syntax
 - **Rubber duck debugging** – explaining your code out loud (often reveals mistakes).
 - **Unit testing** – writing tests to catch bugs early.
 
+> You can also make your programs raise custom exceptions to indicate errors. Two features that can help you detect bugs early are logging and assertions. In general, the earlier you catch bugs, the easier they will be to fix.
