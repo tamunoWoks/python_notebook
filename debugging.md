@@ -7,3 +7,6 @@ A bug can be anything that makes your program behave unexpectedly such as syntax
 1. **Identify the bug:**
     - Notice an error message, unexpected output, or crash.
     - Reproduce the problem consistently.
+2. **Isolate the cause:**
+    - Narrow down the part of the code causing the issue.
+    - Use tools like print statements, breakpoints, or debuggers to track the program flow.
