@@ -19,3 +19,9 @@ A bug can be anything that makes your program behave unexpectedly such as syntax
 5. **Test thoroughly:**
     - Run tests to confirm the bug is gone.
     - Check edge cases to ensure stability.
+
+### Common debugging techniques:
+- **Print debugging** – inserting print/logging statements to track variable values.
+- **Interactive debugger** – stepping through code line by line with tools like `pdb` in Python, or IDE debuggers.
+- **Rubber duck debugging** – explaining your code out loud (often reveals mistakes).
+- **Unit testing** – writing tests to catch bugs early.
