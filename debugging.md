@@ -83,3 +83,12 @@ An `assert` statement consists of the following:
 - A string to display when the condition is False.
 
 In plain English, an `assert` statement says, “I assert that the condition holds true, and if not, there is a bug somewhere, so immediately stop the program."
+
+**Example:**
+```python
+>>> ages = [26, 57, 92, 54, 22, 15, 17, 80, 47, 73]
+>>> ages.sort()
+>>> ages
+[15, 17, 22, 26, 47, 54, 57, 73, 80, 92]
+>>> assert ages[0] <= ages[-1] # Assert that the first age is <= the last age.
+```
