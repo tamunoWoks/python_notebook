@@ -75,8 +75,11 @@ except Exception as err:
 
 ## Assertions
 An assertion is a check to make sure your code isn’t doing something obviously wrong. We perform these checks with `assert` statements. If the check fails, the code raises an `AssertionError` exception.  
+
 An `assert` statement consists of the following:
 - The assert keyword
 - A condition (that is, an expression that evaluates to True or False)
 - A comma
-- A string to display when the condition is False
+- A string to display when the condition is False.
+
+In plain English, an `assert` statement says, “I assert that the condition holds true, and if not, there is a bug somewhere, so immediately stop the program."
