@@ -32,4 +32,9 @@ A bug can be anything that makes your program behave unexpectedly such as syntax
 
 ## Raising Exceptions
 Python raises an exception whenever it tries to execute invalid code. We can handle Python exceptions with `try` and `except` statements so that our program could recover from exceptions we anticipated. But we can also raise our own exceptions in our code.  
-&nbsp;&nbsp;&nbsp;&nbsp;Raising an exception is a way of saying, “Stop running this code, and move the program execution to the except statement.”
+&nbsp;&nbsp;&nbsp;&nbsp;Raising an exception is a way of saying, “Stop running this code, and move the program execution to the except statement.”  
+
+We raise exceptions with a `raise` statement, which consists of the following:
+• The `raise` keyword
+• A call to the `Exception()` function
+• A string with a helpful error message passed to the `Exception()` function
