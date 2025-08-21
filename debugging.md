@@ -104,3 +104,7 @@ Traceback (most recent call last):
 File "<stdin>", line 1, in <module>
 AssertionError
 ```
+### Tip:
+Unlike `exceptions`, your code should not handle `assert` statements with `try` and `except`; if an `assert` fails, your program should crash. By “failing fast” like this, you shorten the time between the original cause of the bug and the moment you first notice it, reducing the amount of code you’ll have to check before finding the bug’s cause.  
+&nbsp;&nbsp;&nbsp;&nbsp;Assertions are for programmer errors, not user errors. Assertions should fail only while the program is under development; a user should never see an assertion error in a finished program.  
+&nbsp;&nbsp;&nbsp;&nbsp;For errors that your program can encounter as a normal part of its operation (such as a file not being found or the user entering invalid data), raise an exception instead of detecting it with an assert statement.
