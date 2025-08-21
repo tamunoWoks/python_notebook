@@ -71,4 +71,12 @@ except Exception as err:
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;Here, we’ve defined a `box_print()` function that takes a character, a width, and a height, and uses the character to make a little picture of a box with that width and height, printed to the screen.  
 &nbsp;&nbsp;&nbsp;&nbsp;Say we want the function to accept a single character only, and we expect the width and height to be greater than 2. We add `if` statements to raise exceptions if these requirements aren’t satisfied. Later, when we call `box _print()` with various arguments, our `try/except` will handle invalid arguments.  
-&nbsp;&nbsp;&nbsp;&nbsp;This program uses the `except Exception` as `err` form of the `except` statement. If an `Exception` object is returned from `box_print()`, this `except` statement will store it in a variable named `err`. We can then convert the `Exception` object to a string by passing it to `str()` to produce a userfriendly error message.
+&nbsp;&nbsp;&nbsp;&nbsp;This program uses the `except Exception` as `err` form of the `except` statement. If an `Exception` object is returned from `box_print()`, this `except` statement will store it in a variable named `err`. We can then convert the `Exception` object to a string by passing it to `str()` to produce a userfriendly error message.  
+
+## Assertions
+An assertion is a check to make sure your code isn’t doing something obviously wrong. We perform these checks with `assert` statements. If the check fails, the code raises an `AssertionError` exception.  
+An `assert` statement consists of the following:
+- The assert keyword
+- A condition (that is, an expression that evaluates to True or False)
+- A comma
+- A string to display when the condition is False
