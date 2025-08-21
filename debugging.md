@@ -92,7 +92,7 @@ In plain English, an `assert` statement says, “I assert that the condition hol
 [15, 17, 22, 26, 47, 54, 57, 73, 80, 92]
 >>> assert ages[0] <= ages[-1] # Assert that the first age is <= the last age.
 ```
-The `assert` statement here asserts that the first item in ages should be less than or equal to the last one. This is a sanity check; if the code in `sort()` is bug-free and did its job, then the assertion would be true. Because the ages[0] <= ages[-1] expression evaluates to `True`, the `assert statement does nothing.  
+The `assert` statement here asserts that the first item in ages should be less than or equal to the last one. This is a sanity check; if the code in `sort()` is bug-free and did its job, then the assertion would be true. Because the ages[0] <= ages[-1] expression evaluates to `True`, the `assert` statement does nothing.  
 &nbsp;&nbsp;&nbsp;&nbsp;However, let’s pretend we had a bug in our code. Say we accidentally called the `reverse()` list method instead of the `sort()` list method. When we enter the following in the interactive shell, the `assert` statement raises an `AssertionError`:
 ```python
 >>> ages = [26, 57, 92, 54, 22, 15, 17, 80, 47, 73]
