@@ -16,3 +16,6 @@ A bug can be anything that makes your program behave unexpectedly such as syntax
 4. **Fix the bug:**
     - Correct the faulty code or logic.
     - Ensure the fix doesn’t break other parts of the program.
+5. **Test thoroughly:**
+    - Run tests to confirm the bug is gone.
+    - Check edge cases to ensure stability.
