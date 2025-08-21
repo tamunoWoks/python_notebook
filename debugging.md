@@ -13,3 +13,6 @@ A bug can be anything that makes your program behave unexpectedly such as syntax
 3. **Understand the error:**
     - Check what the code was supposed to do vs. what it’s actually doing.
     - Look for mistakes in logic, data types, conditions, or external dependencies.
+4. **Fix the bug:**
+    - Correct the faulty code or logic.
+    - Ensure the fix doesn’t break other parts of the program.
