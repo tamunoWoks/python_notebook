@@ -40,4 +40,32 @@ We raise exceptions with a `raise` statement, which consists of the following:
 - A string with a helpful error message passed to the `Exception()` function.
 
 If no `try` and `except` statements cover the `raise` statement that raised the exception, the program simply crashes and displays the exception’s error message.  
-&nbsp;&nbsp;&nbsp;&nbsp;Often, it’s the code that calls the function containing a `raise` statement, rather than the function itself, that knows how to handle an exception. That means you’ll commonly see a `raise` statement inside a function, and the `try` and `except` statements in the code calling the function.
+&nbsp;&nbsp;&nbsp;&nbsp;Often, it’s the code that calls the function containing a `raise` statement, rather than the function itself, that knows how to handle an exception. That means you’ll commonly see a `raise` statement inside a function, and the `try` and `except` statements in the code calling the function.  
+
+**Example:**
+```python
+def box_print(symbol, width, height):
+    if len(symbol) != 1:
+        raise Exception('Symbol must be a single character string.')
+    if width <= 2:
+        raise Exception('Width must be greater than 2.')
+    if height <= 2:
+        raise Exception('Height must be greater than 2.')
+
+    print(symbol * width)
+    for i in range(height - 2):
+        print(symbol + (' ' * (width - 2)) + symbol)
+    print(symbol * width)
+
+try:
+    box_print('*', 4, 4)
+    box_print('O', 20, 5)
+    box_print('x', 1, 3)
+    box_print('ZZ', 3, 3)
+except Exception as err:
+    print('An exception happened: ' + str(err))
+try:
+    box_print('ZZ', 3, 3)
+except Exception as err:
+    print('An exception happened: ' + str(err))
+```
