@@ -35,6 +35,9 @@ Python raises an exception whenever it tries to execute invalid code. We can han
 &nbsp;&nbsp;&nbsp;&nbsp;Raising an exception is a way of saying, “Stop running this code, and move the program execution to the except statement.”  
 
 We raise exceptions with a `raise` statement, which consists of the following:
-• The `raise` keyword
-• A call to the `Exception()` function
-• A string with a helpful error message passed to the `Exception()` function
+- The `raise` keyword
+- A call to the `Exception()` function
+- A string with a helpful error message passed to the `Exception()` function.
+
+If no `try` and `except` statements cover the `raise` statement that raised the exception, the program simply crashes and displays the exception’s error message.  
+&nbsp;&nbsp;&nbsp;&nbsp;Often, it’s the code that calls the function containing a `raise` statement, rather than the function itself, that knows how to handle an exception. That means you’ll commonly see a `raise` statement inside a function, and the `try` and `except` statements in the code calling the function.
