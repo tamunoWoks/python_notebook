@@ -109,5 +109,6 @@ Unlike `exceptions`, your code should not handle `assert` statements with `try` 
 &nbsp;&nbsp;&nbsp;&nbsp;Assertions are for programmer errors, not user errors. Assertions should fail only while the program is under development; a user should never see an assertion error in a finished program.  
 &nbsp;&nbsp;&nbsp;&nbsp;For errors that your program can encounter as a normal part of its operation (such as a file not being found or the user entering invalid data), raise an exception instead of detecting it with an assert statement.
 
-# Logging
-When you put a `print()` function in your code to output some variable’s value while your program is running, you’ve used a form of logging to debug your code.
+## Logging
+When you put a `print()` function in your code to output some variable’s value while your program is running, you’ve used a form of logging to debug your code.Logging is a great way to understand what’s happening in your program and in what order it’s happening.  
+&nbsp;&nbsp;&nbsp;&nbsp;Python’s logging module makes it easy to create a record of custom messages that you write. These log messages will describe when the program execution has reached the logging function call and will list any variables you’ve specified at that point in time, providing a trail of breadcrumbs that can help you figure out when things started to go wrong. On the other hand, a missing log message indicates a part of the code was skipped and never executed.
