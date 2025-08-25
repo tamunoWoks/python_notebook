@@ -115,7 +115,11 @@ When you put a `print()` function in your code to output some variable’s value
 ### The `logging` Module:
 To enable the `logging` module to display log messages on your screen as your program runs, you will need the following to the top of your program:
 ```python
- import logging
- logging.basicConfig(level=logging.DEBUG, format='%(asctime)s -  %(levelname)s -  %(message)s')
- logging.debug('Start of program')
+import logging
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='%(asctime)s -  %(levelname)s -  %(message)s'
+)
+logging.debug('Start of program')
 ```
+The `logging` module’s `basicConfig()` function lets you specify what details you want to see and how you want those details displayed.
