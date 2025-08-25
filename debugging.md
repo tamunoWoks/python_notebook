@@ -111,4 +111,6 @@ Unlike `exceptions`, your code should not handle `assert` statements with `try` 
 
 ## Logging
 When you put a `print()` function in your code to output some variable’s value while your program is running, you’ve used a form of logging to debug your code.Logging is a great way to understand what’s happening in your program and in what order it’s happening.  
-&nbsp;&nbsp;&nbsp;&nbsp;Python’s logging module makes it easy to create a record of custom messages that you write. These log messages will describe when the program execution has reached the logging function call and will list any variables you’ve specified at that point in time, providing a trail of breadcrumbs that can help you figure out when things started to go wrong. On the other hand, a missing log message indicates a part of the code was skipped and never executed.
+&nbsp;&nbsp;&nbsp;&nbsp;Python’s logging module makes it easy to create a record of custom messages that you write. These log messages will describe when the program execution has reached the logging function call and will list any variables you’ve specified at that point in time, providing a trail of breadcrumbs that can help you figure out when things started to go wrong. On the other hand, a missing log message indicates a part of the code was skipped and never executed.  
+### The `logging` Module:
+To enable the `logging` module to display log messages on your screen as your program runs, you will need the following to the top of your program
