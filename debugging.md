@@ -153,4 +153,5 @@ Heads came up 490 times.
 ```
 If you ran this program under the debugger, you would have to click the Step Over button thousands of times before the program terminated. If you were interested in the value of heads at the halfway point of the program’s execution, when 500 of 1,000 coin flips have been completed, you could instead just set a breakpoint on the line print('Halfway done!').  
 &nbsp;&nbsp;&nbsp;&nbsp;To set a breakpoint, click the line number in the file editor. This should cause a red dot to appear, marking the breakpoint.  
-&nbsp;&nbsp;&nbsp;&nbsp;Note that you wouldn’t want to set a breakpoint on the if statement line, as the if statement executes on every single iteration through the loop. When you set the breakpoint on the code in the if statement, the debugger breaks only when the execution enters the if clause.
+&nbsp;&nbsp;&nbsp;&nbsp;Note that you wouldn’t want to set a breakpoint on the if statement line, as the if statement executes on every single iteration through the loop. When you set the breakpoint on the code in the if statement, the debugger breaks only when the execution enters the if clause.  
+&nbsp;&nbsp;&nbsp;&nbsp;If you want to remove a breakpoint, click the line number again. The red dot will go away, and the debugger won’t break on that line in the future.
