@@ -146,3 +146,8 @@ for i in range(1, 1001):
         print('Halfway done!')
 print('Heads came up ' + str(heads) + ' times.')
 ```
+The random.randint(0, 1) call will return 0 half of the time and 1 the other half of the time, simulating a 50/50 coin flip where 1 represents heads. When you run this program, it quickly outputs something like the following:
+```txt
+Halfway done!
+Heads came up 490 times.
+```
