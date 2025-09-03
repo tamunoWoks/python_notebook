@@ -130,3 +130,5 @@ import logging
 logging.basicConfig(filename='myProgramLog.txt', level=logging.DEBUG,
 format=' %(asctime)s - %(levelname)s - %(message)s')
 ```
+This code will save the log messages to myProgramLog.txt.
+&nbsp;&nbsp;&nbsp;&nbsp;While logging messages are helpful, they can clutter your screen and make it hard to read the program’s output. Writing the logging messages to a file will keep your screen clear and enable you to read the messages after running the program. You can open this text file in any text editor, such as Notepad or TextEdit.
