@@ -151,3 +151,4 @@ The random.randint(0, 1) call will return 0 half of the time and 1 the other hal
 Halfway done!
 Heads came up 490 times.
 ```
+If you ran this program under the debugger, you would have to click the Step Over button thousands of times before the program terminated. If you were interested in the value of heads at the halfway point of the program’s execution, when 500 of 1,000 coin flips have been completed, you could instead just set a breakpoint on the line print('Halfway done!').
