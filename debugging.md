@@ -123,3 +123,5 @@ logging.basicConfig(
 logging.debug('Start of program')
 ```
 The `logging` module’s `basicConfig()` function lets you specify what details you want to see and how you want those details displayed.
+### Logfiles:
+Instead of displaying the log messages to the screen, you can write them to a text file. The logging.basicConfig() function takes a filename named parameter, like so:
