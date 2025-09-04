@@ -28,3 +28,19 @@ Say you have the list `['cat', 'bat', 'rat', 'elephant']` stored in a variable n
 &nbsp;&nbsp;&nbsp;&nbsp;The integer inside the square brackets that follows the list is called an **INDEX**.  
 The first value in the list is at `index 0`, the second value is at `index 1`, the third value is at `index 2`, and so on.  
 > Note that because the first index is `0`, the last index is the size of the list minus one. So, a list of four items has `3` as its last index.
+
+#### Example
+```python
+spam = ['cat', 'bat', 'rat', 'elephant']
+
+spam[0] # 'cat'
+spam[1] # 'bat'
+spam[2] # 'rat'
+spam[3] # 'elephant'
+
+['cat', 'bat', 'rat', 'elephant'][3] # 'elephant'
+
+'Hello, ' + spam[0] # 'Hello, cat'
+
+'The ' + spam[1] + ' ate the ' + spam[0] + '.' # 'The bat ate the cat.'
+```
