@@ -114,3 +114,13 @@ spam = ['cat', 'dog', 'moose']
 len(spam) # 3
 ```
 This behavior is similar to how the function counts the number of characters in a string value.
+
+### Value Updates
+Normally, a variable name goes on the left side of an assignment statement, as in spam = 42. However, you can also use an index of a list to change the value at that index:
+```python
+spam = ['cat', 'bat', 'rat', 'elephant']
+
+spam[1] = 'aardvark' # spam = ['cat', 'aardvark', 'rat', 'elephant']
+spam[2] = spam[1] # spam = ['cat', 'aardvark', 'aardvark', 'elephant']
+spam[-1] = 12345 # spam = ['cat', 'aardvark', 'aardvark', 12345]
+```
