@@ -115,7 +115,7 @@ len(spam) # 3
 ```
 This behavior is similar to how the function counts the number of characters in a string value.
 
-### Value Updates
+### Value Updates:
 Normally, a variable name goes on the left side of an assignment statement, as in spam = 42. However, you can also use an index of a list to change the value at that index:
 ```python
 spam = ['cat', 'bat', 'rat', 'elephant']
@@ -124,3 +124,15 @@ spam[1] = 'aardvark' # spam = ['cat', 'aardvark', 'rat', 'elephant']
 spam[2] = spam[1] # spam = ['cat', 'aardvark', 'aardvark', 'elephant']
 spam[-1] = 12345 # spam = ['cat', 'aardvark', 'aardvark', 12345]
 ```
+
+### Concatenation and Replication:
+You can concatenate and replicate lists with the + and * operators, just like strings:
+```python
+[1, 2, 3] + ['A', 'B', 'C'] # [1, 2, 3, 'A', 'B', 'C']
+
+['X', 'Y', 'Z'] * 3 # ['X', 'Y', 'Z', 'X', 'Y', 'Z', 'X', 'Y', 'Z']
+
+spam = [1, 2, 3]
+spam = spam + ['A', 'B', 'C'] # [1, 2, 3, 'A', 'B', 'C']
+```
+The `+` operator combines two lists to create a new list value, and the `*` operator combines a list and an integer value to replicate the list.
