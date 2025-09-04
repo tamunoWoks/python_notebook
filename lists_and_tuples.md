@@ -83,4 +83,13 @@ Just as an index can get a single value from a list, a slice can get several val
 
 Notice the difference between indexes and slices:
   - `spam[2]` is a list with an index (one integer).
-  - `spam[1:4]` is a list with a slice (two integers).
+  - `spam[1:4]` is a list with a slice (two integers).  
+
+In a slice, the first integer is the index where the slice starts. The second integer is the index where the slice ends. The list created from a slice will go up to, but will not include, the value at the second index. For example:
+```python
+spam = ['cat', 'bat', 'rat', 'elephant']
+
+spam[0:4] # ['cat', 'bat', 'rat', 'elephant']
+spam[1:3] # ['bat', 'rat']
+spam[0:-1] # ['cat', 'bat', 'rat']
+```
