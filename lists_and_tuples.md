@@ -66,7 +66,7 @@ spam[1][4] # 50
 ```
 The first index dictates which list value to use, and the second indicates the value within the list value.
 
-### Negative Indexes
+### Negative Indexes:
 While indexes start at `0` and go up, you can also use negative integers for the index. For example:
 ```python
 spam = ['cat', 'bat', 'rat', 'elephant']
