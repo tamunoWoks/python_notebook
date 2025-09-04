@@ -178,3 +178,19 @@ spam = ['hello', 'hi', 'howdy', 'heyas']
 'howdy' not in spam # False
 'cat' not in spam # True
 ```
+The following program lets the user enter a pet name and then checks whether the name is in a list of pets.
+```python
+my_pets = ['Zophie', 'Pooka', 'Fat-tail']
+print('Enter a pet name:')
+name = input()
+if name not in my_pets:
+  print('I do not have a pet named ' + name)
+else:
+  print(name + ' is my pet.')
+```
+The output may look something like this:
+```txt
+Enter a pet name:
+`Footfoot`
+I do not have a pet named Footfoot
+```
