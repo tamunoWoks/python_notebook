@@ -221,7 +221,7 @@ ValueError: not enough values to unpack (expected 4, got 3)
 ```
 ### List Item Enumeration:
 Instead of using the `range(len(some_list))` technique with a `for loop` to obtain the integer index of the items in the list, you can call the `enumerate()` function.  
-On each iteration of the loop, `enumerate()` will return two values: the `index` of the item in the list, and the `item` in the list itself.  
+&nbsp;&nbsp;&nbsp;&nbsp;On each iteration of the loop, `enumerate()` will return two values: the `index` of the item in the list, and the `item` in the list itself.  
 For example, this code is equivalent to the code in “Using `for` Loops with Lists”
 ```python
 supplies = ['pens', 'staplers', 'flamethrowers', 'binders']
