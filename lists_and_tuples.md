@@ -286,4 +286,16 @@ There are augmented assignment operators for the `+`, `-`, `*`, `/`, and `% oper
 | spam /= 1                      | spam = spam / 1                 |
 | spam %= 1                      | spam = spam % 1                 |
 
-The `+=` operator can also do string and list concatenation and the `*=` operator can do string and list replication.
+#### Note:
+The `+=` operator can also do string and list concatenation and the `*=` operator can do string and list replication. For example:
+```python
+spam = 'Hello,'
+
+spam += ' world!' # spam = 'Hello, world!'
+
+bacon = ['Zophie']
+pie = ['Scoobie']
+
+bacon *= 3 # bacon = ['Zophie', 'Zophie', 'Zophie']
+bacon += pie # bacon = ['Zophie', 'Scoobie']
+```
