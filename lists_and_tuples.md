@@ -65,3 +65,15 @@ spam[0][1] # 'bat'
 spam[1][4] # 50
 ```
 The first index dictates which list value to use, and the second indicates the value within the list value.
+
+### Negative Indexes
+While indexes start at `0` and go up, you can also use negative integers for the index. For example:
+```python
+spam = ['cat', 'bat', 'rat', 'elephant']
+
+spam[-1] # 'elephant' > The last index
+spam[-3] # 'bat' > The third to last index
+
+'The ' + spam[-1] + ' is afraid of the ' + spam[-3] + '.' # 'The elephant is afraid of the bat.'
+```
+The integer value `-1` refers to the last index in a list, the value `-2` refers to the second to last index in a list, and so on.
