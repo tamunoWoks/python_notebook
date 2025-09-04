@@ -151,4 +151,4 @@ In practice, you almost never need to delete simple variables, however, and the 
 ## Working with Lists
 When you first begin writing programs, you may be tempted to create many individual variables to store a group of similar values. It turns out that this is a bad way to write code. For one thing, if the number of values changes , your program
 will never be able to store more cats than you have variables.  
-Instead of using multiple, repetitive variables, you can use a single variable that contains a list value. The benefit of using a list is that your data is now in a structure, so your program can process the data much more flexibly than it could with several repetitive variables.
+&nbsp;&nbsp;&nbsp;&nbsp;Instead of using multiple, repetitive variables, you can use a single variable that contains a list value. The benefit of using a list is that your data is now in a structure, so your program can process the data much more flexibly than it could with several repetitive variables.
