@@ -6,4 +6,4 @@ A list is a value that contains multiple values in an ordered sequence. The term
 > A list value looks like this: `['cat', 'bat', 'rat', 'elephant']`.
 
 Just as string values use quotation marks to mark where the string begins and ends, a list begins with an opening square bracket and ends with a closing square bracket, [ ].  
-&nbsp;&nbsp;&nbsp;&nbsp;We call values inside the list `items`. Items are separated with commas (that is, they are comma-delimited).
+> We call values inside the list `items`. Items are separated with commas (that is, they are comma-delimited).
