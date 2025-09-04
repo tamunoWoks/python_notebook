@@ -16,7 +16,9 @@ Just as string values use quotation marks to mark where the string begins and en
 
 ['hello', 3.1415, True, None, 42] # A list of several values
 
-spam = ['cat', 'bat', 'rat', 'elephant'] # A list value assigned to a variable
+spam = ['cat', 'bat', 'rat', 'elephant'] # A list assigned to a variable
 
 empty = [] # An empty list assigned to a variable
 ```
+The spam variable 1 is assigned only one value: the list value. But the list value itself contains other values.  
+> Note that the value [] is an empty list that contains no values, similar to '', the empty string.
