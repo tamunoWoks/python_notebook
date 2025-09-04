@@ -7,3 +7,16 @@ A list is a value that contains multiple values in an ordered sequence. The term
 
 Just as string values use quotation marks to mark where the string begins and ends, a list begins with an opening square bracket and ends with a closing square bracket, [ ].  
 > We call values inside the list `items`. Items are separated with commas (that is, they are comma-delimited).
+
+##### Example
+```python
+[1, 2, 3] # A list of three integers
+
+['cat', 'bat', 'rat', 'elephant'] # A list of four strings
+
+['hello', 3.1415, True, None, 42] # A list of several values
+
+spam = ['cat', 'bat', 'rat', 'elephant'] # A list value assigned to a variable
+
+empty = [] # An empty list assigned to a variable
+```
