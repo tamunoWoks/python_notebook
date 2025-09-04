@@ -126,7 +126,7 @@ spam[-1] = 12345 # spam = ['cat', 'aardvark', 'aardvark', 12345]
 ```
 
 ### Concatenation and Replication:
-You can concatenate and replicate lists with the + and * operators, just like strings:
+You can concatenate and replicate lists with the `+` and `*` operators, just like strings:
 ```python
 [1, 2, 3] + ['A', 'B', 'C'] # [1, 2, 3, 'A', 'B', 'C']
 
@@ -136,3 +136,14 @@ spam = [1, 2, 3]
 spam = spam + ['A', 'B', 'C'] # [1, 2, 3, 'A', 'B', 'C']
 ```
 The `+` operator combines two lists to create a new list value, and the `*` operator combines a list and an integer value to replicate the list.
+
+### del Statements:
+The `del` statement will delete values at an index in a list. All of the values in the list after the deleted value will be moved up one index. For example:
+```python
+spam = ['cat', 'bat', 'rat', 'elephant']
+
+del spam[2] # spam = ['cat', 'bat', 'elephant']
+del spam[2] # spam = ['cat', 'bat']
+```
+The `del` statement can also operate on a simple variable to delete it, as if it were an “unassignment” statement. If you try to use the variable after deleting it, you’ll get a `NameError` error because the variable no longer exists.  
+In practice, you almost never need to delete simple variables, however, and the `del` statement is most useful for deleting values from lists.
