@@ -209,3 +209,13 @@ you could enter this line of code:
 cat = ['fat', 'gray', 'loud']
 size, color, disposition = cat
 ```
+The number of variables and the length of the list must be exactly equal, or Python will give you a ValueError:
+```python
+cat = ['fat', 'gray', 'loud']
+size, color, disposition, name = cat
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    size, color, disposition, name = cat
+ValueError: not enough values to unpack (expected 4, got 3)
+```
