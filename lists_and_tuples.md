@@ -44,3 +44,13 @@ spam[3] # 'elephant'
 
 'The ' + spam[1] + ' ate the ' + spam[0] + '.' # 'The bat ate the cat.'
 ```
+> Python will give you an `IndexError` error message if you use an index that exceeds the number of values in your list value:
+```python
+spam = ['cat', 'bat', 'rat', 'elephant']
+
+spam[10000]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    spam[10000]
+IndexError: list index out of range
+```
