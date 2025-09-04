@@ -191,6 +191,7 @@ else:
 The output may look something like this:
 ```txt
 Enter a pet name:
-`Footfoot`
+Footfoot
 I do not have a pet named Footfoot
 ```
+> Keep in mind that the `not in` operator is distinct from the Boolean `not` operator.
