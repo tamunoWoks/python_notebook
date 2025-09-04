@@ -264,3 +264,10 @@ random.shuffle(people) # people = ['Alice', 'David', 'Bob', 'Carol']
 ```
 This function modifies the list in place, rather than returning a new list.
 
+## Augmented Assignment Operators
+The `+` and `*` operators that work with strings also work with lists, so let’s take a short detour to learn about augmented assignment operators.
+&nbsp;&nbsp;&nbsp;&nbsp;When assigning a value to a variable, you’ll frequently use the variable itself. For example, after assigning `42` to the variable `spam`, you would increase the value in `spam` by `1` with the following code:
+```python
+spam = 42
+spam = spam + 1 # spam = 43
+```
