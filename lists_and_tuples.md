@@ -105,3 +105,12 @@ spam[:] # ['cat', 'bat', 'rat', 'elephant']
 ```
 Leaving out the first index is the same as using `0`, or the beginning of the list.  
 Leaving out the second index is the same as using the length of the list, which will slice to the end of the list.
+
+### The len() Function:
+The len() function will return the number of values in a list value passed to it. For example:
+```python
+spam = ['cat', 'dog', 'moose']
+
+len(spam) # 3
+```
+This behavior is similar to how the function counts the number of characters in a string value.
