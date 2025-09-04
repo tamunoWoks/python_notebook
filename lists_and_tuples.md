@@ -44,7 +44,8 @@ spam[3] # 'elephant'
 
 'The ' + spam[1] + ' ate the ' + spam[0] + '.' # 'The bat ate the cat.'
 ```
-> Python will give you an `IndexError` error message if you use an index that exceeds the number of values in your list value:
+#### Note
+Python will give you an `IndexError` error message if you use an index that exceeds the number of values in your list value:
 ```python
 spam = ['cat', 'bat', 'rat', 'elephant']
 
@@ -54,3 +55,13 @@ Traceback (most recent call last):
     spam[10000]
 IndexError: list index out of range
 ```
+#### Note
+Lists can also contain other list values. You can access the values in these lists of lists using multiple indexes, like so:
+```python
+spam = [['cat', 'bat'], [10, 20, 30, 40, 50]]
+
+spam[0] # ['cat', 'bat']
+spam[0][1] # 'bat'
+spam[1][4] # 50
+```
+The first index dictates which list value to use, and the second indicates the value within the list value.
