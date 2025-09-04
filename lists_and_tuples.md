@@ -276,3 +276,14 @@ As a shortcut, you can use the augmented assignment operator `+=` (which is the 
 spam = 42
 spam += 1 # spam = 43
 ```
+There are augmented assignment operators for the `+`, `-`, `*`, `/`, and `% operators, described in the table below:  
+
+| Augmented assignment statement | Equivalent assignment statement |
+|:-------------------------------|:--------------------------------|
+| spam += 1                      | spam = spam + 1                 |
+| spam -= 1                      | spam = spam - 1                 |
+| spam *= 1                      | spam = spam * 1                 |
+| spam /= 1                      | spam = spam / 1                 |
+| spam %= 1                      | spam = spam % 1                 |
+
+The `+=` operator can also do string and list concatenation and the `*=` operator can do string and list replication.
