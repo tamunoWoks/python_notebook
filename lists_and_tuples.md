@@ -94,3 +94,14 @@ spam[0:4] # ['cat', 'bat', 'rat', 'elephant']
 spam[1:3] # ['bat', 'rat']
 spam[0:-1] # ['cat', 'bat', 'rat']
 ```
+#### Note
+As a shortcut, you can leave out one or both of the indexes on either side of the colon in the slice:
+```python
+spam = ['cat', 'bat', 'rat', 'elephant']
+
+spam[:2] # ['cat', 'bat']
+spam[1:] # ['bat', 'rat', 'elephant']
+spam[:] # ['cat', 'bat', 'rat', 'elephant']
+```
+Leaving out the first index is the same as using `0`, or the beginning of the list.  
+Leaving out the second index is the same as using the length of the list, which will slice to the end of the list.
