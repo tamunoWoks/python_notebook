@@ -195,3 +195,17 @@ Footfoot
 I do not have a pet named Footfoot
 ```
 > Keep in mind that the `not in` operator is distinct from the Boolean `not` operator.
+
+### The Multiple Assignment Trick:
+The multiple assignment trick (technically called `tuple unpacking`) is a shortcut that lets you assign multiple variables with the values in a list in one line of code. So, instead of doing this:
+```python
+cat = ['fat', 'gray', 'loud']
+size = cat[0]
+color = cat[1]
+disposition = cat[2]
+```
+you could enter this line of code:
+```python
+cat = ['fat', 'gray', 'loud']
+size, color, disposition = cat
+```
