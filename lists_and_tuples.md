@@ -234,3 +234,19 @@ for index, item in enumerate(supplies):
 # Index 3 in supplies is: binders
 ```
 The `enumerate()` function is useful if you need both the `item` and the item’s `index` in the loop’s block.
+
+### Random Selection and Ordering:
+The `random` module has a couple of functions that accept lists for arguments. 
+#### `random.choice()`:
+The `random.choice()` function will return a randomly selected item from the list. For example:
+```python
+import random
+
+pets = ['Dog', 'Cat', 'Moose']
+
+random.choice(pets) # 'Moose'
+random.choice(pets) # 'Cat'
+random.choice(pets) # 'Cat'
+random.choice(pets) # 'Dog'
+```
+You can consider `random.choice(some_list)` to be a shorter form of `someList[random.randint(0, len(some_list) – 1]`.
