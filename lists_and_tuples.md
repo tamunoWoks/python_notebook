@@ -271,3 +271,8 @@ The `+` and `*` operators that work with strings also work with lists, so let’
 spam = 42
 spam = spam + 1 # spam = 43
 ```
+As a shortcut, you can use the augmented assignment operator `+=` (which is the regular operator followed by one equal sign) to do the same thing:
+```python
+spam = 42
+spam += 1 # spam = 43
+```
