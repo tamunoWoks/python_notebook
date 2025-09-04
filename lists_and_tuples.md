@@ -171,5 +171,10 @@ Using `range(len(supplies))` is handy because the code in the loop can access th
 ### The `in` and `not in` Operators:
 You can determine whether a value is or isn’t in a list with the `in` and `not in` operators. Like other operators, `in` and `not in` occur in expressions and connect two values: a value to look for in a list and the list where it may be found. These expressions will evaluate to a Boolean value. For example:
 ```python
+'howdy' in ['hello', 'hi', 'howdy', 'heyas'] # True
 
+spam = ['hello', 'hi', 'howdy', 'heyas']
+'cat' in spam # False
+'howdy' not in spam # False
+'cat' not in spam # True
 ```
