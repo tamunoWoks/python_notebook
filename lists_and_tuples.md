@@ -250,3 +250,14 @@ random.choice(pets) # 'Cat'
 random.choice(pets) # 'Dog'
 ```
 You can consider `random.choice(some_list)` to be a shorter form of `someList[random.randint(0, len(some_list) – 1]`.
+#### `random.shuffle()`:
+The `random.shuffle()` function will reorder the items in a list in place. For example:
+```python
+import random
+
+people = ['Alice', 'Bob', 'Carol', 'David']
+
+random.shuffle(people) # people = ['Carol', 'David', 'Alice', 'Bob']
+random.shuffle(people) # people = ['Alice', 'David', 'Bob', 'Carol']
+```
+This function modifies the list in place, rather than returning a new list.
