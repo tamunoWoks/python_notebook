@@ -152,3 +152,18 @@ In practice, you almost never need to delete simple variables, however, and the 
 When you first begin writing programs, you may be tempted to create many individual variables to store a group of similar values. It turns out that this is a bad way to write code. For one thing, if the number of values changes , your program
 will never be able to store more cats than you have variables.  
 &nbsp;&nbsp;&nbsp;&nbsp;Instead of using multiple, repetitive variables, you can use a single variable that contains a list value. The benefit of using a list is that your data is now in a structure, so your program can process the data much more flexibly than it could with several repetitive variables.
+
+### `for` loops and Lists:
+Technically, a `for` loop repeats the code block once for each item in a list value. A common Python technique is to use `range(len(some_list))` with a `for` loop to iterate over the indexes of a list. For example:
+```python
+supplies = ['pens', 'staplers', 'flamethrowers', 'binders']
+
+for i in range(len(supplies)):
+  print('Index ' + str(i) + ' in supplies is: ' + supplies[i])
+"""
+Index 0 in supplies is: pens
+Index 1 in supplies is: staplers
+Index 2 in supplies is: flamethrowers
+Index 3 in supplies is: binders
+"""
+```
