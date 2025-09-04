@@ -167,3 +167,9 @@ for i in range(len(supplies)):
 # Index 3 in supplies is: binders
 ```
 Using `range(len(supplies))` is handy because the code in the loop can access the index (as the variable `i`) and the value at that index (as `supplies[i]`). Best of all, `range(len(supplies))` will iterate through all the indexes of supplies, no matter how many items the list contains.
+
+### The `in` and `not in` Operators:
+You can determine whether a value is or isn’t in a list with the `in` and `not in` operators. Like other operators, `in` and `not in` occur in expressions and connect two values: a value to look for in a list and the list where it may be found. These expressions will evaluate to a Boolean value. For example:
+```python
+
+```
