@@ -77,3 +77,9 @@ spam[-3] # 'bat' > The third to last index
 'The ' + spam[-1] + ' is afraid of the ' + spam[-3] + '.' # 'The elephant is afraid of the bat.'
 ```
 The integer value `-1` refers to the last index in a list, the value `-2` refers to the second to last index in a list, and so on.
+
+### Slices:
+Just as an index can get a single value from a list, a slice can get several values from a list, in the form of a new list. We enter a slice between square brackets, like an index, but include two integers separated by a colon.
+> Notice the difference between indexes and slices:
+  - `spam[2]` is a list with an index (one integer).
+  - `spam[1:4]` is a list with a slice (two integers).
