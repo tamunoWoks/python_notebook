@@ -20,5 +20,5 @@ spam = ['cat', 'bat', 'rat', 'elephant'] # A list assigned to a variable
 
 empty = [] # An empty list assigned to a variable
 ```
-The spam variable 1 is assigned only one value: the list value. But the list value itself contains other values.  
-> Note that the value [] is an empty list that contains no values, similar to '', the empty string.
+The spam variable is assigned only one value: the list value. But the list value itself contains other values.  
+> Note that the value [ ] is an empty list that contains no values, similar to '', the empty string.
