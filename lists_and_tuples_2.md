@@ -50,7 +50,7 @@ for i in name:
 You can do all the same things with sequence values that you can do with lists: indexing, slicing, for loops, `len()`, and the  `in` and  `not` in operators.
 
 ###  Mutable and Immutable Data Types:
-Lists and strings differ in an important way. A list value is a `mutable` data type: you can add, remove, or change its values. However, a string is `immutable`: it cannot be changed. Trying to reassign a single character in a string results in a `TypeError` error. For example:
+Lists and strings differ in an important way. A list value is a *mutable* data type: you can add, remove, or change its values. However, a string is *immutable*: it cannot be changed. Trying to reassign a single character in a string results in a `TypeError` error. For example:
 ```python
 name = 'Zophie a cat'
 name[7] = 'the'
@@ -58,4 +58,12 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
     name[7] = 'the'
 TypeError: 'str' object does not support item assignment
+```
+The proper way to “mutate” a string is to use slicing and concatenation to build a *new* string by copying from parts of the old string:
+```python
+name = 'Zophie a cat'
+
+new_name = name[0:7] + 'the' + name[8:12]
+name # 'Zophie a cat'
+new_name # 'Zophie the cat
 ```
