@@ -111,3 +111,16 @@ Traceback (most recent call last):
 TypeError: 'tuple' object does not support item assignment
 ```
 You can use tuples to convey to anyone reading your code that you don’t intend for that sequence of values to change. If you need an ordered sequence of values that never changes, use a tuple. A second benefit of using tuples instead of lists is that, because they’re immutable and their contents don’t change, Python can implement optimizations that make code using tuples slightly faster than code using lists.
+
+### List and Tuple Type Conversion:
+Just as `str(42)` will return `'42'`, the string representation of the integer 42, the functions  `list()` and `tuple()` will return list and tuple versions of the values passed to them. For example:
+```python
+tuple(['cat', 'dog', 5]) # ('cat', 'dog', 5)
+
+list(('cat', 'dog', 5)) # ['cat', 'dog', 5]
+
+list('hello') # ['h', 'e', 'l', 'l', 'o']
+
+tuple('hello) # ('h', 'e', 'l', 'l', 'o')
+```
+Converting a tuple to a list is handy if you need a mutable version of a tuple value.
