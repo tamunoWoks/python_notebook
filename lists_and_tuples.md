@@ -321,3 +321,10 @@ Traceback (most recent call last):
     spam .index('howdy howdy howdy')
 ValueError: 'howdy howdy howdy' is not in list
 ```
+#### Note:
+When the list contains duplicates of the value, the method returns the index of its first appearance:
+```python
+spam = ['Zophie', 'Pooka', 'Fat-tail', 'Pooka']
+
+spam .index('Pooka') # 1
+```
