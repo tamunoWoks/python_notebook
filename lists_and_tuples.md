@@ -326,5 +326,14 @@ When the list contains duplicates of the value, the method returns the index of 
 ```python
 spam = ['Zophie', 'Pooka', 'Fat-tail', 'Pooka']
 
-spam .index('Pooka') # 1
+spam.index('Pooka') # 1
+```
+
+### Adding Values:
+ To add new values to a list, use the `append()` and `insert()` methods. The `append()` method adds the argument to the end of the list:
+```python
+spam = ['cat', 'dog', 'bat']
+
+spam.append('moose')
+spam # ['cat', 'dog', 'bat', 'moose']
 ```
