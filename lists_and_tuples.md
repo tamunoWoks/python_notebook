@@ -390,3 +390,21 @@ spam = ['Ants', 'Cats', 'Dogs', 'Badgers', 'Elephants']
 spam.sort(reverse=True)
 spam # ['Elephants', 'Dogs', 'Cats', 'Badgers', 'Ants'
 ```
+#### Note:
+Three things about the `sort()` method:
+- First, it sorts the list in place; don’t try to capture the return value by writing code like spam = spam.sort().
+- Second, you can’t sort lists that have both number values and string values in them, as Python doesn’t know how to compare these values.
+```python
+spam = [1, 3, 2, 4, 'Alice', 'Bob']
+spam.sort()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    spam.sort()
+TypeError: '<' not supported between instances of 'str' and 'int'
+```
+-  Third, `sort()` uses *ASCIIbetical order* rather than actual alphabetical order for sorting strings. This means uppercase letters come before lowercase letters, placing the lowercase `a` after the uppercase `Z`. For an example:
+```python
+spam = ['Alice', 'ants', 'Bob', 'badgers', 'Carol', 'cats']
+spam.sort()
+spam # ['Alice', 'Bob', 'Carol', 'ants', 'badgers', 'cats'
+```
