@@ -307,4 +307,17 @@ Each data type has its own set of methods. The list data type, has several usefu
 &nbsp;&nbsp;&nbsp;&nbsp;In our `spam` list example, the function would hypothetically be `index(spam, 'hello')`. But since `index()` is a list method and not a function, we call `spam.index('hello')`. Calling `index()` on a list value is how Python knows `index()` is a list method.
 
 ### Finding Values:
-List values have an `index()` method that can be passed a value. If that value exists in the list, the method will return the index of the value. If the value isn’t in the list, then Python produces a `ValueError` error. 
+List values have an `index()` method that can be passed a value. If that value exists in the list, the method will return the index of the value. If the value isn’t in the list, then Python produces a `ValueError` error. For example:
+```python
+ spam = ['hello', 'hi', 'howdy', 'heyas']
+
+spam.index('hello') # 0
+
+spam.index('heyas') # 3
+
+spam.index('howdy howdy howdy')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    spam .index('howdy howdy howdy')
+ValueError: 'howdy howdy howdy' is not in list
+```
