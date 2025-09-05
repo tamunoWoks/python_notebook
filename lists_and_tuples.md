@@ -408,3 +408,10 @@ spam = ['Alice', 'ants', 'Bob', 'badgers', 'Carol', 'cats']
 spam.sort()
 spam # ['Alice', 'Bob', 'Carol', 'ants', 'badgers', 'cats'
 ```
+If you need to sort the values in regular alphabetical order, pass `str.lower` for the `key` keyword argument in the `sort()` method call:
+```python
+spam = ['a', 'z', 'A', 'Z']
+spam.sort(key=str.lower)
+spam # ['a', 'A', 'z', 'Z']
+```
+This argument causes the `sort()` function to treat all the items in the list as if they were lowercase without actually changing the values in the list.
