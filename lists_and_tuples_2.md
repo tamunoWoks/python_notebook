@@ -110,3 +110,4 @@ Traceback (most recent call last):
     eggs[1] = 99
 TypeError: 'tuple' object does not support item assignment
 ```
+You can use tuples to convey to anyone reading your code that you don’t intend for that sequence of values to change. If you need an ordered sequence of values that never changes, use a tuple. A second benefit of using tuples instead of lists is that, because they’re immutable and their contents don’t change, Python can implement optimizations that make code using tuples slightly faster than code using lists.
