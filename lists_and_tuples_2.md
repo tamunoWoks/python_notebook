@@ -4,8 +4,21 @@ Boolean operators have a subtle behavior that is easy to miss. Recall that if ei
 Most of the time, your program will behave the same way it would have if Python checked the entire expression (albeit a few microseconds faster). However, let's consider this short program, where we check whether the first item in a list is 'cat':
 ```python
 spam = ['cat', 'dog']
+
 if spam[0] == 'cat':
   print('A cat is the first item.')
 else:
   print('The first item is not a cat.')
 ```
+As written, this program prints `A cat is the first item`. But if the list in `spam` is empty, the `spam[0]` code will cause an `IndexError: list Index out of range` error.  
+To fix this, we’ll adjust the if statement’s condition to take advantage of short-circuiting:
+```python
+spam = []
+
+if len(spam) > 0 and spam[0] == 'cat':
+  print('A cat is the first item.')
+else:
+  print('The first item is not a cat.'
+```
+This program never has an error, because if `len(spam) > 0` is `False` (that is, the list in `spam` is empty), then short-circuiting the and operator means that Python doesn’t bother running the `spam[0] == 'cat'` code that would cause the `IndexError` error.  
+Keep this short-circuiting behavior in mind when you write code that involves the `and` and `or` operators.
