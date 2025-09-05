@@ -90,3 +90,13 @@ eggs.append('z')
 eggs # ['x', 'y', 'z']
 ```
 In this example, the `eggs` variable ends up with the same list value it started with. It’s just that this list has been changed (mutated) rather than overwritten. We call this *changing the list in place*.
+
+### The Tuple Data Type:
+There are only two differences between the *tuple* data type and the list data type. The first difference is that you write tuples using parentheses instead of square brackets. For example:
+```python
+eggs = ('hello', 42, 0.5)
+
+eggs[0] # 'hello'
+eggs[1:3] # (42, 0.5)
+len(eggs) # 3
+```
