@@ -372,3 +372,15 @@ spam.remove('cat')
 spam # ['bat', 'rat', 'cat', 'hat', 'cat']
 ```
 The `del` statement is useful when you know the index of the value you want to remove from the list, while the `remove()` method is useful when you know the value itself.
+
+###  Sorting Values
+You can sort lists of number values or lists of strings with the sort() method. For example:
+```python
+spam = [2, 5, 3.14, 1, -7]
+spam.sort()
+spam # [-7, 1, 2, 3.14, 5]
+
+spam = ['Ants', 'Cats', 'Dogs', 'Badgers', 'Elephants']
+spam.sort()
+spam # ['Ants', 'Badgers', 'Cats', 'Dogs', 'Elephants'
+```
