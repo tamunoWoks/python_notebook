@@ -344,3 +344,5 @@ spam = ['cat', 'dog', 'bat']
 spam .insert(1, 'chicken')
 spam # ['cat', 'chicken', 'dog', 'bat']
 ```
+#### Note:
+The code doesn’t perform any assignment operation, such as `spam = spam.append('moose')` or `spam = spam .insert(1, 'chicken')`. The return value of `append()` and `insert()` is `None`, so you definitely wouldn’t want to store it as the new variable value. Rather, these methods modify the list in place.
