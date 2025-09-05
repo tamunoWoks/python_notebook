@@ -89,3 +89,4 @@ eggs.append('z')
 
 eggs # ['x', 'y', 'z']
 ```
+In this example, the `eggs` variable ends up with the same list value it started with. It’s just that this list has been changed (mutated) rather than overwritten. We call this *changing the list in place*.
