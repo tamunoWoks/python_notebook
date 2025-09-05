@@ -26,3 +26,23 @@ Keep this short-circuiting behavior in mind when you write code that involves th
 ## Sequence Data Types
 Lists aren’t the only data types that represent ordered sequences of values. Strings and lists are actually similar if you consider a string to be a “list” of single text characters. The Python sequence data types include lists, strings, range objects returned by range(), and tuples.  
 &nbsp;&nbsp;&nbsp;&nbsp;Many of the things you can do with lists can also be done with strings and other values of sequence types. For example:
+```python
+name = 'Zophie'
+name[0] # 'Z'
+name[-2] # 'i'
+name[0:4] # 'Zoph'
+
+'Zo' in name # True
+'z' in name # False
+'p' not in name # False
+
+for i in name:
+  print('* * * ' + i + ' * * *')
+
+# * * * Z * * *
+# * * * o * * *
+# * * * p * * *
+# * * * h * * *
+# * * * i * * *
+# * * * e * * *
+```
