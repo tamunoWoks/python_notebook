@@ -347,3 +347,28 @@ spam # ['cat', 'chicken', 'dog', 'bat']
 #### Note:
 The code doesn’t perform any assignment operation, such as `spam = spam.append('moose')` or `spam = spam .insert(1, 'chicken')`. The return value of `append()` and `insert()` is `None`, so you definitely wouldn’t want to store it as the new variable value. Rather, these methods modify the list in place.  
 &nbsp;&nbsp;&nbsp;&nbsp;Methods belong to a single data type. The `append()` and `insert()` methods are list methods, and we can call them on list values only, not on values of other data types, such as strings or integers.
+
+###  Removing Values:
+ The `remove()` method accepts a value to remove from the list on which  it’s called:
+```python
+spam = ['cat', 'bat', 'rat', 'elephant']
+
+spam.remove('bat')
+spam # ['cat', 'rat', 'elephant']
+```
+Attempting to delete a value that doesn’t exist in the list will result in a `ValueError` error. For example:
+```python
+spam = ['cat', 'bat', 'rat', 'elephant']
+spam.remove('chicken')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    spam.remove('chicken')
+ ValueError: list.remove(x): x not in list
+```
+ If the value appears multiple times in the list, the method will remove only the first instance of it:
+```python
+spam = ['cat', 'bat', 'rat', 'cat', 'hat', 'cat']
+spam.remove('cat')
+spam # ['bat', 'rat', 'cat', 'hat', 'cat']
+```
+The `del` statement is useful when you know the index of the value you want to remove from the list, while the `remove()` method is useful when you know the value itself.
