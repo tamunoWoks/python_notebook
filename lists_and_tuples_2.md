@@ -1,1 +1,2 @@
-
+##  Short-Circuiting Boolean Operators
+Boolean operators have a subtle behavior that is easy to miss. Recall that if either of the values combined by an `and` operator is `False`, the entire expression is `False`, and if either value combined by an `or` operator is `True`, the entire expression is `True`. If I presented you with the expression `False` and `spam`, it doesn’t matter whether the `spam` variable is `True` or `False` because the entire expression would be `False` either way. The same goes for `True` or `spam`; this evaluates to `True` no matter the value of `spam`.
