@@ -305,3 +305,6 @@ A *method* is the same thing as a function, except it is *called* on a value. Fo
 &nbsp;&nbsp;&nbsp;&nbsp;The method part comes after the value, separated by a period.  
 Each data type has its own set of methods. The list data type, has several useful methods for finding, adding, removing, and manipulating values in a list. Think of a method as a function that is always associated with a value.  
 &nbsp;&nbsp;&nbsp;&nbsp;In our `spam` list example, the function would hypothetically be `index(spam, 'hello')`. But since `index()` is a list method and not a function, we call `spam.index('hello')`. Calling `index()` on a list value is how Python knows `index()` is a list method.
+
+### Finding Values:
+List values have an `index()` method that can be passed a value. If that value exists in the list, the method will return the index of the value. If the value isn’t in the list, then Python produces a `ValueError` error. 
