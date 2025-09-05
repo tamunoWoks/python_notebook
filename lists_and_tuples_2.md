@@ -65,5 +65,12 @@ name = 'Zophie a cat'
 
 new_name = name[0:7] + 'the' + name[8:12]
 name # 'Zophie a cat'
-new_name # 'Zophie the cat
+new_name # 'Zophie the cat'
+```
+We used [0:7] and [8:12] to refer to the characters we don’t wish to replace. Notice that the original 'Zophie a cat' string isn’t modified, because strings are immutable.  
+&nbsp;&nbsp;&nbsp;&nbsp;Although a list value is mutable, the second line in the following code doesn’t modify the list `eggs`:
+```python
+eggs = ['A', 'B', 'C']
+eggs = [ 'x', 'y', 'z']
+eggs # ['x', 'y', 'z']
 ```
