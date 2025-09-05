@@ -384,3 +384,9 @@ spam = ['Ants', 'Cats', 'Dogs', 'Badgers', 'Elephants']
 spam.sort()
 spam # ['Ants', 'Badgers', 'Cats', 'Dogs', 'Elephants'
 ```
+The method returns the numbers in numerical order and the strings in alphabetical order. You can also pass `True` as the `reverse` keyword argument to sort the values in reverse order:
+```python
+spam = ['Ants', 'Cats', 'Dogs', 'Badgers', 'Elephants']
+spam.sort(reverse=True)
+spam # ['Elephants', 'Dogs', 'Cats', 'Badgers', 'Ants'
+```
