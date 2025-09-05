@@ -415,3 +415,12 @@ spam.sort(key=str.lower)
 spam # ['a', 'A', 'z', 'Z']
 ```
 This argument causes the `sort()` function to treat all the items in the list as if they were lowercase without actually changing the values in the list.
+
+###  Reversing Values
+If you need to quickly reverse the order of the items in a list, you can call the `reverse()` list method. For example:
+```python
+spam = ['cat', 'dog', 'moose']
+spam.reverse()
+spam # ['moose', 'dog', 'cat']
+```
+Like the `sort()` list method, `reverse()` doesn’t return a list, which is why we write `spam.reverse()` instead of `spam = spam.reverse()`.
