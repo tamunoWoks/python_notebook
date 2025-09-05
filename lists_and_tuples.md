@@ -301,5 +301,7 @@ bacon += pie # bacon = ['Zophie', 'Scoobie']
 ```
 
 ## Methods
-A *method* is the same thing as a function, except it is *called* on a value. For example, if a list value were stored in `spam`, you would call the `index()` list method on that list like so: s`pam .index('hello')`.  
-&nbsp;&nbsp;&nbsp;&nbsp;The method part comes after the value, separated by a period.
+A *method* is the same thing as a function, except it is *called* on a value. For example, if a list value were stored in `spam`, you would call the `index()` list method on that list like so: `spam .index('hello')`.  
+&nbsp;&nbsp;&nbsp;&nbsp;The method part comes after the value, separated by a period.  
+Each data type has its own set of methods. The list data type, has several useful methods for finding, adding, removing, and manipulating values in a list. Think of a method as a function that is always associated with a value.  
+&nbsp;&nbsp;&nbsp;&nbsp;In our `spam` list example, the function would hypothetically be `index(spam, 'hello')`. But since `index()` is a list method and not a function, we call `spam.index('hello')`. Calling `index()` on a list value is how Python knows `index()` is a list method.
