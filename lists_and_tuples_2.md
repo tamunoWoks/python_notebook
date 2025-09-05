@@ -74,3 +74,18 @@ eggs = ['A', 'B', 'C']
 eggs = [ 'x', 'y', 'z']
 eggs # ['x', 'y', 'z']
 ```
+The list value in eggs isn’t being changed here; rather, a new and entirely different list value (['x', 'y', 'z']) is replacing the old list value (['A', 'B', 'C']).  
+&nbsp;&nbsp;&nbsp;&nbsp;If you wanted to actually modify the original list in eggs to contain ['x', 'y', 'z'], you would have to use `del` statements and the `append()` method, like this:
+```python
+eggs = ['A', 'B', 'C']
+
+del eggs[2]
+del eggs[1]
+del eggs[0]
+
+eggs.append('x')
+eggs.append('y')
+eggs.append('z')
+
+eggs # ['x', 'y', 'z']
+```
