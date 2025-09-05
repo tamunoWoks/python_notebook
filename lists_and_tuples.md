@@ -337,3 +337,10 @@ spam = ['cat', 'dog', 'bat']
 spam.append('moose')
 spam # ['cat', 'dog', 'bat', 'moose']
 ```
+ The `insert()` method can insert a value at any index in the list. The first  argument to `insert()` is the index of the new value, and the second argument is the new value to be inserted. For example:
+```python
+spam = ['cat', 'dog', 'bat']
+
+spam .insert(1, 'chicken')
+spam # ['cat', 'chicken', 'dog', 'bat']
+```
