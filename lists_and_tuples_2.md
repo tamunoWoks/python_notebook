@@ -100,3 +100,13 @@ eggs[0] # 'hello'
 eggs[1:3] # (42, 0.5)
 len(eggs) # 3
 ```
+The second and primary way that tuples are different from lists is that tuples, like strings, are immutable: you can’t modify, append, or remove their values. For example:
+```python
+eggs = ('hello', 42, 0.5)
+
+eggs[1] = 99
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    eggs[1] = 99
+TypeError: 'tuple' object does not support item assignment
+```
