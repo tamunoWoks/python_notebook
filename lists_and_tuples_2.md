@@ -28,6 +28,7 @@ Lists aren’t the only data types that represent ordered sequences of values. S
 &nbsp;&nbsp;&nbsp;&nbsp;Many of the things you can do with lists can also be done with strings and other values of sequence types. For example:
 ```python
 name = 'Zophie'
+
 name[0] # 'Z'
 name[-2] # 'i'
 name[0:4] # 'Zoph'
@@ -46,3 +47,4 @@ for i in name:
 # * * * i * * *
 # * * * e * * *
 ```
+You can do all the same things with sequence values that you can do with lists: indexing, slicing, for loops, `len()`, and the  `in` and  `not` in operators.
