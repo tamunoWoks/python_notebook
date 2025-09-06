@@ -138,3 +138,13 @@ spam = 99
 spam # 99
 eggs # 42
 ```
+But lists don’t work this way, because list values are *mutable* and can change. Here is code that will make this distinction easier to understand:
+```python
+spam = [0, 1, 2, 3]
+eggs = spam  # The reference, not the list, is being copied.
+
+eggs[1] = 'Hello!'  # This changes the list value.
+
+spam # [0, 'Hello!', 2, 3]
+eggs  # [0, 'Hello!', 2, 3] = The eggs variable refers to the same list.
+```
