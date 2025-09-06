@@ -186,3 +186,5 @@ cheese  # ['A', 42, 'C'] = The cheese variable is changed.
 ```
 Now the `spam` and `cheese` variables refer to separate lists, which is why only the list in `cheese` is modified when you assign 42 at index 1.  
 &nbsp;&nbsp;&nbsp;&nbsp;Just as variables refer to values rather than contain values, lists contain references to values rather than values themselves. 
+#### deepcopy():
+If the list you need to copy contains lists, use the `copy.deepcopy()` function instead of `copy.copy()`. The `copy.deepcopy()` function will copy these inner lists as well.
