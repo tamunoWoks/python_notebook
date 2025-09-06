@@ -148,3 +148,5 @@ eggs[1] = 'Hello!'  # This changes the list value.
 spam # [0, 'Hello!', 2, 3]
 eggs  # [0, 'Hello!', 2, 3] = The eggs variable refers to the same list.
 ```
+When you create the list , you assign a reference to it in the `spam` variable. But the next line copies only the list reference in `spam` to `eggs`, not the list value itself. There is still only one list, and `spam` and `eggs` now both refer 
+to it. The reason there is only one underlying list is that the list itself was never actually copied. So, when you modify the first element of `eggs`, you’re modifying the same list that `spam` refers to.
