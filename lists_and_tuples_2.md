@@ -157,3 +157,9 @@ Although Python variables technically contain references to values, people often
 - In Python, the = assignment operator copies only references. It never copies values.
 
 For the most part, you don’t need to know these details, but at times, these simple rules have surprising effects, and you should understand exactly what Python is doing.
+
+### Arguments:
+References are particularly important for understanding how arguments get passed to functions. When a function is called, Python copies to the parameter variables the reference to the arguments. For mutable values like lists and dictionaries, this means the code in the function modifies the original value in place. Let's see the consequences of this fact:
+```python
+
+```
