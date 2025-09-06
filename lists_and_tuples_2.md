@@ -129,4 +129,12 @@ Converting a tuple to a list is handy if you need a mutable version of a tuple v
 A common metaphor is that variables are boxes that “store” values like strings and integers. However, this explanation is a simplification of what Python is actually doing. A better metaphor is that variables are paper name tags attached to values with string.  
 &nbsp;&nbsp;&nbsp;&nbsp;When you assign a value to a variable, you’re actually creating the value in the computer’s memory and storing a reference to it in the variable. When you copy the value and assign it to another variable, you’re copying the reference. Both variables refer to the value in the computer’s memory.  
 &nbsp;&nbsp;&nbsp;&nbsp;Using the name tag metaphor for variables, you’ve attached both variables name tags to the same 
-value. When you assign the forst variable a new value, you’ve changed its name tag references. The change doesn’t affect the second variable, which still refers to the initial value.
+value. When you assign the forst variable a new value, you’ve changed its name tag references. The change doesn’t affect the second variable, which still refers to the initial value. For example:
+```python
+spam = 42
+eggs = spam
+spam = 99
+
+spam # 99
+eggs # 42
+```
