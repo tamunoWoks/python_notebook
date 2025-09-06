@@ -151,4 +151,9 @@ eggs  # [0, 'Hello!', 2, 3] = The eggs variable refers to the same list.
 When you create the list , you assign a reference to it in the `spam` variable. But the next line copies only the list reference in `spam` to `eggs`, not the list value itself. There is still only one list, and `spam` and `eggs` now both refer 
 to it. The reason there is only one underlying list is that the list itself was never actually copied. So, when you modify the first element of `eggs`, you’re modifying the same list that `spam` refers to.  
 &nbsp;&nbsp;&nbsp;&nbsp;It becomes a bit more complicated, as lists also don’t contain a sequence of values directly, but rather a sequence of references to values.  
-&nbsp;&nbsp;&nbsp;&nbsp;
+#### Note:
+Although Python variables technically contain references to values, people often casually say that the variable contains the value. But keep these two rules in mind:
+- In Python, variables never contain values. They contain only references to values.
+- In Python, the = assignment operator copies only references. It never copies values.
+
+For the most part, you don’t need to know these details, but at times, these simple rules have surprising effects, and you should understand exactly what Python is doing.
