@@ -170,3 +170,6 @@ print(spam)  # Prints [1, 2, 3, 'Hello']
 Notice that when you call `eggs()`, a return value doesn’t assign a new value to `spam`. Instead, it directly modifies the list in place.  
 &nbsp;&nbsp;&nbsp;&nbsp;Even though `spam` and `some_parameter` contain separate references, they both refer to the same list. This is why the `append('Hello')` method call inside the function affects the list even after the function call has returned.
 &nbsp;&nbsp;&nbsp;&nbsp;Keep this behavior in mind. Forgetting that Python handles list and dictionary variables in this way can lead to unexpected behavior and confusing bugs.
+
+###  The copy() and deepcopy() Functions:
+Although passing around references is often the handiest way to deal with lists and dictionaries, if the function modifies the list or dictionary passed to it, you may not want these changes in the original list or dictionary value. To control this behavior, Python provides a module named `copy` that provides both the `copy()` and `deepcopy()` functions. The first of these, `copy.copy()`, can make a duplicate copy of a mutable value like a list or dictionary, not just a copy of a reference.
