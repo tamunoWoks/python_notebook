@@ -161,5 +161,9 @@ For the most part, you don’t need to know these details, but at times, these s
 ### Arguments:
 References are particularly important for understanding how arguments get passed to functions. When a function is called, Python copies to the parameter variables the reference to the arguments. For mutable values like lists and dictionaries, this means the code in the function modifies the original value in place. Let's see the consequences of this fact:
 ```python
-
+def eggs(some_parameter):
+    some_parameter.append('Hello')
+spam = [1, 2, 3]
+eggs(spam)
+print(spam)  # Prints [1, 2, 3, 'Hello']
 ```
