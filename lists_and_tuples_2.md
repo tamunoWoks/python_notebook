@@ -188,3 +188,7 @@ Now the `spam` and `cheese` variables refer to separate lists, which is why only
 &nbsp;&nbsp;&nbsp;&nbsp;Just as variables refer to values rather than contain values, lists contain references to values rather than values themselves. 
 #### deepcopy():
 If the list you need to copy contains lists, use the `copy.deepcopy()` function instead of `copy.copy()`. The `copy.deepcopy()` function will copy these inner lists as well.
+
+## SUMMARY
+Lists are useful data types, as they allow you to write code that works on a modifiable number of values in a single variable.  
+&nbsp;&nbsp;&nbsp;&nbsp;A list is a sequence data type that is mutable, meaning that its contents can change. Tuples and strings, though also sequence data types, are immutable and cannot be changed. We can overwrite a variable that contains a tuple or string value with a new tuple or string value, which isn’t the same thing as modifying the existing value in place as the `append()` or `remove()` method does on lists.
