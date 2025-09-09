@@ -341,7 +341,7 @@ spam # ['cat', 'dog', 'bat', 'moose']
 ```python
 spam = ['cat', 'dog', 'bat']
 
-spam .insert(1, 'chicken')
+spam.insert(1, 'chicken')
 spam # ['cat', 'chicken', 'dog', 'bat']
 ```
 #### Note:
