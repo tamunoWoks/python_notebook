@@ -38,4 +38,15 @@ ham = {'species': 'cat', 'age': '8', 'name': 'Zophie'}
 
 >>> eggs == ham # True (The order of dictionary key-value pairs doesn't matter.)
 ```
-The `eggs` and `ham` dictionaries are identical values even though we entered their key-value pairs in different orders. Because a dictionary isn’t ordered, it isn’t a sequence data type and can’t be sliced like a list.
+The `eggs` and `ham` dictionaries are identical values even though we entered their key-value pairs in different orders. Because a dictionary isn’t ordered, it isn’t a sequence data type and can’t be sliced like a list.  
+
+Trying to access a key that doesn’t exist in a dictionary will result in a `KeyError` error message, much like a list’s “out-of-range” `IndexError` error message. For example:
+```python
+spam = {'name': 'Zophie', 'age': 7}
+
+spam['color']
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    spam['color']
+KeyError: 'color'
+```
