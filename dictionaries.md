@@ -132,4 +132,14 @@ for k, v in spam.items():
 While you can use many values for keys, you cannot use a list or dictionary as the key in a dictionary. These data types are ***unhashable***. If you need a list for a dictionary key, use a tuple instead.
 
 ### Checking If a Key Exists:
-Checking whether a key exists in a dictionary before accessing that key’s value can be tedious. Fortunately, dictionaries have a `get()` method that takes two arguments: the key of the value to retrieve and a fallback value to return if that key doesn’t exist.
+Checking whether a key exists in a dictionary before accessing that key’s value can be tedious. Fortunately, dictionaries have a `get()` method that takes two arguments: the key of the value to retrieve and a fallback value to return if that key doesn’t exist. For example:
+```python
+picnic_items = {'apples': 5, 'cups': 2}
+
+'I am bringing ' + str(picnic_items.get('cups', 0)) + ' cups.'
+# 'I am bringing 2 cups.'
+
+'I am bringing ' + str(picnic_items.get('eggs', 0)) + ' eggs.'
+# 'I am bringing 0 eggs.'
+```
+Because there is no 'eggs' key in the picnic_items dictionary, the get() method returns the default value `0`. Without using get(), the code would have caused an error message, such as in the following example:
