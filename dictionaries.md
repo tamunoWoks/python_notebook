@@ -71,3 +71,15 @@ while True:
 ```
 The code creates an initial dictionary and stores it in birthdays. You can see if the entered name exists as a key in the dictionary with the in keyword , just as you did for lists. If the name is in the dictionary, you access the associated value using square brackets; if not, you can add it using the same square bracket syntax combined with the assignment operator.  
 Of course, all the data you enter in this program is forgotten when the program terminates.
+
+### Returning Keys and Values:
+Three dictionary methods will return list-like values of the dictionary’s keys, values, or both keys and values: `keys()`, `values()`, and `items()`. The values returned by these methods aren’t true lists: they can’t be modified and don’t have an `append(`) method. But these data types (dict_keys, dict_values, and dict_items, respectively) can be used in for loops. Let's see how these methods work:
+```python
+spam = {'color': 'red', 'age': 42}
+
+for v in spam.values():
+  print(v)
+
+# red
+# 42
+```
