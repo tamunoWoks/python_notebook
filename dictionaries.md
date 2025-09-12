@@ -26,4 +26,16 @@ Dictionaries have keys, not indexes. In this example, while the dictionary in `s
 
 ### Comparing Dictionaries and Lists:
 Unlike lists, items in dictionaries are unordered. The first item in a list named `spam` would be `spam[0]`. But there is no “first” item in a dictionary.  
-While the order of items matters for determining whether two lists are the same, you can enter the key-value pairs of a dictionary in any order.
+While the order of items matters for determining whether two lists are the same, you can enter the key-value pairs of a dictionary in any order. For example:
+```python
+spam = ['cats', 'dogs', 'moose']
+bacon = ['dogs', 'moose', 'cats']
+
+spam == bacon # False (The order of the list matters.)
+
+eggs = {'name': 'Zophie', 'species': 'cat', 'age': '8'}
+ham = {'species': 'cat', 'age': '8', 'name': 'Zophie'}
+
+>>> eggs == ham # True (The order of dictionary key-value pairs doesn't matter.)
+```
+The `eggs` and `ham` dictionaries are identical values even though we entered their key-value pairs in different orders. Because a dictionary isn’t ordered, it isn’t a sequence data type and can’t be sliced like a list.
