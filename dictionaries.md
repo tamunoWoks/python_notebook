@@ -164,3 +164,17 @@ if 'color' not in spam:
 
 spam # {'name': 'Pooka', 'age': 5, 'color': 'black'}
 ```
+The `setdefault()` method offers a way to do this in one line of code. The first argument passed to the method is the key to check for, and the second argument is the value to set at that key if the key doesn’t exist. If the key does exist, the `setdefault()` method returns the key’s value. For example:
+```python
+spam = {'name': 'Pooka', 'age': 5}
+
+spam.setdefault('color', 'black') # Sets 'color' key to 'black'
+# 'black'
+
+spam # {'name': 'Pooka', 'age': 5, 'color': 'black'}
+
+spam.setdefault('color', 'white') # Does nothing
+# 'black'
+
+spam # {'name': 'Pooka', 'age': 5, 'color': 'black'}
+```
