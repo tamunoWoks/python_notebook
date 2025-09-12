@@ -130,3 +130,6 @@ for k, v in spam.items():
 # Key: age Value: 42
 ```
 While you can use many values for keys, you cannot use a list or dictionary as the key in a dictionary. These data types are ***unhashable***. If you need a list for a dictionary key, use a tuple instead.
+
+### Checking If a Key Exists:
+Checking whether a key exists in a dictionary before accessing that key’s value can be tedious. Fortunately, dictionaries have a `get()` method that takes two arguments: the key of the value to retrieve and a fallback value to return if that key doesn’t exist.
