@@ -108,3 +108,13 @@ You can also use the `in` and `not in` operators with the dictionary value itsel
 'color' in spam # True
 'color' in spam.keys() # True
 ```
+If you want to get an actual list from one of these methods, pass its listlike return value to the `list()` function:
+```python
+spam = {'color': 'red', 'age': 42}
+
+spam.keys() # Returns a list-like dict_keys value
+# dict_keys(['color', 'age'])
+
+list(spam.keys()) # Returns an actual list value
+# ['color', 'age']
+```
