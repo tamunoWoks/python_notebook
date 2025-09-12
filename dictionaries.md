@@ -143,3 +143,13 @@ picnic_items = {'apples': 5, 'cups': 2}
 # 'I am bringing 0 eggs.'
 ```
 Because there is no 'eggs' key in the picnic_items dictionary, the get() method returns the default value `0`. Without using get(), the code would have caused an error message, such as in the following example:
+```python
+picnic_items = {'apples': 5, 'cups': 2}
+
+'I am bringing ' + str(picnic_items['eggs']) + ' eggs.'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    'I am bringing ' + str(picnic_items['eggs']) + ' eggs.'
+KeyError: 'eggs'
+```
+Checking for the existence of a key before accessing the value for that key can prevent your programs from crashing with an error message.
