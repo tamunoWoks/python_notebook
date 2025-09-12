@@ -129,3 +129,4 @@ for k, v in spam.items():
 # Key: color Value: red
 # Key: age Value: 42
 ```
+While you can use many values for keys, you cannot use a list or dictionary as the key in a dictionary. These data types are ***unhashable***. If you need a list for a dictionary key, use a tuple instead.
