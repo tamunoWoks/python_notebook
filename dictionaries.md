@@ -22,3 +22,4 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 KeyError: 0
 ```
+Dictionaries have keys, not indexes. In this example, while the dictionary in `spam` has integer keys `12345` and `42`, it doesn’t have an index `0` through `41` like a list would.
