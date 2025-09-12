@@ -69,3 +69,5 @@ while True:
     birthdays[name] = bday
     print('Birthday database updated.')
 ```
+The code creates an initial dictionary and stores it in birthdays. You can see if the entered name exists as a key in the dictionary with the in keyword , just as you did for lists. If the name is in the dictionary, you access the associated value using square brackets; if not, you can add it using the same square bracket syntax combined with the assignment operator.  
+Of course, all the data you enter in this program is forgotten when the program terminates.
