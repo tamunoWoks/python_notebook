@@ -153,3 +153,14 @@ Traceback (most recent call last):
 KeyError: 'eggs'
 ```
 Checking for the existence of a key before accessing the value for that key can prevent your programs from crashing with an error message.
+
+### Setting Default Values:
+You’ll often have to set a value in a dictionary for a certain key only if that key doesn’t already have a value. Your code might look something like this:
+```python
+spam = {'name': 'Pooka', 'age': 5}
+
+if 'color' not in spam:
+  spam['color'] = 'black'
+
+spam # {'name': 'Pooka', 'age': 5, 'color': 'black'}
+```
