@@ -23,3 +23,7 @@ Traceback (most recent call last):
 KeyError: 0
 ```
 Dictionaries have keys, not indexes. In this example, while the dictionary in `spam` has integer keys `12345` and `42`, it doesn’t have an index `0` through `41` like a list would.
+
+### Comparing Dictionaries and Lists:
+Unlike lists, items in dictionaries are unordered. The first item in a list named `spam` would be `spam[0]`. But there is no “first” item in a dictionary.  
+While the order of items matters for determining whether two lists are the same, you can enter the key-value pairs of a dictionary in any order.
