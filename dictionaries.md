@@ -83,3 +83,21 @@ for v in spam.values():
 # red
 # 42
 ```
+Here, a `for` loop iterates over each of the values in the spam dictionary. A for loop can also iterate over the keys or both the keys and values:
+```python
+for k in spam.keys():
+  print(k)
+
+# color
+# age
+
+'color' in spam.keys() # True
+'age' not in spam.keys() # False
+'red' in spam.values() # True
+
+for i in spam.items():
+  print(i)
+
+# ('color', 'red')
+# ('age', 42)
+```
