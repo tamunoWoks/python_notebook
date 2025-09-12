@@ -118,3 +118,14 @@ spam.keys() # Returns a list-like dict_keys value
 list(spam.keys()) # Returns an actual list value
 # ['color', 'age']
 ```
+The `list(spam.keys())` line takes the dict_keys value returned from `keys()` and passes it to `list()`, which then returns a list value of `['color', 'age']`.  
+You can also use the multiple assignment trick in a `for` loop to assign the key and value to separate variables. For example:
+```python
+spam = {'color': 'red', 'age': 42}
+
+for k, v in spam.items():
+  print('Key: ' + str(k) + ' Value: ' + str(v))
+
+# Key: color Value: red
+# Key: age Value: 42
+```
