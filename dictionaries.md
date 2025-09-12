@@ -4,3 +4,9 @@ In code, a dictionary is entered between curly brackets `{}`. For example:
 ```python
 my_cat = {'size': 'fat', 'color': 'gray', 'age': 17}
 ```
+This assigns a dictionary to the `my_cat` variable. This dictionary’s keys are `'size'`, `'color'`, and `'age'`. The values for these keys are `'fat'`, `'gray'`, and `17`, respectively. You can access these values through their keys:
+```python
+my_cat['size'] # 'fat'
+
+'My cat has ' + my_cat['color'] + ' fur.' # 'My cat has gray fur.'
+```
