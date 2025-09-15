@@ -4,4 +4,5 @@ Computers have good memories. A program on a modern computer can easily store bi
 
 ### Interactive Chessboard Simulator:
 We can create an interactive chessboard program. Chess is played on an `8 × 8` board with white and black pieces called pawns, knights, bishops, rooks, queens, and kings. The upper-left and lower right squares of the board should be white, and our program assumes the background of the output window is black.  
-&nbsp;&nbsp;&nbsp;&nbsp;Our chessboard program is just a board with pieces on it; it doesn’t even enforce the rules for how pieces move. We’ll use text characters to “draw” a chessboard.
+&nbsp;&nbsp;&nbsp;&nbsp;Our chessboard program is just a board with pieces on it; it doesn’t even enforce the rules for how pieces move. We’ll use text characters to “draw” a chessboard.  
+&nbsp;&nbsp;&nbsp;&nbsp;This text-based approach allows us to write the program with just the `print()` function and doesn’t require us to install any sort of graphics library like Pygame.
