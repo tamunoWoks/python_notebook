@@ -215,3 +215,8 @@ Number of things being brought:
 ```
 This `total_brought()` function could easily handle a dictionary that contains thousands of guests, each bringing thousands of different picnic items.  
 &nbsp;&nbsp;&nbsp;&nbsp;You can model things with data structures in whatever way you like, as long as the rest of the code in your program can work with the data model correctly. When you first begin programming, don’t worry so much about the “right” way to model data. As you gain more experience, you may come up with more efficient models; the important thing is that the data model works for your program’s needs.
+
+## Summary
+Lists and dictionaries are values that can contain multiple values, including other lists and dictionaries. Dictionaries are useful because you can map one item (the key) to another item (the value), whereas lists simply contain a series of values 
+in order.  
+&nbsp;&nbsp;&nbsp;&nbsp;Code can access values inside a dictionary using square brackets just as with lists. Instead of integer indexes, dictionaries can have keys of a variety of data types: integers, floats, strings, or tuples. By organizing a program’s values into data structures, you can create representations of real world objects.
