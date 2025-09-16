@@ -213,3 +213,5 @@ Number of things being brought:
 - Ham Sandwiches 3
 - Apple Pies 1
 ```
+This `total_brought()` function could easily handle a dictionary that contains thousands of guests, each bringing thousands of different picnic items.  
+You can model things with data structures in whatever way you like, as long as the rest of the code in your program can work with the data model correctly. When you first begin programming, don’t worry so much about the “right” way to model data. As you gain more experience, you may come up with more efficient models; the important thing is that the data model works for your program’s needs.
