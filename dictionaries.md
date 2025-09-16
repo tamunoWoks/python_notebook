@@ -178,3 +178,6 @@ spam.setdefault('color', 'white') # Does nothing
 
 spam # {'name': 'Pooka', 'age': 5, 'color': 'black'}
 ```
+
+## Nested Dictionaries and Lists
+As you model more complicated things, you may find you need dictionaries and lists that contain other dictionaries and lists. Lists are useful for holding an ordered series of values, and dictionaries are useful for associating keys with values.
