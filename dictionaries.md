@@ -202,4 +202,14 @@ print(' - Ham Sandwiches ' + str(total_brought(all_guests, 'ham sandwiches')))
 print(' - Apple Pies     ' + str(total_brought(all_guests, 'apple pies')))
 ```
 The `total_brought()` function can read this data structure and calculate the total number of each item type.  
-&nbsp;&nbsp;&nbsp;&nbsp;Inside the `total_brought()` function, the `for` loop iterates over the key value pairs in guests. Inside the loop, the string of the guest’s name is assigned to `k`, and the dictionary of picnic items they’re bringing is assigned to `v`. If the item parameter exists as a key in this dictionary, its value (the quantity) is added to `num_brought`. If it doesn’t exist as a key, the `get()` method returns `0` to be added to `num_brought`.
+&nbsp;&nbsp;&nbsp;&nbsp;Inside the `total_brought()` function, the `for` loop iterates over the key value pairs in guests. Inside the loop, the string of the guest’s name is assigned to `k`, and the dictionary of picnic items they’re bringing is assigned to `v`. If the item parameter exists as a key in this dictionary, its value (the quantity) is added to `num_brought`. If it doesn’t exist as a key, the `get()` method returns `0` to be added to `num_brought`.  
+
+The output of this program looks like this:
+```txt
+Number of things being brought:
+- Apples 7
+- Cups 3
+- Cakes 0
+- Ham Sandwiches 3
+- Apple Pies 1
+```
