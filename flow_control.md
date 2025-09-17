@@ -22,9 +22,16 @@ Let’s explore the most important piece of flow control: the statements themsel
 ### `if`:
 The most common type of flow control statement is the `if` statement. An `if` statement’s clause (that is, the block following the if statement) will execute if the statement’s condition is `True`. The clause is skipped if the condition is `False`.
 &nbsp;&nbsp;&nbsp;&nbsp;In plain English, an `if` statement could be read as, “If this condition is true, execute the code in the clause.” In Python, an if statement consists of the following:
-- The if keyword
-- A condition (that is, an expression that evaluates to True or False)
+- The `if` keyword
+- A condition (that is, an expression that evaluates to `True` or `False`)
 - A colon
-- Starting on the next line, an indented block of code (called the if clause or if block)
+- Starting on the next line, an indented block of code (called the `if` clause or if block)
 
 All flow control statements end with a colon and are followed by a new block of code (the clause).
+
+### `else`:
+An `if` clause can optionally be followed by an `else` statement. The `else` clause is executed only when the `if` statement’s condition is `False`. In plain English, an `else` statement could be read as, “If this condition is true, exe
+cute this code. Or else, execute that code.” An `else` statement doesn’t have a condition, and in code, an `else` statement always consists of the following:
+- The `else` keyword
+- A colon
+- Starting on the next line, an indented block of code (called the `else` clause or `else` block).
