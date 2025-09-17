@@ -11,3 +11,7 @@ Lines of Python code can be grouped together in blocks. You can tell when a bloc
 - A block ends when the indentation decreases to zero or to a containing block’s indentation.
 - Python expects a new block immediately after any statement that ends 
 with a colon.
+
+### Program Execution:
+Program execution (or simply, execution) is a term for the current instruction being executed. If you put your finger on each line on your screen as the line is executed, you can think of your finger as the program execution.  
+&nbsp;&nbsp;&nbsp;&nbsp;Not all programs execute by simply going straight down, however. If you use your finger to trace through a program with flow control statements, you’ll likely find your finger jumping around to different places in the source code based on conditions.
