@@ -35,3 +35,10 @@ cute this code. Or else, execute that code.” An `else` statement doesn’t hav
 - The `else` keyword
 - A colon
 - Starting on the next line, an indented block of code (called the `else` clause or `else` block).
+
+### `elif`:
+You would use `if` or `else` when you want only one of the clauses to execute. But you may have a case where you want one of many possible clauses to execute. The `elif` statement is an “else if” statement that always follows an `if` or another `elif` statement. It provides another condition that is checked only if all of the previous conditions were `False`. In code, an `elif` statement always consists of the following:
+- The `elif` keyword
+- A condition (that is, an expression that evaluates to `True` or `False`)
+- A colon
+- Starting on the next line, an indented block of code (called the `elif` clause or `elif` block).
