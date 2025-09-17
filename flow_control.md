@@ -44,3 +44,7 @@ You would use `if` or `else` when you want only one of the clauses to execute. B
 - Starting on the next line, an indented block of code (called the `elif` clause or `elif` block).
 
 The order of the `elif` statements does matter. Remember that the rest of the `elif` clauses are automatically skipped once a `True` condition has been found.
+
+## Summary
+By using expressions that evaluate to `True` or `False` (also called conditions), you can write programs that make decisions on what code to execute and what code to skip. These conditions are expressions that compare two values with the `==, !=, <, >, <=, and >=` comparison operators to evaluate to a Boolean value. You can also use the `and, or,` and `not` Boolean operators to connect expressions into more complicated expressions.  
+&nbsp;&nbsp;&nbsp;&nbsp;Python uses indentation to create blocks of code. These flow control statements will let you write more intelligent programs.
