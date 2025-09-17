@@ -18,3 +18,11 @@ Program execution (or simply, execution) is a term for the current instruction b
 
 ## Flow Control Statements
 Let’s explore the most important piece of flow control: the statements themselves which are the actual decisions your programs will make.
+
+### `if`:
+The most common type of flow control statement is the `if` statement. An `if` statement’s clause (that is, the block following the if statement) will execute if the statement’s condition is `True`. The clause is skipped if the condition is `False`.
+&nbsp;&nbsp;&nbsp;&nbsp;In plain English, an `if` statement could be read as, “If this condition is true, execute the code in the clause.” In Python, an if statement consists of the following:
+- The if keyword
+- A condition (that is, an expression that evaluates to True or False)
+- A colon
+- Starting on the next line, an indented block of code (called the if clause or if block)
