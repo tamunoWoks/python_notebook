@@ -26,3 +26,5 @@ The most common type of flow control statement is the `if` statement. An `if` st
 - A condition (that is, an expression that evaluates to True or False)
 - A colon
 - Starting on the next line, an indented block of code (called the if clause or if block)
+
+All flow control statements end with a colon and are followed by a new block of code (the clause).
