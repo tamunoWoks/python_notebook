@@ -42,3 +42,5 @@ You would use `if` or `else` when you want only one of the clauses to execute. B
 - A condition (that is, an expression that evaluates to `True` or `False`)
 - A colon
 - Starting on the next line, an indented block of code (called the `elif` clause or `elif` block).
+
+The order of the `elif` statements does matter. Remember that the rest of the `elif` clauses are automatically skipped once a `True` condition has been found.
