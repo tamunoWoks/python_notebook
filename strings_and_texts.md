@@ -121,3 +121,14 @@ greeting_slice = greeting[0:5]
 greeting_slice # 'Hello'
 greeting # 'Hello, world!'
 ```
+
+### The in and not in Operators:
+You can use the `in` and `not in` operators with strings just as you can with list values. An expression with two strings joined using in or not in will evaluate to a Boolean True or False. 
+```python
+'Hello' in 'Hello, World' # True
+'Hello' in 'Hello' # True
+'HELLO' in 'Hello, World' # False
+'' in 'spam' # True
+'cats' not in 'cats and dogs' # False
+```
+These expressions test whether the first string (including its capitalization) can be found within the second string.
