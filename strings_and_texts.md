@@ -80,3 +80,18 @@ Notice that the single quote character in `Eve's` doesn’t need to be escaped. 
 print('Dear Alice,\n\nCan you feed Eve's cat this weekend?\n\nSincerely,\nBob')
 ```
 This `print()` call prints identical text but doesn’t use a multiline string.
+
+#### Multiline Comments:
+While the hash character (#) marks the beginning of a comment for the rest of the line, a multiline string is often used for comments that span multiple lines:
+```python
+"""This is a test Python program.
+Written by Al Sweigart al@inventwithpython .com
+
+This program was designed for Python 3, not Python 2.
+"""
+def say_hello():
+    """This function prints hello.
+    It does not return anything."""
+    print('Hello!')
+```
+The multiline string in this example is perfectly valid Python code.
