@@ -109,4 +109,15 @@ greeting[:5] # 'Hello'
 greeting[7:-1] # 'world'
 greeting[7:] # 'world!'
 ```
-If you specify an index, you’ll get the character at that position in the string. If you specify a range from one index to another, the starting index is included and the ending index is not. 
+If you specify an index, you’ll get the character at that position in the string. If you specify a range from one index to another, the starting index is included and the ending index is not.  
+
+**Note:**  
+Slicing a string doesn’t modify the original string. You can capture a slice from one variable in a separate variable. 
+```python
+greeting = 'Hello, world!'
+
+greeting_slice = greeting[0:5]
+
+greeting_slice # 'Hello'
+greeting # 'Hello, world!'
+```
