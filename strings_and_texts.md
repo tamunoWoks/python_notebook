@@ -14,4 +14,12 @@ An escape character lets you use characters that are otherwise impossible to put
 ```python
 spam = 'Say hi to Bob\'s mother.'
 ```
-Python knows that since the single quote in `Bob\'s` has a backslash, it is not a single quote meant to end the string value. The escape characters `\'` and `\"` let you put single quotes and double quotes inside your strings, respectively.
+Python knows that since the single quote in `Bob\'s` has a backslash, it is not a single quote meant to end the string value. The escape characters `\'` and `\"` let you put single quotes and double quotes inside your strings, respectively.  
+**Escaper Characters:**  
+| Escape character | Prints as... |
+|:-----------------|:-------------|
+| \'               | Single quote |
+| \"               | Double quote |
+| \t               | Tab          |
+| \n               | New line     |
+| \\               | Backslash    |
