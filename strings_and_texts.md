@@ -95,3 +95,18 @@ def say_hello():
     print('Hello!')
 ```
 The multiline string in this example is perfectly valid Python code.
+
+### Indexes & Slices:
+Strings use indexes and slices the same way lists do. You can think of the string 'Hello, world!' as a list and each character in the string as an item with a corresponding index and negative index. The space and exclamation mark are included in the character count, so 'Hello, world!' is 13 characters long, from H at index 0 to ! at index 12.
+```python
+greeting = 'Hello, world!'
+
+greeting[0] # 'H'
+greeting [4] # 'o'
+greeting[-1] # '!'
+greeting[0:5] # 'Hello'
+greeting[:5] # 'Hello'
+greeting[7:-1] # 'world'
+greeting[7:] # 'world!'
+```
+If you specify an index, you’ll get the character at that position in the string. If you specify a range from one index to another, the starting index is included and the ending index is not. 
