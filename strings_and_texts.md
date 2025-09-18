@@ -55,3 +55,28 @@ Hello...
  # Hello...\n\n...world!
 ```
 Raw strings are helpful if your string values contain many backslashes, such as the strings used for Windows filepaths like `r'C:\Users\Al\Desktop'` or regular expression strings.
+
+####  Multiline Strings:
+While you can use the `\n` escape character to insert a newline into a string, it’s often easier to use multiline strings. A multiline string in Python begins and ends with either three single quotes or three double quotes. Any quotes, tabs, or newlines in between the “triple quotes” are considered part of the string. Python’s indentation rules for blocks don’t apply to lines inside a multiline string. For example:
+```python
+ print('''Dear Alice,
+
+ Can you feed Eve's cat this weekend?
+
+ Sincerely,
+ Bob''')
+```
+The output will look like this:
+```txt
+Dear Alice,
+
+Can you feed Eve's cat this weekend?
+
+Sincerely,
+Bob
+```
+Notice that the single quote character in `Eve's` doesn’t need to be escaped. Escaping single and double quotes is optional in multiline strings:
+```python
+print('Dear Alice,\n\nCan you feed Eve's cat this weekend?\n\nSincerely,\nBob')
+```
+This `print()` call prints identical text but doesn’t use a multiline string.
