@@ -24,3 +24,13 @@ Python knows that since the single quote in `Bob\'s` has a backslash, it is not 
 | \t               | Tab          |
 | \n               | New line     |
 | \\               | Backslash    |
+
+**Example:** 
+```python
+print("Hello there!\nHow are you?\nI\'m doing fine.")
+
+# Hello there!
+# How are you?
+# I'm doing fine.
+```
+Keep in mind that because the`\` backslash begins an escape character, if you want an actual backslash in your string, you must use the `\\` escape character.
