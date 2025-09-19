@@ -143,11 +143,18 @@ print('Hello, my name is ' + name + '. I am ' + str(age) + ' years old.') # 'Hel
 print('In ten years I will be ' + str(age + 10)') # 'In ten years I will be 4010'
 ```
 However, this requires a lot of tedious typing. A simpler approach is to use `f-strings`, which let you place variable names or entire expressions within a string. Like the `r` prefix in raw strings, f-strings have an `f` prefix before the 
-starting quotation mark. 
+starting quotation mark. For example:
 ```python
 name = 'Al'
 age = 4000
 
 print(f'My name is {name}. I am {age} years old.') # 'My name is Al. I am 4000 years old.'
 print(f'In ten years I will be {age + 10}') # 'In ten years I will be 4010'
+```
+Everything between the curly brackets ({}) is interpreted as if it were passed to `str()` and concatenated with the `+` operator in the middle of the string. If you need to use literal curly bracket characters in an f-string, use two curly brackets:
+```python
+name = 'Zophie'
+print(f'{name}') # 'Zophie'
+
+print(f'{{name}}') # '{name}'
 ```
