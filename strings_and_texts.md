@@ -162,7 +162,13 @@ F-strings are a useful feature in Python, but the language only added them in ve
 
 ## Useful String Methods
 Several string methods analyze strings or create transformed string values. 
+
+###  Changing the Case:
 - **upper()** = Returns a new string with all the letters in the original converted to uppercase.
 - **lower()** = Returns a new string with all the letters in the original converted to lowercase.
 - **isupper()** = Returns a Boolean True value if the string has at least one letter and all the letters are uppercase.
 - **islower()** = Returns a Boolean True value if the string has at least one letter and all the letters are lowercase.
+
+Note that these methods don’t change the string itself, but return new string values. If you want to change the original string, you have to call `upper()` or `lower()` on the string and then assign the new string to the variable that stored the original.  
+
+The `upper()` and `lower()` methods are helpful if you need to make a case insensitive comparison. Since the `upper()` and `lower()` string methods themselves return strings, you can call string methods on those returned string values as well.
