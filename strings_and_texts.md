@@ -164,3 +164,5 @@ F-strings are a useful feature in Python, but the language only added them in ve
 Several string methods analyze strings or create transformed string values. 
 - **upper()** = Returns a new string with all the letters in the original converted to uppercase.
 - **lower()** = Returns a new string with all the letters in the original converted to lowercase.
+- **isupper()** = Returns a Boolean True value if the string has at least one letter and all the letters are uppercase.
+- **islower()** = Returns a Boolean True value if the string has at least one letter and all the letters are lowercase.
