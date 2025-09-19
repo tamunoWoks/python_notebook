@@ -142,3 +142,12 @@ age = 4000
 print('Hello, my name is ' + name + '. I am ' + str(age) + ' years old.') # 'Hello, my name is Al. I am 4000 years old.'
 print('In ten years I will be ' + str(age + 10)') # 'In ten years I will be 4010'
 ```
+However, this requires a lot of tedious typing. A simpler approach is to use `f-strings`, which let you place variable names or entire expressions within a string. Like the `r` prefix in raw strings, f-strings have an `f` prefix before the 
+starting quotation mark. 
+```python
+name = 'Al'
+age = 4000
+
+print(f'My name is {name}. I am {age} years old.') # 'My name is Al. I am 4000 years old.'
+print(f'In ten years I will be {age + 10}') # 'In ten years I will be 4010'
+```
