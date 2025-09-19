@@ -158,3 +158,4 @@ print(f'{name}') # 'Zophie'
 
 print(f'{{name}}') # '{name}'
 ```
+F-strings are a useful feature in Python, but the language only added them in version 3.6. In older Python code, you may need alternative techniques.
