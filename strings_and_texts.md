@@ -132,3 +132,13 @@ You can use the `in` and `not in` operators with strings just as you can with li
 'cats' not in 'cats and dogs' # False
 ```
 These expressions test whether the first string (including its capitalization) can be found within the second string.
+
+## F-Strings
+Putting strings inside other strings is a common operation in programming. So far, we’ve been using the + operator and string concatenation to do this:
+```python
+name = 'Al'
+age = 4000
+
+print('Hello, my name is ' + name + '. I am ' + str(age) + ' years old.') # 'Hello, my name is Al. I am 4000 years old.'
+print('In ten years I will be ' + str(age + 10)') # 'In ten years I will be 4010'
+```
