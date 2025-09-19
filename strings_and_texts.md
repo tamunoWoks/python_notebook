@@ -172,3 +172,11 @@ Several string methods analyze strings or create transformed string values.
 Note that these methods don’t change the string itself, but return new string values. If you want to change the original string, you have to call `upper()` or `lower()` on the string and then assign the new string to the variable that stored the original.  
 
 The `upper()` and `lower()` methods are helpful if you need to make a case insensitive comparison. Since the `upper()` and `lower()` string methods themselves return strings, you can call string methods on those returned string values as well.
+
+### Checking String Characteristics:
+Along with `islower()` and `isupper()`, several other string methods have names beginning with the word `is`. These methods return a Boolean value that describes the nature of the string. Here are some common isX() string methods:  
+- **isalpha()** = Returns True if the string consists only of letters and isn’t blank
+- **isalnum()** = Returns True if the string consists only of letters and numbers (alphanumerics) and isn’t blank
+- **isdecimal()** = Returns True if the string consists only of numeric characters and isn’t blank
+- **isspace()** = Returns True if the string consists only of spaces, tabs, and newlines and isn’t blank
+- **istitle()** = Returns True if the string consists only of words that begin with an uppercase letter followed by only lowercase letters
