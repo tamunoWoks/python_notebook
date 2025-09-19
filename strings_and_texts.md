@@ -159,3 +159,8 @@ print(f'{name}') # 'Zophie'
 print(f'{{name}}') # '{name}'
 ```
 F-strings are a useful feature in Python, but the language only added them in version 3.6. In older Python code, you may need alternative techniques.
+
+## Useful String Methods
+Several string methods analyze strings or create transformed string values. 
+- **upper()** = Returns a new string with all the letters in the original converted to uppercase.
+- **lower()** = Returns a new string with all the letters in the original converted to lowercase.
