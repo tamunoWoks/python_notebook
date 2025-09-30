@@ -298,7 +298,7 @@ spam.strip('ampS') # 'BaconSpamEggs'
 Passing `strip()` the argument 'ampS' will tell it to strip occurrences of a, m, p, and S from the ends of the string stored in spam. The order of the characters in the string passed to strip() doesn’t matter: strip('ampS') will do the same thing as strip('mapS') or strip('Spam').
 
 ### Numeric Code Points of Characters:
-Computers store information as *bytes* (strings of binary numbers), which means we need to be able to convert text to numbers. Because of this requirement, every text character has a corresponding numeric value called a *Unicode code point*. For example, the numeric code point is `65` for 'A', `52` for '4', and 33 for '!'. You can use the `ord()` function to get the code point of a one-character string, and the `chr()` function to get the one-character string of an integer code point.
+Computers store information as *bytes* (strings of binary numbers), which means we need to be able to convert text to numbers. Because of this requirement, every text character has a corresponding numeric value called a *Unicode code point*. For example, the numeric code point is 65 for 'A', 52 for '4', and 33 for '!'. You can use the `ord()` function to get the code point of a one-character string, and the `chr()` function to get the one-character string of an integer code point.
 ```python
 ord('A') # 65
 
@@ -318,3 +318,4 @@ chr(ord('A')) # 'A'
 
 chr(ord('A') + 1) # 'B'
 ```
+When strings are written to a file or sent over the internet, the conversion from text to bytes is called *encoding*. There are several Unicode encoding standards, but the most popular is UTF-8.
