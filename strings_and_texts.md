@@ -215,3 +215,6 @@ The `startswith()` and `endswith()` methods return `True` if the string value on
 'Hello, world!'.endswith('Hello, world!') # True
 ```
 These methods are useful alternatives to the equals operator (==) if you need to check only whether the first or last part of the string, rather than the whole thing, is equal to another string.
+
+### Joining and Splitting Strings:
+The `join()` method is useful when you have a list of strings that need to be joined together into a single string value. We call the `join()` method on a string and pass it a list of strings, and it returns the concatenation of each string in the passed-in list.
