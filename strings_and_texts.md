@@ -269,3 +269,9 @@ An optional second argument to `rjust()` and `ljust()` will specify a fill chara
 
 'Hello'.ljust(20, '-') # 'Hello---------------'
 ```
+The `center()` string method works like `ljust()` and `rjust()` but centers the text, rather than justifying it to the left or right.
+```python
+'Hello'.center(20) # ' Hello '
+
+'Hello'.center(20, '=') # '=======Hello========'
+```
