@@ -201,3 +201,16 @@ In the first `while` loop, we ask the user for their age and store their input i
 
 ### Checking the Start or End of a String:
 The `startswith()` and `endswith()` methods return `True` if the string value on which they’re called begins or ends (respectively) with the string passed to the method; otherwise, they return `False`.
+```python
+'Hello, world!'.startswith('Hello') # True
+
+'Hello, world!'.endswith('world!') # True
+
+'abc123'.startswith('abcdef') # False
+
+'abc123'.endswith('12') # False
+
+'Hello, world!'.startswith('Hello, world!') # True
+
+'Hello, world!'.endswith('Hello, world!') # True
+```
