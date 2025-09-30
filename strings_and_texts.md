@@ -278,3 +278,5 @@ The `center()` string method works like `ljust()` and `rjust()` but centers the 
 
 'Hello'.center(20, '=') # '=======Hello========'
 ```
+#### Removing Whitespace (strip()):
+Sometimes you may want to strip off whitespace characters (spaces, tabs, and newlines) from the left side, right side, or both sides of a string. The `strip()` string method will return a new string without any whitespace characters at the beginning or end, while the `lstrip()` and `rstrip()` methods will remove whitespace characters from the left and right ends, respectively.
