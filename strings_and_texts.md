@@ -261,3 +261,11 @@ The `rjust()` and `ljust()` string methods return a padded version of the string
 
 'Hello'.ljust(10) # 'Hello     '
 ```
+The code `'Hello'.rjust(10)` says that we want to right-justify 'Hello' in a string of total length 10. 'Hello' is five characters, so five spaces will be added to its left, giving us a string of 10 characters with 'Hello' right-justified.  
+
+An optional second argument to `rjust()` and `ljust()` will specify a fill character other than a space character.
+```python
+'Hello'.rjust(20, '*') # '***************Hello'
+
+'Hello'.ljust(20, '-') # 'Hello---------------'
+```
