@@ -235,3 +235,17 @@ By default, the method splits the string 'My name is Simon' wherever it finds wh
 
 'My name is Simon'.split('m') # ['My na', 'e is Si', 'on']
 ```
+A common use of `split()` is to split a multiline string along the newline characters. For example:
+```python
+spam = '''Dear Alice,
+There is a milk bottle in the fridge
+that is labeled "Milk Experiment."
+
+Please do not drink it.
+Sincerely,
+Bob'''
+
+>>> spam.split('\n')
+['Dear Alice,', 'There is a milk bottle in the fridge', 'that is labeled "Milk Experiment."', '', 'Please do not drink it.', 'Sincerely,', 'Bob']
+```
+Passing `split()` the argument `'\n'` lets us split the multiline string stored in spam along the newlines and return a list in which each item corresponds to one line of the string.
