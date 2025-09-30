@@ -322,3 +322,10 @@ When strings are written to a file or sent over the internet, the conversion fro
 
 #### Copying and Pasting Strings:
 The `pyperclip` module has `copy()` and `paste()` functions that can send text to and receive text from your computer’s clipboard. Sending the output of your program to the clipboard will make it easy to paste it into an email, a word processor, or some other software.
+```python
+import pyperclip
+
+pyperclip .copy('Hello, world!')
+
+pyperclip.paste() # 'Hello, world!'
+```
