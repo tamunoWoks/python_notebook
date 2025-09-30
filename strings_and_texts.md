@@ -163,7 +163,7 @@ F-strings are a useful feature in Python, but the language only added them in ve
 ## Useful String Methods
 Several string methods analyze strings or create transformed string values. 
 
-###  Changing the Case:
+####  Changing the Case:
 - **upper()** = Returns a new string with all the letters in the original converted to uppercase.
 - **lower()** = Returns a new string with all the letters in the original converted to lowercase.
 - **isupper()** = Returns a Boolean `True` value if the string has at least one letter and all the letters are uppercase.
@@ -173,7 +173,7 @@ Note that these methods don’t change the string itself, but return new string 
 
 The `upper()` and `lower()` methods are helpful if you need to make a case insensitive comparison. Since the `upper()` and `lower()` string methods themselves return strings, you can call string methods on those returned string values as well.
 
-### Checking String Characteristics:
+#### Checking String Characteristics:
 Along with `islower()` and `isupper()`, several other string methods have names beginning with the word `is`. These methods return a Boolean value that describes the nature of the string. Here are some common `isX()` string methods:  
 - **isalpha()** = Returns `True` if the string consists only of letters and isn’t blank
 - **isalnum()** = Returns `True` if the string consists only of letters and numbers (alphanumerics) and isn’t blank
@@ -199,7 +199,7 @@ while True:
 ```
 In the first `while` loop, we ask the user for their age and store their input in `age`. If `age` is a valid (decimal) value, we break out of this first `while` loop and move on to the second, which asks for a password. Otherwise, we inform the user that they need to enter a number and again ask them to enter their age. In the second `while` loop, we ask for a password, store the user’s input in `password`, and break out of the loop if the input was alphanumeric. If it wasn’t, we’re not satisfied, so we tell the user the password needs to be alphanumeric and again ask them to enter a password.
 
-### Checking the Start or End of a String:
+#### Checking the Start or End of a String:
 The `startswith()` and `endswith()` methods return `True` if the string value on which they’re called begins or ends (respectively) with the string passed to the method; otherwise, they return `False`.
 ```python
 'Hello, world!'.startswith('Hello') # True
@@ -216,7 +216,7 @@ The `startswith()` and `endswith()` methods return `True` if the string value on
 ```
 These methods are useful alternatives to the equals operator (==) if you need to check only whether the first or last part of the string, rather than the whole thing, is equal to another string.
 
-### Joining and Splitting Strings:
+#### join():
 The `join()` method is useful when you have a list of strings that need to be joined together into a single string value. We call the `join()` method on a string and pass it a list of strings, and it returns the concatenation of each string in the passed-in list. For example, notice that the string on which `join()` is called is inserted between each string of the list argument.  
 ```python
 ', '.join(['cats', 'rats', 'bats']) # 'cats, rats, bats'
@@ -225,7 +225,9 @@ The `join()` method is useful when you have a list of strings that need to be jo
 
 'ABC'.join(['My', 'name', 'is', 'Simon']) # 'MyABCnameABCisABCSimon'
 ```
-Remember that we call `join()` on a string value and pass it a list value. (It’s easy to accidentally call it the other way around.) The `split()` method works the opposite way: we call it on a string value, and it returns a list of strings.
+Remember that we call `join()` on a string value and pass it a list value. (It’s easy to accidentally call it the other way around.)
+#### split()
+The `split()` method works the opposite way: we call it on a string value, and it returns a list of strings.
 ```python
 'My name is Simon'.split() # ['My', 'name', 'is', 'Simon']
 ```
@@ -250,7 +252,7 @@ Bob'''
 ```
 Passing `split()` the argument `'\n'` lets us split the multiline string stored in spam along the newlines and return a list in which each item corresponds to one line of the string.
 
-### Justifying and Centering Text:
+### rjust() and ljust():
 The `rjust()` and `ljust()` string methods return a padded version of the string on which they’re called, with spaces inserted to justify the text. The first argument to both methods is an integer length for the justified string. For example:
 ```python
 'Hello'.rjust(10) # '     Hello'
@@ -269,6 +271,7 @@ An optional second argument to `rjust()` and `ljust()` will specify a fill chara
 
 'Hello'.ljust(20, '-') # 'Hello---------------'
 ```
+#### center():
 The `center()` string method works like `ljust()` and `rjust()` but centers the text, rather than justifying it to the left or right.
 ```python
 'Hello'.center(20) # ' Hello '
