@@ -96,7 +96,7 @@ def say_hello():
 ```
 The multiline string in this example is perfectly valid Python code.
 
-### Indexes & Slices:
+#### Indexes & Slices:
 Strings use indexes and slices the same way lists do. You can think of the string 'Hello, world!' as a list and each character in the string as an item with a corresponding index and negative index. The space and exclamation mark are included in the character count, so 'Hello, world!' is 13 characters long, from H at index 0 to ! at index 12.
 ```python
 greeting = 'Hello, world!'
@@ -122,7 +122,7 @@ greeting_slice # 'Hello'
 greeting # 'Hello, world!'
 ```
 
-### The in and not in Operators:
+#### The in and not in Operators:
 You can use the `in` and `not in` operators with strings just as you can with list values. An expression with two strings joined using in or not in will evaluate to a Boolean True or False. 
 ```python
 'Hello' in 'Hello, World' # True
