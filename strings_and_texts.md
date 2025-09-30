@@ -217,7 +217,7 @@ The `startswith()` and `endswith()` methods return `True` if the string value on
 These methods are useful alternatives to the equals operator (==) if you need to check only whether the first or last part of the string, rather than the whole thing, is equal to another string.
 
 ### Joining and Splitting Strings:
-The `join()` method is useful when you have a list of strings that need to be joined together into a single string value. We call the `join()` method on a string and pass it a list of strings, and it returns the concatenation of each string in the passed-in list.
+The `join()` method is useful when you have a list of strings that need to be joined together into a single string value. We call the `join()` method on a string and pass it a list of strings, and it returns the concatenation of each string in the passed-in list. For example, notice that the string on which `join()` is called is inserted between each string of the list argument.  
 ```python
 ', '.join(['cats', 'rats', 'bats']) # 'cats, rats, bats'
 
@@ -225,4 +225,7 @@ The `join()` method is useful when you have a list of strings that need to be jo
 
 'ABC'.join(['My', 'name', 'is', 'Simon']) # 'MyABCnameABCisABCSimon'
 ```
-Notice that the string on which `join()` is called is inserted between each string of the list argument.
+Remember that we call `join()` on a string value and pass it a list value. (It’s easy to accidentally call it the other way around.) The `split()` method works the opposite way: we call it on a string value, and it returns a list of strings.
+```python
+'My name is Simon'.split() # ['My', 'name', 'is', 'Simon']
+```
