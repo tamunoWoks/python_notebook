@@ -252,7 +252,7 @@ Bob'''
 ```
 Passing `split()` the argument `'\n'` lets us split the multiline string stored in spam along the newlines and return a list in which each item corresponds to one line of the string.
 
-### rjust() and ljust():
+#### rjust() and ljust():
 The `rjust()` and `ljust()` string methods return a padded version of the string on which they’re called, with spaces inserted to justify the text. The first argument to both methods is an integer length for the justified string. For example:
 ```python
 'Hello'.rjust(10) # '     Hello'
@@ -280,3 +280,12 @@ The `center()` string method works like `ljust()` and `rjust()` but centers the 
 ```
 #### Removing Whitespace with strip():
 Sometimes you may want to strip off whitespace characters (spaces, tabs, and newlines) from the left side, right side, or both sides of a string. The `strip()` string method will return a new string without any whitespace characters at the beginning or end, while the `lstrip()` and `rstrip()` methods will remove whitespace characters from the left and right ends, respectively.
+```python
+spam = '    Hello, World    '
+
+spam.strip() # 'Hello, World'
+
+spam.lstrip() # 'Hello, World    '
+
+spam.rstrip() # '    Hello, World'
+```
