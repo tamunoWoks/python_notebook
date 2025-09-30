@@ -214,3 +214,4 @@ The `startswith()` and `endswith()` methods return `True` if the string value on
 
 'Hello, world!'.endswith('Hello, world!') # True
 ```
+These methods are useful alternatives to the equals operator (==) if you need to check only whether the first or last part of the string, rather than the whole thing, is equal to another string.
