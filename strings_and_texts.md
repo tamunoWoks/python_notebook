@@ -329,3 +329,26 @@ pyperclip .copy('Hello, world!')
 
 pyperclip.paste() # 'Hello, world!'
 ```
+Of course, if something outside your program changes the clipboard contents, the `paste()` function will return that other value.  
+
+The clipboard is an excellent way to enter and receive large amounts of text without having to type it when prompted by an `input()` call. For example, say you want a program to turn text into aLtErNaTiNg uppercase and lowercase letters. You can copy the text you want to alternate to the clipboard, and then run this program, which takes this text and puts the alternating-case text on the clipboard. For example:
+```python
+import pyperclip
+
+text = pyperclip.paste() # Get the text off the clipboard.
+alt_text = '' # This string holds the alternating case.
+make_uppercase = False
+for character in text:
+   # Go through each character and add it to alt_text:
+   if make_uppercase:
+       alt_text += character.upper()
+   else:
+       alt_text += character.lower()
+
+   # Set make_uppercase to its opposite value:
+   make_uppercase = not make_uppercase
+
+pyperclip .copy(alt text) # Put the result on the clipboard.
+print(alt_text) # Print the result on the screen too.
+```
+The pyperclip module’s ability to interact with the clipboard gives you a straightforward way to input and output text to and from your programs.
