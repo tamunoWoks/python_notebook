@@ -249,3 +249,6 @@ Bob'''
 ['Dear Alice,', 'There is a milk bottle in the fridge', 'that is labeled "Milk Experiment."', '', 'Please do not drink it.', 'Sincerely,', 'Bob']
 ```
 Passing `split()` the argument `'\n'` lets us split the multiline string stored in spam along the newlines and return a list in which each item corresponds to one line of the string.
+
+### Justifying and Centering Text:
+The `rjust()` and `ljust()` string methods return a padded version of the string on which they’re called, with spaces inserted to justify the text. The first argument to both methods is an integer length for the justified string.
