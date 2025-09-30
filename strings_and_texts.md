@@ -308,3 +308,13 @@ ord('!') # 33
 
 chr(65) # 'A'
 ```
+These functions are useful when you need to order or perform a mathematical operation on characters:
+```python
+ord('B') # 66
+
+ord('A') < ord('B') # True
+
+chr(ord('A')) # 'A'
+
+chr(ord('A') + 1) # 'B'
+```
