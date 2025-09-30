@@ -229,3 +229,9 @@ Remember that we call `join()` on a string value and pass it a list value. (Itâ€
 ```python
 'My name is Simon'.split() # ['My', 'name', 'is', 'Simon']
 ```
+By default, the method splits the string 'My name is Simon' wherever it finds whitespace such as the space, tab, or newline characters. These whitespace characters arenâ€™t included in the strings in the returned list. You can pass a delimiter string to the `split(`) method to specify a different string to split upon. For example:
+```python
+'MyABCnameABCisABCSimon'.split('ABC') # ['My', 'name', 'is', 'Simon']
+
+'My name is Simon'.split('m') # ['My na', 'e is Si', 'on']
+```
