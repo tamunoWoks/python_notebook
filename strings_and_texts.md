@@ -218,3 +218,10 @@ These methods are useful alternatives to the equals operator (==) if you need to
 
 ### Joining and Splitting Strings:
 The `join()` method is useful when you have a list of strings that need to be joined together into a single string value. We call the `join()` method on a string and pass it a list of strings, and it returns the concatenation of each string in the passed-in list.
+```python
+', '.join(['cats', 'rats', 'bats']) # 'cats, rats, bats'
+
+' '.join(['My', 'name', 'is', 'Simon']) # 'My name is Simon'
+
+'ABC'.join(['My', 'name', 'is', 'Simon']) # 'MyABCnameABCisABCSimon'
+```
