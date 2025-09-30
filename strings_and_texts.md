@@ -225,3 +225,4 @@ The `join()` method is useful when you have a list of strings that need to be jo
 
 'ABC'.join(['My', 'name', 'is', 'Simon']) # 'MyABCnameABCisABCSimon'
 ```
+Notice that the string on which `join()` is called is inserted between each string of the list argument.
