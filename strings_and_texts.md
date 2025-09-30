@@ -289,3 +289,10 @@ spam.lstrip() # 'Hello, World    '
 
 spam.rstrip() # '    Hello, World'
 ```
+Optionally, a string argument will specify which characters on the ends to strip, for example:
+```python
+spam = 'SpamSpamBaconSpamEggsSpamSpam'
+
+spam.strip('ampS') # 'BaconSpamEggs'
+```
+Passing `strip()` the argument 'ampS' will tell it to strip occurrences of a, m, p, and S from the ends of the string stored in spam. The order of the characters in the string passed to strip() doesn’t matter: strip('ampS') will do the same thing as strip('mapS') or strip('Spam').
