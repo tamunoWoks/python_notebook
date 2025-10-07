@@ -351,4 +351,8 @@ for character in text:
 pyperclip .copy(alt text) # Put the result on the clipboard.
 print(alt_text) # Print the result on the screen too.
 ```
+If you copy some text to the clipboard (for instance, this sentence) and run this program, the output and clipboard contents become this:
+```txt
+iF YoU CoPy sOmE TeXt tO ThE ClIpBoArD (fOr iNsTaNcE, tHiS SeNtEnCe) AnD RuN ThIs pRoGrAm, ThE OuTpUt aNd cLiPbOaRd cOnTeNtS BeCoMe ThIs:
+```
 The pyperclip module’s ability to interact with the clipboard gives you a straightforward way to input and output text to and from your programs.
