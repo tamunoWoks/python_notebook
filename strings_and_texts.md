@@ -348,7 +348,7 @@ for character in text:
    # Set make_uppercase to its opposite value:
    make_uppercase = not make_uppercase
 
-pyperclip .copy(alt text) # Put the result on the clipboard.
+pyperclip .copy(alt_text) # Put the result on the clipboard.
 print(alt_text) # Print the result on the screen too.
 ```
 If you copy some text to the clipboard (for instance, this sentence) and run this program, the output and clipboard contents become this:
